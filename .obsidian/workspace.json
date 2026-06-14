@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "b5f23fd89280744a",
+    "id": "56ea407d1bc3528b",
     "type": "split",
     "children": [
       {
-        "id": "060741d7602a20b4",
+        "id": "0aff6f2154174de9",
         "type": "tabs",
         "children": [
           {
-            "id": "54e17c1a16350078",
+            "id": "3c1c369f973c904a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "24.05.2026"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "152fe50ef5aa30f4",
+    "id": "197415188639f280",
     "type": "split",
     "children": [
       {
-        "id": "7ebb5940ce0567b3",
+        "id": "2239a5b8c6f25042",
         "type": "tabs",
         "children": [
           {
-            "id": "a503619c077881f1",
+            "id": "69360036675429d4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "fa9e5019704ac12f",
+            "id": "53feb010c3ec2ded",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "308ec882890eb007",
+            "id": "6fcf365186c99eae",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "b6fc8309e1c1cbec",
+    "id": "1bcb53d72bbc3747",
     "type": "split",
     "children": [
       {
-        "id": "1de9336786c76825",
+        "id": "1e94597ae83df6e1",
         "type": "tabs",
         "children": [
           {
-            "id": "92edc49f49f95583",
+            "id": "2b9995c1104d1ef5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 24.05.2026"
             }
           },
           {
-            "id": "102d76809e3e4595",
+            "id": "50f63b96569c934e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 24.05.2026"
             }
           },
           {
-            "id": "abd50cc64e2e794f",
+            "id": "2236b9c7a2709000",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +137,7 @@
             }
           },
           {
-            "id": "9eef307a9e58977b",
+            "id": "3bc621c2422accb7",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -145,17 +151,18 @@
             }
           },
           {
-            "id": "8e1a8e6473634ac0",
+            "id": "abaace46a9723ebe",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 24.05.2026"
             }
           }
         ]
@@ -176,6 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "54e17c1a16350078",
-  "lastOpenFiles": []
+  "active": "3c1c369f973c904a",
+  "lastOpenFiles": [
+    "00_PROJECT/Meeting Notes/14.06.2026.md",
+    "00_PROJECT/Meeting Notes/24.05.2026.md"
+  ]
 }
