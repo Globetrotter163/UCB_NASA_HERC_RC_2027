@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
+                "file": "08_ARCHIVE/ARCHIVE-DEPRECATED.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "24.05.2026"
+              "title": "ARCHIVE-DEPRECATED"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
+                "file": "08_ARCHIVE/ARCHIVE-DEPRECATED.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 24.05.2026"
+              "title": "Backlinks for ARCHIVE-DEPRECATED"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
+                "file": "08_ARCHIVE/ARCHIVE-DEPRECATED.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 24.05.2026"
+              "title": "Outgoing links from ARCHIVE-DEPRECATED"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_PROJECT/Meeting Notes/24.05.2026.md",
+                "file": "08_ARCHIVE/ARCHIVE-DEPRECATED.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 24.05.2026"
+              "title": "Outline of ARCHIVE-DEPRECATED"
             }
           }
         ]
@@ -185,7 +185,33 @@
   },
   "active": "3c1c369f973c904a",
   "lastOpenFiles": [
-    "00_PROJECT/Meeting Notes/14.06.2026.md",
-    "00_PROJECT/Meeting Notes/24.05.2026.md"
+    "07_RELEASE/Releases.md",
+    "08_ARCHIVE/ARCHIVE-DEPRECATED.md",
+    "08_ARCHIVE/Untitled",
+    "06_RENDERS/Presentations/Presentations Rules.md",
+    "06_RENDERS/Photos/Photos.md",
+    "06_RENDERS/Presentations",
+    "06_RENDERS/Video Renders/Video Renders.md",
+    "06_RENDERS/Photos",
+    "05_TESTING/TESTS.md",
+    "06_RENDERS/Video Renders",
+    "04_SOFTWARE/Software.md",
+    "03_ELECTRICAL/DATASHEETS/Datasheets.md",
+    "03_ELECTRICAL/PCB/PCB RULES.md",
+    "03_ELECTRICAL/DATASHEETS",
+    "03_ELECTRICAL/Schematics/Schematics.md",
+    "03_ELECTRICAL/PCB",
+    "02_MECHANICAL/FEA/Transmission/Transmision v0.1.md",
+    "03_ELECTRICAL/Schematics",
+    "02_MECHANICAL/Calculations/Calculations.md",
+    "02_MECHANICAL/FEA/Transmission",
+    "02_MECHANICAL/FEA/FEA",
+    "02_MECHANICAL/CAD/Suspension/Suspension.md",
+    "02_MECHANICAL/CAD/MASTER/master.md",
+    "02_MECHANICAL/CAD/Drawings/Drawings.md",
+    "02_MECHANICAL/CAD/Chassis/Chassis.md",
+    "00_PROJECT/Team Roles/Team Roles.md",
+    "00_PROJECT/Meeting Notes/24.05.2026.md",
+    "00_PROJECT/Meeting Notes/14.06.2026.md"
   ]
 }
