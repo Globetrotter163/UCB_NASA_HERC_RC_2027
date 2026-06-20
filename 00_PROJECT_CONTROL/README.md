@@ -12,7 +12,9 @@ Centro operativo del proyecto: roles, RACI, calendario, métricas, revisiones, f
 ## Índice
 
 - [[REPO_INVENTORY]]
+- [[CANONICAL_PATHS]]
 - [[MIGRATION_PLAN]]
+- [[GIT_CLEANUP_PLAN]]
 - [[PROJECT_ROLES]]
 - [[RACI_MATRIX]]
 - [[MASTER_CALENDAR]]

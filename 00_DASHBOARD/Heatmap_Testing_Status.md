@@ -29,8 +29,8 @@ SORT date DESC
 
 ```dataview
 TABLE id, status, date, owner, related_requirements
-FROM "07_TESTING_VALIDATION" OR "16_TEST_DATA"
-WHERE type = "test"
+FROM "07_TESTING_VALIDATION/Tests"
+WHERE type = "test" AND status != "example"
 SORT date DESC
 LIMIT 15
 ```
@@ -39,7 +39,7 @@ LIMIT 15
 
 ```dataview
 LIST
-FROM "07_TESTING_VALIDATION" OR "16_TEST_DATA"
-WHERE type = "failure_report" AND status != "closed"
+FROM "07_TESTING_VALIDATION/Failures"
+WHERE type = "failure_report" AND status != "example" AND status != "closed"
 SORT severity DESC
 ```

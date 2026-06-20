@@ -20,12 +20,12 @@ LIMIT 14
 
 ## Fallback manual
 
-| Área | Score actual | Evidencia | Owner | Próxima revisión |
-|---|---:|---|---|---|
-| Mechanical | TBD | TBD | TBD | TBD |
-| Electrical | TBD | TBD | TBD | TBD |
-| Software | TBD | TBD | TBD | TBD |
-| Payloads | TBD | TBD | TBD | TBD |
-| Testing | TBD | TBD | TBD | TBD |
-| Documentation | TBD | TBD | TBD | TBD |
-| Safety | TBD | TBD | TBD | TBD |
+| Área          | Score actual | Evidencia | Owner | Próxima revisión |
+| ------------- | -----------: | --------- | ----- | ---------------- |
+| Mechanical    |          TBD | TBD       | TBD   | TBD              |
+| Electrical    |          TBD | TBD       | TBD   | TBD              |
+| Software      |          TBD | TBD       | TBD   | TBD              |
+| Payloads      |          TBD | TBD       | TBD   | TBD              |
+| Testing       |          TBD | TBD       | TBD   | TBD              |
+| Documentation |          TBD | TBD       | TBD   | TBD              |
+| Safety        |          TBD | TBD       | TBD   | TBD              |

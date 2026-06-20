@@ -1,5 +1,5 @@
 ---
-date: 0000-01-01
+date: 2026-06-20
 type: daily_status
 project_score: 0
 mechanical_score: 0
@@ -15,8 +15,8 @@ tests_completed: 0
 failures_reported: 0
 decisions_approved: 0
 blockers: 0
-owner: example
-status: example
+owner: Alan
+status: draft
 ---
 
 # Daily Status - Example Only
@@ -34,15 +34,15 @@ N/A
 
 ## Area Scores
 
-| Area | Score | Evidence |
-|---|---:|---|
-| Mechanical | 0 | N/A |
-| Electrical | 0 | N/A |
-| Software | 0 | N/A |
-| Payloads | 0 | N/A |
-| Testing | 0 | N/A |
-| Documentation | 0 | N/A |
-| Safety | 0 | N/A |
+| Area          | Score | Evidence |
+| ------------- | ----: | -------- |
+| Mechanical    |     0 | N/A      |
+| Electrical    |     0 | N/A      |
+| Software      |     0 | N/A      |
+| Payloads      |     0 | N/A      |
+| Testing       |     0 | N/A      |
+| Documentation |     0 | N/A      |
+| Safety        |     0 | N/A      |
 
 ## Blockers
 

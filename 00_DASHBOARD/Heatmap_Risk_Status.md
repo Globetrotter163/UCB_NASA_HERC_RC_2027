@@ -29,8 +29,8 @@ SORT date DESC
 
 ```dataview
 TABLE id, severity, probability, impact, owner, mitigation
-FROM "02_Systems_Engineering" OR "08_SAFETY_QUALITY"
-WHERE (type = "risk" OR type = "hazard") AND status != "closed"
+FROM "02_Systems_Engineering/Risks" OR "08_SAFETY_QUALITY/Hazards"
+WHERE (type = "risk" OR type = "hazard") AND status != "example" AND status != "closed"
 SORT severity DESC
 ```
 
@@ -38,6 +38,6 @@ SORT severity DESC
 
 ```dataview
 LIST
-FROM "02_Systems_Engineering" OR "08_SAFETY_QUALITY"
-WHERE (type = "risk" OR type = "hazard") AND status != "closed" AND (!mitigation OR mitigation = "")
+FROM "02_Systems_Engineering/Risks" OR "08_SAFETY_QUALITY/Hazards"
+WHERE (type = "risk" OR type = "hazard") AND status != "example" AND status != "closed" AND (!mitigation OR mitigation = "")
 ```

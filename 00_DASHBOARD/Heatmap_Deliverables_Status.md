@@ -50,6 +50,6 @@ SORT date DESC
 
 ```dataview
 LIST
-FROM "18_DELIVERABLES" OR "09_DOCUMENTATION"
-WHERE type = "deliverable" AND (!owner OR owner = "") AND status != "submitted"
+FROM "18_DELIVERABLES/Deliverable_Items"
+WHERE type = "deliverable" AND status != "example" AND (!owner OR owner = "") AND status != "submitted"
 ```

@@ -54,6 +54,67 @@ Propuesta para armonizar la estructura histórica con el nuevo mapa del vault. *
 5. Actualizar enlaces Obsidian y registrar cada acción en `MIGRATION_LOG.md`.
 6. Validar que Git no incorpore CAD o binarios pesados.
 
+## Migración por fases
+
+Ninguna fase está autorizada para ejecución. Cada fase requiere revisión de diff, owner y criterio de rollback.
+
+### Phase A — limpieza Git y protección de temporales
+
+Objetivo: separar estado local, vendor files y binarios pesados del contenido técnico versionable.
+
+- Revisar `GIT_CLEANUP_PLAN.md`.
+- Sacar `.obsidian/workspace.json` del tracking con `git rm --cached` si se aprueba.
+- Definir si `.obsidian/plugins/` debe permanecer versionado.
+- Confirmar que temporales de Drive, CAD master y videos no estén rastreados.
+- Cerrar Obsidian y pausar Drive durante la operación.
+
+**Criterio de salida:** `git status` entendido, archivos locales preservados y política de tracking aprobada.
+
+### Phase B — consolidación de índices
+
+Objetivo: acordar qué registros humanos siguen vigentes sin mover notas técnicas.
+
+- Validar `CANONICAL_PATHS.md`.
+- Comparar índices históricos con `Decision_Log`, ICD, Risk Register, Test Log y Deliverables Index.
+- Asignar owners y marcar duplicidades.
+- Crear enlaces cruzados y registrar decisiones de conservación.
+
+**Criterio de salida:** un índice humano designado por objeto y sin fuentes ambiguas.
+
+### Phase C — migración de notas técnicas
+
+Objetivo: trasladar contenido histórico revisado a paths canónicos y notas-objeto.
+
+- Migrar una disciplina o tipo de objeto por lote pequeño.
+- Crear backup y mapa origen-destino antes de cada lote.
+- Asignar IDs y frontmatter sin inventar estado o evidencia.
+- Actualizar enlaces Obsidian y registrar cada movimiento en `MIGRATION_LOG.md`.
+
+**Criterio de salida:** enlaces válidos, contenido preservado y revisión del owner.
+
+### Phase D — CAD a Drive e índices
+
+Objetivo: retirar masters CAD pesados del repositorio de trabajo y controlar sus releases.
+
+- Definir carpeta Drive, permisos, owner y lock policy.
+- Verificar hashes/revisiones antes de retirar tracking.
+- Completar CAD Index, owners, lock log y release log.
+- Mantener en Git solo notas, índices y exports expresamente aprobados.
+
+**Criterio de salida:** CAD master verificable en Drive y trazable a una baseline.
+
+### Phase E — validación de dashboards
+
+Objetivo: comprobar que objetos individuales e índices humanos producen vistas consistentes.
+
+- Validar Dataview sobre Requirements, Decisions, Interfaces, Risks, Tests, Failures, Hazards, Procurement y Deliverables.
+- Confirmar exclusión de `status: example`.
+- Comparar consultas con registros humanos.
+- Validar heatmaps con notas reales y tablas fallback.
+- Registrar discrepancias sin cambiar silenciosamente fuentes oficiales.
+
+**Criterio de salida:** dashboards reproducibles y reconciliados con los índices humanos.
+
 ## Preguntas para el equipo
 
 - ¿Las eliminaciones Git bajo `00_PROJECT/` fueron intencionales?
