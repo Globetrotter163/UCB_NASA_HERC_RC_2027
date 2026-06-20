@@ -1,0 +1,12 @@
+schema_version: 1
+status: draft
+hardware_revision: TBD
+owner: TBD
+pins: []
+# Example entry:
+# - id: MOTOR_LEFT_PWM
+#   controller: pico_drive_controller
+#   gpio: TBD
+#   direction: output
+#   voltage_level_v: TBD
+#   interface_id: ICD-000

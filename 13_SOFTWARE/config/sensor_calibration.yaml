@@ -1,0 +1,5 @@
+schema_version: 1
+status: draft
+calibrations: []
+# Each calibration should include sensor_id, serial_number, date,
+# method, coefficients, units, valid_range, owner and evidence path.

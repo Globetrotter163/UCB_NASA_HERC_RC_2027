@@ -1,0 +1,13 @@
+schema_version: 1
+status: draft
+bus:
+  bitrate_bps: null
+  interface_id: ICD-000
+messages: []
+# Example:
+# - name: drive_command
+#   id_hex: "0x000"
+#   producer: TBD
+#   consumers: []
+#   rate_hz: null
+#   timeout_ms: null

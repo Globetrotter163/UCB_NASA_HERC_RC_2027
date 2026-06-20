@@ -1,0 +1,14 @@
+schema_version: 1
+status: draft
+configuration_baseline: BL-000
+owner: TBD
+geometry:
+  wheel_diameter_m: null
+  wheelbase_m: null
+  track_width_m: null
+limits:
+  max_linear_speed_mps: null
+  max_steering_angle_deg: null
+  command_timeout_ms: null
+control:
+  loop_rate_hz: null

@@ -1,0 +1,65 @@
+# OS and local metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian local/session state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+
+# Temporary synchronization folders
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Python
+__pycache__/
+**pycache**/
+*.pyc
+.venv/
+venv/
+
+# JavaScript/build output
+node_modules/
+dist/
+build/
+
+# CAD masters and large binaries (store in Drive; index in 15_CAD_DRIVE_LINKS)
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.sldprt
+*.sldasm
+*.slddrw
+
+# Video
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Keep technical source formats versionable:
+# Markdown (*.md), LaTeX (*.tex), BibTeX (*.bib), YAML (*.yaml, *.yml),
+# AGENTS.md and README.md are intentionally not ignored.

@@ -1,0 +1,120 @@
+---
+type: dashboard
+status: active
+---
+
+# Project Dashboard
+
+## Executive Summary
+
+Bootstrap estructural completado. El estado técnico permanece **por evaluar** hasta que owners revisen requisitos, arquitectura, CAD, software, pruebas y evidencia existente.
+
+## Status by Area
+
+![[Engineering_Status]]
+
+## Open Risks
+
+```dataview
+TABLE id, severity, owner, mitigation
+FROM "02_Systems_Engineering" OR "08_SAFETY_QUALITY"
+WHERE (type = "risk" OR type = "hazard") AND status != "closed" AND status != "accepted"
+SORT severity DESC
+```
+
+Fallback: [[../02_Systems_Engineering/Risk_Register|Risk Register]] · [[../08_SAFETY_QUALITY/Hazard_Log|Hazard Log]]
+
+## Open Decisions
+
+```dataview
+TABLE id, owner, date, affected_subsystems
+FROM "02_Systems_Engineering"
+WHERE type = "decision" AND status != "approved" AND status != "rejected"
+SORT date ASC
+```
+
+Fallback: [[../02_Systems_Engineering/Decision_Log|Decision Log]]
+
+## Open Interfaces
+
+```dataview
+TABLE id, owners, subsystems, last_review
+FROM "02_Systems_Engineering"
+WHERE type = "interface" AND status != "approved" AND status != "verified"
+SORT id ASC
+```
+
+Fallback: [[../02_Systems_Engineering/Interface_Control_Document|Interface Control Document]]
+
+## Planned Tests
+
+```dataview
+TABLE id, owner, date, related_requirements
+FROM "07_TESTING_VALIDATION"
+WHERE type = "test" AND status = "planned"
+SORT date ASC
+```
+
+## Recent Tests
+
+```dataview
+TABLE id, status, owner, date, related_requirements
+FROM "07_TESTING_VALIDATION" OR "16_TEST_DATA"
+WHERE type = "test"
+SORT date DESC
+LIMIT 10
+```
+
+Fallback: [[../07_TESTING_VALIDATION/Test_Log_Index|Test Log Index]]
+
+## Recent Failures
+
+```dataview
+TABLE id, severity, owner, date, related_test
+FROM "07_TESTING_VALIDATION" OR "16_TEST_DATA"
+WHERE type = "failure_report" AND status != "closed"
+SORT date DESC
+LIMIT 10
+```
+
+Fallback: [[../07_TESTING_VALIDATION/Failure_Reports|Failure Reports]]
+
+## Upcoming Deliverables
+
+```dataview
+TABLE id, due, owner, status
+FROM "18_DELIVERABLES" OR "09_DOCUMENTATION"
+WHERE type = "deliverable" AND status != "submitted" AND status != "obsolete"
+SORT due ASC
+```
+
+Fallback: [[../18_DELIVERABLES/Deliverables_Index|Deliverables Index]]
+
+## Blockers and pending tasks
+
+```dataview
+TASK
+FROM ""
+WHERE !completed
+GROUP BY file.folder
+```
+
+Fallback: [[Open_Loops]]
+
+## Agent Outputs Pending Review
+
+```dataview
+TABLE type, owner, status, file.mtime AS "Updated"
+FROM "17_AI_AGENTS/03_AGENT_OUTPUTS"
+WHERE status = "draft" OR status = "in_review" OR !status
+SORT file.mtime DESC
+```
+
+## Next milestones
+
+| Milestone | Date | Owner | Status |
+|---|---|---|---|
+| Requirements baseline | TBD | TBD | planned |
+| Architecture baseline | TBD | TBD | planned |
+| Design Review | TBD | TBD | planned |
+| ORR | TBD | TBD | planned |
