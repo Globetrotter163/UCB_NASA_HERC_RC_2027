@@ -1,5 +1,5 @@
-# Outreach Log
+# Registro de divulgación
 
-| Date | Activity | Audience/participants | Team members | Outcome | Evidence/link | Follow-up |
+| Fecha | Actividad | Público/participantes | Miembros del equipo | Resultado | Evidencia/enlace | Seguimiento |
 |---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |

@@ -1,5 +1,5 @@
-# Field Tests
+# Pruebas de campo
 
-| Test ID | Site/conditions | Rover baseline | Requirements | Safety review | Data folder | Result |
+| ID de prueba | Sitio/condiciones | Línea base del rover | Requisitos | Revisión de seguridad | Carpeta de datos | Resultado |
 |---|---|---|---|---|---|---|
-| TST-000 | TBD | BL-000 | REQ-000 | pending | `16_TEST_DATA/02_FIELD_TESTS/` | not_run |
+| TST-000 | Por definir | BL-000 | REQ-000 | pending | `16_TEST_DATA/02_FIELD_TESTS/` | not_run |

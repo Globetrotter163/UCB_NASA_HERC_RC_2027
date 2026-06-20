@@ -1,5 +1,5 @@
-# Procurement Log
+# Registro de adquisiciones
 
-| PRC ID | Item/spec | Qty | Need date | Supplier | Quote | Approval | Ordered | Received | Inspector | Status |
+| ID PRC | Elemento/especificación | Cantidad | Fecha necesaria | Proveedor | Cotización | Aprobación | Pedido | Recibido | Inspector | Estado |
 |---|---|---:|---|---|---:|---|---|---|---|---|
-| PRC-000 | TBD | 0 | TBD | TBD | TBD | pending | TBD | TBD | TBD | proposed |
+| PRC-000 | Por definir | 0 | Por definir | Por definir | Por definir | pending | Por definir | Por definir | Por definir | proposed |

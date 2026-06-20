@@ -1,7 +1,7 @@
-# Configuration Baseline
+# Línea base de configuración
 
-| Baseline ID | Date | Scope | Hardware revision | Software revision | CAD release | Requirements revision | Approved by | Status |
+| ID de línea base | Fecha | Alcance | Revisión de hardware | Revisión de software | Versión CAD | Revisión de requisitos | Aprobado por | Estado |
 |---|---|---|---|---|---|---|---|---|
-| BL-000 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | proposed |
+| BL-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | proposed |
 
-No declarar una baseline sin hashes/tags/revisiones verificables y aprobación humana.
+No declare una línea base sin hashes, etiquetas, revisiones verificables y aprobación humana.

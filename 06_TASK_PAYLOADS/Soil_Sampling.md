@@ -1,9 +1,9 @@
-# Soil Sampling
+# Muestreo de suelo
 
-Document task requirement, sample interaction, mechanism, sensors, contamination controls, sequence, failure modes and evidence.
+Documente requisito de tarea, interacción con la muestra, mecanismo, sensores, controles de contaminación, secuencia, modos de falla y evidencia.
 
-| Interface | ICD | Owner | Status |
+| Interfaz | ICD | Responsable | Estado |
 |---|---|---|---|
-| Mechanical | ICD-000 | TBD | draft |
-| Electrical | ICD-000 | TBD | draft |
-| Software/data | ICD-000 | TBD | draft |
+| Mecánica | ICD-000 | Por definir | draft |
+| Eléctrica | ICD-000 | Por definir | draft |
+| Software/datos | ICD-000 | Por definir | draft |

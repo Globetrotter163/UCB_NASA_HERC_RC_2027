@@ -1,15 +1,93 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "-path:\"99_ARCHIVE\" -path:\".obsidian\" -path:\"17_AI_AGENTS/03_AGENT_OUTPUTS\" -path:\".tmp.drivedownload\" -path:\".tmp.driveupload\"",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"01_Requirements\"",
+      "color": {
+        "a": 1,
+        "rgb": 15911244
+      }
+    },
+    {
+      "query": "path:\"02_Systems_Engineering\"",
+      "color": {
+        "a": 1,
+        "rgb": 10179040
+      }
+    },
+    {
+      "query": "path:\"03_MECHANICAL\" OR path:\"02_MECHANICAL\"",
+      "color": {
+        "a": 1,
+        "rgb": 15898954
+      }
+    },
+    {
+      "query": "path:\"04_ELECTRICAL_ELECTRONICS\"",
+      "color": {
+        "a": 1,
+        "rgb": 15423319
+      }
+    },
+    {
+      "query": "path:\"05_SOFTWARE_CONTROL\" OR path:\"13_SOFTWARE\"",
+      "color": {
+        "a": 1,
+        "rgb": 2600544
+      }
+    },
+    {
+      "query": "path:\"06_TASK_PAYLOADS\"",
+      "color": {
+        "a": 1,
+        "rgb": 2989275
+      }
+    },
+    {
+      "query": "path:\"07_TESTING_VALIDATION\" OR path:\"16_TEST_DATA\"",
+      "color": {
+        "a": 1,
+        "rgb": 7327639
+      }
+    },
+    {
+      "query": "path:\"08_SAFETY_QUALITY\"",
+      "color": {
+        "a": 1,
+        "rgb": 12131356
+      }
+    },
+    {
+      "query": "path:\"09_DOCUMENTATION\" OR path:\"14_LATEX_REPORTS\"",
+      "color": {
+        "a": 1,
+        "rgb": 5688562
+      }
+    },
+    {
+      "query": "path:\"17_AI_AGENTS\"",
+      "color": {
+        "a": 1,
+        "rgb": 8141549
+      }
+    },
+    {
+      "query": "path:\"18_DELIVERABLES\"",
+      "color": {
+        "a": 1,
+        "rgb": 16096779
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
+  "showArrow": true,
+  "textFadeMultiplier": 0.5,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
@@ -17,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2588386562181602,
+  "scale": 0.3830457842374547,
   "close": true
 }

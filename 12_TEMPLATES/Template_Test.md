@@ -8,24 +8,24 @@ related_requirements:
 related_risks:
 ---
 
-# TST-000 - Test Title
+# TST-000 — Título de la prueba
 
-## Objective
+## Objetivo
 
-## Requirement Verified
+## Requisito verificado
 
-## Setup
+## Montaje
 
-## Procedure
+## Procedimiento
 
-## Success Criteria
+## Criterios de éxito
 
-## Raw Data
+## Datos crudos
 
-## Results
+## Resultados
 
-## Issues Found
+## Problemas encontrados
 
-## Conclusion
+## Conclusión
 
-## Next Actions
+## Próximas acciones

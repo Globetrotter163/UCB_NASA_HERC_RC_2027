@@ -10,23 +10,23 @@ affected_subsystems:
 severity: 0
 ---
 
-# FR-000 — Example Failure Report
+# FR-000 — Reporte de falla de ejemplo
 
-> [!warning] Example only
+> [!warning] Solo ejemplo
 > No representa una falla observada ni contiene causa raíz real.
 
-## Summary
+## Resumen
 
-Dataview schema validation only.
+Solo valida el esquema de Dataview.
 
-## Symptoms
+## Síntomas
 
-None.
+Ninguno.
 
-## Root Cause Analysis
+## Análisis de causa raíz
 
-Not applicable.
+No aplica.
 
-## Closure Criteria
+## Criterios de cierre
 
-Exclude `status: example` from operational queries.
+Excluir `status: example` de las consultas operativas.

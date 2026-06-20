@@ -3,8 +3,8 @@ type: hazard_register
 status: active
 ---
 
-# Hazard Log
+# Registro de peligros
 
-| ID | Hazard | Cause | Consequence | Initial risk | Controls | Residual risk | Owner | Verification | Status |
+| ID | Peligro | Causa | Consecuencia | Riesgo inicial | Controles | Riesgo residual | Responsable | Verificación | Estado |
 |---|---|---|---|---|---|---|---|---|---|
-| HAZ-000 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | open |
+| HAZ-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | open |

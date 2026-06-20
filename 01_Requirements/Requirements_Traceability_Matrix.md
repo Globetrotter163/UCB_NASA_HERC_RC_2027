@@ -1,5 +1,5 @@
-# Requirements Traceability Matrix
+# Matriz de trazabilidad de requisitos
 
-| Requirement ID | Parent/Source | Subsystem | Owner | Interfaces | Verification method | Test IDs | Evidence | Status |
+| ID del requisito | Padre/fuente | Subsistema | Responsable | Interfaces | Método de verificación | ID de pruebas | Evidencia | Estado |
 |---|---|---|---|---|---|---|---|---|
-| REQ-000 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | draft |
+| REQ-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | draft |

@@ -1,4 +1,4 @@
-# Testing and Validation
+# Pruebas y validación
 
 Planes, ejecución, resultados, fallas, causa raíz y evidencia ORR. Los datos crudos viven en `16_TEST_DATA/`.
 

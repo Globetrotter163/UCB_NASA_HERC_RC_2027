@@ -7,22 +7,22 @@ subsystems:
 last_review:
 ---
 
-# ICD-000 - Interface Name
+# ICD-000 — Nombre de la interfaz
 
-## Connected Subsystems
+## Subsistemas conectados
 
-## Mechanical Interface
+## Interfaz mecánica
 
-## Electrical Interface
+## Interfaz eléctrica
 
-## Data / Signal Interface
+## Interfaz de datos o señales
 
-## Software Interface
+## Interfaz de software
 
-## Power Budget
+## Presupuesto de potencia
 
-## Failure Modes
+## Modos de falla
 
-## Verification Plan
+## Plan de verificación
 
-## Open Issues
+## Asuntos abiertos

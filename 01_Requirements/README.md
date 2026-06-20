@@ -1,4 +1,4 @@
-# Requirements
+# Requisitos
 
 Fuente para requisitos HERC, requisitos derivados, trazabilidad, verificación y control de cambios.
 
@@ -8,4 +8,4 @@ Fuente para requisitos HERC, requisitos derivados, trazabilidad, verificación y
 - Verificación: [[Verification_Matrix]]
 - Cambios: [[Requirement_Change_Log]]
 
-Cada requisito debe ser atómico, verificable, tener owner, fuente y método de verificación.
+Cada requisito debe ser atómico, verificable y tener responsable, fuente y método de verificación.

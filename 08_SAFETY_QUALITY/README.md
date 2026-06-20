@@ -1,3 +1,3 @@
-# Safety and Quality
+# Seguridad y calidad
 
-Safety plan, FMEA, hazard log, PPE, battery/lab safety, incident reporting and quality checks. No agente IA puede aceptar riesgos o cerrar incidentes.
+Plan de seguridad, FMEA, registro de peligros, EPP, seguridad de baterías y laboratorio, reportes de incidentes y controles de calidad. Ningún agente de IA puede aceptar riesgos ni cerrar incidentes.

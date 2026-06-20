@@ -3,49 +3,49 @@ type: dashboard
 status: orientation_only
 ---
 
-# NASA SE Process Map
+# Mapa del proceso de ingeniería de sistemas
 
-Workspace orientation inspired by the three broad NASA systems-engineering process families. This map does not assess compliance or replace the current NASA handbook.
+Orientación del workspace inspirada en las tres grandes familias de procesos de ingeniería de sistemas de NASA. Este mapa no evalúa cumplimiento ni reemplaza el manual vigente de NASA.
 
-## System Design
+## Diseño del sistema
 
-| Workspace activity | Start here | Supporting areas |
+| Actividad del workspace | Empiece aquí | Áreas de apoyo |
 |---|---|---|
-| Understand stakeholder/mission context | [[../02_Systems_Engineering/ConOps|ConOps]] | [[../01_Requirements/HERC_REQUIREMENTS|HERC Requirements]] |
-| Define technical requirements | [[../01_Requirements/README|Requirements]] | [[../01_Requirements/Requirements_Traceability_Matrix|RTM]] |
-| Decompose functions and architecture | [[../02_Systems_Engineering/Functional_Decomposition|Functional Decomposition]] | [[../02_Systems_Engineering/System_Architecture|System Architecture]] |
-| Define interfaces | [[../02_Systems_Engineering/Interface_Control_Document|ICD]] | [[../02_Systems_Engineering/Interfaces/README|Interface Objects]] |
-| Compare design alternatives | [[../02_Systems_Engineering/Trade_Studies|Trade Studies]] | [[../02_Systems_Engineering/Decision_Log|Decision Log]] |
+| Comprender el contexto de misión e interesados | [[../02_Systems_Engineering/ConOps|ConOps]] | [[../01_Requirements/HERC_REQUIREMENTS|Requisitos HERC]] |
+| Definir requisitos técnicos | [[../01_Requirements/README|Requisitos]] | [[../01_Requirements/Requirements_Traceability_Matrix|Matriz de trazabilidad]] |
+| Descomponer funciones y arquitectura | [[../02_Systems_Engineering/Functional_Decomposition|Descomposición funcional]] | [[../02_Systems_Engineering/System_Architecture|Arquitectura del sistema]] |
+| Definir interfaces | [[../02_Systems_Engineering/Interface_Control_Document|ICD]] | [[../02_Systems_Engineering/Interfaces/README|Objetos de interfaz]] |
+| Comparar alternativas de diseño | [[../02_Systems_Engineering/Trade_Studies|Estudios comparativos]] | [[../02_Systems_Engineering/Decision_Log|Registro de decisiones]] |
 
-## Product Realization
+## Realización del producto
 
-| Workspace activity | Start here | Supporting areas |
+| Actividad del workspace | Empiece aquí | Áreas de apoyo |
 |---|---|---|
-| Implement products | [[../03_MECHANICAL/README|Mechanical]] · [[../04_ELECTRICAL_ELECTRONICS/README|Electrical]] · [[../13_SOFTWARE/README|Software]] | [[../06_TASK_PAYLOADS/README|Payloads]] |
-| Integrate subsystems | [[../02_Systems_Engineering/Interface_Control_Document|ICD]] | [[../11_MEETINGS/Meeting_Index|Integration Review index]] |
-| Verify requirements | [[../07_TESTING_VALIDATION/Test_Plan|Test Plan]] | [[../01_Requirements/Verification_Matrix|Verification Matrix]] |
-| Validate operation | [[../07_TESTING_VALIDATION/Field_Tests|Field Tests]] | [[../02_Systems_Engineering/ConOps|ConOps]] |
-| Transition/release | [[../02_Systems_Engineering/Configuration_Baseline|Configuration Baseline]] | [[../18_DELIVERABLES/Deliverables_Index|Deliverables]] |
+| Implementar productos | [[../03_MECHANICAL/README|Mecánica]] · [[../04_ELECTRICAL_ELECTRONICS/README|Eléctrica]] · [[../13_SOFTWARE/README|Software]] | [[../06_TASK_PAYLOADS/README|Cargas]] |
+| Integrar subsistemas | [[../02_Systems_Engineering/Interface_Control_Document|ICD]] | [[../11_MEETINGS/Meeting_Index|Índice de revisiones de integración]] |
+| Verificar requisitos | [[../07_TESTING_VALIDATION/Test_Plan|Plan de pruebas]] | [[../01_Requirements/Verification_Matrix|Matriz de verificación]] |
+| Validar la operación | [[../07_TESTING_VALIDATION/Field_Tests|Pruebas de campo]] | [[../02_Systems_Engineering/ConOps|ConOps]] |
+| Transicionar o liberar | [[../02_Systems_Engineering/Configuration_Baseline|Línea base de configuración]] | [[../18_DELIVERABLES/Deliverables_Index|Entregables]] |
 
-## Technical Management
+## Gestión técnica
 
-| Workspace activity | Start here | Supporting areas |
+| Actividad del workspace | Empiece aquí | Áreas de apoyo |
 |---|---|---|
-| Plan and control | [[../00_PROJECT_CONTROL/README|Project Control]] | [[Team_Calendar|Team Calendar]] |
-| Manage requirements | [[../01_Requirements/Requirement_Change_Log|Requirement Changes]] | [[../01_Requirements/Requirements_Traceability_Matrix|RTM]] |
-| Manage interfaces | [[../02_Systems_Engineering/Interface_Control_Document|ICD]] | [[../02_Systems_Engineering/Interfaces/README|Objects]] |
-| Manage technical risk | [[../02_Systems_Engineering/Risk_Register|Risk Register]] | [[../08_SAFETY_QUALITY/Hazard_Log|Hazard Log]] |
-| Manage configuration | [[../02_Systems_Engineering/Configuration_Baseline|Baseline]] | [[../15_CAD_DRIVE_LINKS/CAD_Release_Log|CAD Releases]] |
-| Manage technical data | [[../16_TEST_DATA/00_TEST_INDEX|Test Data]] | [[../09_DOCUMENTATION/Figures_Tables_Index|Figures/Tables]] |
-| Assess progress | [[Project_Dashboard|Project Dashboard]] | [[Engineering_Status|Engineering Status]] |
-| Make decisions | [[../02_Systems_Engineering/Decision_Log|Decision Log]] | [[../02_Systems_Engineering/Trade_Studies|Trade Studies]] |
+| Planificar y controlar | [[../00_PROJECT_CONTROL/README|Control del proyecto]] | [[Team_Calendar|Calendario del equipo]] |
+| Gestionar requisitos | [[../01_Requirements/Requirement_Change_Log|Cambios de requisitos]] | [[../01_Requirements/Requirements_Traceability_Matrix|Matriz de trazabilidad]] |
+| Gestionar interfaces | [[../02_Systems_Engineering/Interface_Control_Document|ICD]] | [[../02_Systems_Engineering/Interfaces/README|Objetos]] |
+| Gestionar riesgo técnico | [[../02_Systems_Engineering/Risk_Register|Registro de riesgos]] | [[../08_SAFETY_QUALITY/Hazard_Log|Registro de peligros]] |
+| Gestionar configuración | [[../02_Systems_Engineering/Configuration_Baseline|Línea base]] | [[../15_CAD_DRIVE_LINKS/CAD_Release_Log|Versiones CAD]] |
+| Gestionar datos técnicos | [[../16_TEST_DATA/00_TEST_INDEX|Datos de prueba]] | [[../09_DOCUMENTATION/Figures_Tables_Index|Figuras y tablas]] |
+| Evaluar avance | [[Project_Dashboard|Panel del proyecto]] | [[Engineering_Status|Estado de ingeniería]] |
+| Tomar decisiones | [[../02_Systems_Engineering/Decision_Log|Registro de decisiones]] | [[../02_Systems_Engineering/Trade_Studies|Estudios comparativos]] |
 
-## How to use this map
+## Cómo usar este mapa
 
-1. Find the process family matching your current task.
-2. Open the listed human index or plan.
-3. Create an individual object note when applicable.
-4. Link evidence and request human review.
+1. Encuentre la familia de procesos correspondiente a su tarea.
+2. Abra el índice o plan humano indicado.
+3. Cree una nota de objeto individual cuando corresponda.
+4. Enlace evidencia y solicite revisión humana.
 
-> [!warning] Orientation only
-> This page maps workspace locations. It does not declare NASA compliance, readiness or process completion.
+> [!warning] Solo orientación
+> Esta página relaciona ubicaciones del workspace. No declara cumplimiento NASA, preparación ni finalización de procesos.

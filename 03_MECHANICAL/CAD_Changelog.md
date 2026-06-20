@@ -1,5 +1,5 @@
-# CAD Changelog
+# Registro de cambios CAD
 
-| Date | CAD release | File/assembly | Change | Reason | Interfaces affected | Owner | Approved |
+| Fecha | Versión CAD | Archivo/ensamble | Cambio | Motivo | Interfaces afectadas | Responsable | Aprobado |
 |---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | pending |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | pending |

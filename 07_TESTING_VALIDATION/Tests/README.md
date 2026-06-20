@@ -1,4 +1,4 @@
-# Test Objects
+# Objetos de prueba
 
 Una nota por prueba `TST-*`, creada desde `Template_Test.md`.
 

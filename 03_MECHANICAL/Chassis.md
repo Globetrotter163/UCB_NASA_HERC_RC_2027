@@ -1,15 +1,15 @@
-# Chassis
+# Chasis
 
-## Requirements and load cases
+## Requisitos y casos de carga
 
-TBD.
+Por definir.
 
-## Geometry, material and joints
+## Geometría, material y uniones
 
-TBD with links to released CAD/calculations.
+Por definir, con enlaces a CAD liberado y cálculos.
 
-## Verification
+## Verificación
 
-| Test/analysis | Requirement | Criterion | Evidence | Status |
+| Prueba/análisis | Requisito | Criterio | Evidencia | Estado |
 |---|---|---|---|---|
-| TBD | REQ-000 | TBD | TBD | planned |
+| Por definir | REQ-000 | Por definir | Por definir | planned |

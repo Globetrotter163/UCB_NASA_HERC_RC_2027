@@ -16,21 +16,21 @@ related_deliverable:
 source: local
 ---
 
-# Event Title
+# Título del evento
 
-## Purpose
+## Propósito
 
-## Agenda or success criteria
+## Agenda o criterios de éxito
 
-## Related documents
+## Documentos relacionados
 
-## Preparation
+## Preparación
 
-- [ ] Owner confirmed
-- [ ] Participants informed
-- [ ] Required documents linked
-- [ ] Safety or test prerequisites reviewed
+- [ ] Responsable confirmado
+- [ ] Participantes informados
+- [ ] Documentos requeridos vinculados
+- [ ] Prerrequisitos de seguridad o prueba revisados
 
-## Outcome
+## Resultado
 
-## Follow-up actions
+## Acciones de seguimiento

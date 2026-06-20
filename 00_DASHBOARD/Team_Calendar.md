@@ -3,17 +3,17 @@ type: dashboard
 status: active
 ---
 
-# Team Calendar
+# Calendario del equipo
 
-[[Command_Center|Command Center]] · [[../00_PROJECT_CONTROL/GOOGLE_CALENDAR_INTEGRATION|Google Calendar setup]] · [[../12_TEMPLATES/Template_Calendar_Event|New event template]]
+[[Command_Center|Centro de mando]] · [[../00_PROJECT_CONTROL/GOOGLE_CALENDAR_INTEGRATION|Configurar Google Calendar]] · [[../12_TEMPLATES/Template_Calendar_Event|Plantilla de evento]]
 
-> [!info] Source
-> This dashboard reads local event notes from `00_PROJECT_CONTROL/CALENDAR_EVENTS/`. External calendars remain read-only context until a relevant event is captured locally.
+> [!info] Fuente
+> Este panel lee notas de eventos locales desde `00_PROJECT_CONTROL/CALENDAR_EVENTS/`. Los calendarios externos son solo contexto de lectura hasta que el evento relevante se registre localmente.
 
-## This Week
+## Esta semana
 
 ```dataview
-TABLE date AS "Date", start_time AS "Start", title AS "Event", event_kind AS "Kind", owner AS "Owner", status AS "Status"
+TABLE date AS "Fecha", start_time AS "Inicio", title AS "Evento", event_kind AS "Tipo", owner AS "Responsable", status AS "Estado"
 FROM "00_PROJECT_CONTROL/CALENDAR_EVENTS"
 WHERE type = "calendar_event"
   AND status != "example"
@@ -23,13 +23,13 @@ WHERE type = "calendar_event"
 SORT date ASC, start_time ASC
 ```
 
-Fallback:
+Respaldo manual:
 
-| Date | Time | Event | Kind | Owner | Status |
+| Fecha | Hora | Evento | Tipo | Responsable | Estado |
 |---|---|---|---|---|---|
-| TBD | TBD | Create from `Template_Calendar_Event` | TBD | TBD | planned |
+| Por definir | Por definir | Crear desde `Template_Calendar_Event` | Por definir | Por definir | planned |
 
-## Upcoming Reviews
+## Próximas revisiones
 
 ```dataview
 TABLE date, start_time, title, owner, status
@@ -42,7 +42,7 @@ WHERE type = "calendar_event"
 SORT date ASC
 ```
 
-## Upcoming Tests
+## Próximas pruebas
 
 ```dataview
 TABLE date, start_time, title, owner, related_tests, status
@@ -55,9 +55,9 @@ WHERE type = "calendar_event"
 SORT date ASC
 ```
 
-Fallback: [[../07_TESTING_VALIDATION/Test_Plan|Test Plan]]
+Respaldo manual: [[../07_TESTING_VALIDATION/Test_Plan|Plan de pruebas]]
 
-## Upcoming Deliverables
+## Próximos entregables
 
 ```dataview
 TABLE date, title, owner, related_deliverable, status
@@ -70,10 +70,10 @@ WHERE type = "calendar_event"
 SORT date ASC
 ```
 
-Fallback: [[../18_DELIVERABLES/Deliverables_Index|Deliverables Index]]
+Respaldo manual: [[../18_DELIVERABLES/Deliverables_Index|Índice de entregables]]
 
-## Add an event
+## Añadir un evento
 
-Copy `12_TEMPLATES/Template_Calendar_Event.md` to:
+Copie `12_TEMPLATES/Template_Calendar_Event.md` en:
 
 `00_PROJECT_CONTROL/CALENDAR_EVENTS/YYYY-MM-DD_Event_Title.md`

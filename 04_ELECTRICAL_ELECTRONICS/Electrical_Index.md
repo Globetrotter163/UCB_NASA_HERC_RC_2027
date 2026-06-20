@@ -1,10 +1,10 @@
-# Electrical Index
+# Índice eléctrico
 
-| Topic | Document | Owner | Revision | Status |
+| Tema | Documento | Responsable | Revisión | Estado |
 |---|---|---|---|---|
-| Power | [[Power_System]] | TBD | TBD | draft |
-| Battery | [[Battery_System]] | TBD | TBD | draft |
-| Motor drivers | [[Motor_Drivers]] | TBD | TBD | draft |
-| PCB | [[PCB]] | TBD | TBD | draft |
-| Harness | [[Wiring_Harness]] | TBD | TBD | draft |
-| Sensors | [[Sensors]] | TBD | TBD | draft |
+| Potencia | [[Power_System]] | Por definir | Por definir | draft |
+| Batería | [[Battery_System]] | Por definir | Por definir | draft |
+| Controladores de motor | [[Motor_Drivers]] | Por definir | Por definir | draft |
+| PCB | [[PCB]] | Por definir | Por definir | draft |
+| Arnés | [[Wiring_Harness]] | Por definir | Por definir | draft |
+| Sensores | [[Sensors]] | Por definir | Por definir | draft |

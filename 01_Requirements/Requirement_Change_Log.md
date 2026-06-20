@@ -1,5 +1,5 @@
-# Requirement Change Log
+# Registro de cambios de requisitos
 
-| Date | Change ID | Requirement | Previous revision | Proposed change | Reason | Impact | Approval | Status |
+| Fecha | ID del cambio | Requisito | Revisión anterior | Cambio propuesto | Motivo | Impacto | Aprobación | Estado |
 |---|---|---|---|---|---|---|---|---|
-| TBD | CHG-000 | REQ-000 | TBD | TBD | TBD | TBD | TBD | proposed |
+| Por definir | CHG-000 | REQ-000 | Por definir | Por definir | Por definir | Por definir | Por definir | proposed |

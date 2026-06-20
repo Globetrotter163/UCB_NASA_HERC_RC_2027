@@ -1,7 +1,7 @@
-# Design Review Report Notes
+# Notas del informe de revisión de diseño
 
-| Section | Required evidence | Source owner | Draft status | Reviewer | Open issues |
+| Sección | Evidencia requerida | Responsable fuente | Estado del borrador | Revisor | Problemas abiertos |
 |---|---|---|---|---|---|
-| Requirements | RTM/baseline | TBD | not_started | TBD | TBD |
-| Architecture | ConOps/architecture/ICD | TBD | not_started | TBD | TBD |
-| Discipline design | Analyses/BOM/releases | TBD | not_started | TBD | TBD |
+| Requisitos | Matriz/línea base | Por definir | not_started | Por definir | Por definir |
+| Arquitectura | ConOps/arquitectura/ICD | Por definir | not_started | Por definir | Por definir |
+| Diseño por disciplina | Análisis/lista de materiales/versiones | Por definir | not_started | Por definir | Por definir |

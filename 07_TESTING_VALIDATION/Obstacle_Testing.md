@@ -1,5 +1,5 @@
-# Obstacle Testing
+# Pruebas de obstáculos
 
-| Obstacle/scenario | Requirement | Geometry/condition | Attempts | Success criterion | Result | Evidence |
+| Obstáculo/escenario | Requisito | Geometría/condición | Intentos | Criterio de éxito | Resultado | Evidencia |
 |---|---|---|---:|---|---|---|
-| TBD | REQ-000 | TBD | 0 | TBD | not_run | TBD |
+| Por definir | REQ-000 | Por definir | 0 | Por definir | not_run | Por definir |

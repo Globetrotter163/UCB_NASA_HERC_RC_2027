@@ -1,3 +1,3 @@
-# Task Payloads
+# Cargas de misión
 
-Memoria técnica para soil, water y air sampling, sus interfaces y verificación. Cada payload debe enlazar requisitos, ICD, riesgos y pruebas.
+Memoria técnica para muestreo de suelo, agua y aire, sus interfaces y verificación. Cada carga debe enlazar requisitos, ICD, riesgos y pruebas.

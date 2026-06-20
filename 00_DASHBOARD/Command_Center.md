@@ -3,57 +3,59 @@ type: dashboard
 status: active
 ---
 
-# Command Center
+# Centro de mando
 
 > [!info] NASA HERC RC 2027
-> One entry point for finding status, creating the right note and reaching the human source of truth.
+> Un único punto de entrada para consultar estado, crear la nota correcta y llegar a la fuente humana de verdad.
 
-## Mission status
+## Estado de la misión
 
-| Now                  | Plan                 | Evidence                                | Escalate          |                                           |             |                                           |                 |
-| -------------------- | -------------------- | --------------------------------------- | ----------------- | ----------------------------------------- | ----------- | ----------------------------------------- | --------------- |
-| [[Project_Dashboard  | Project Dashboard]]  | [[Team_Calendar                         | Team Calendar]]   | [[../16_TEST_DATA/00_TEST_INDEX           | Test Data]] | [[Open_Loops                              | Open Loops]]    |
-| [[Engineering_Status | Engineering Status]] | [[../00_PROJECT_CONTROL/MASTER_CALENDAR | Master Calendar]] | [[../07_TESTING_VALIDATION/Test_Log_Index | Test Log]]  | [[../02_Systems_Engineering/Risk_Register | Risk Register]] |
+- **Ahora:** [[Project_Dashboard|Panel del proyecto]] · [[Engineering_Status|Estado de ingeniería]]
+- **Plan:** [[Team_Calendar|Calendario del equipo]] · [[../00_PROJECT_CONTROL/MASTER_CALENDAR|Calendario maestro]]
+- **Evidencia:** [[../16_TEST_DATA/00_TEST_INDEX|Datos de prueba]] · [[../07_TESTING_VALIDATION/Test_Log_Index|Registro de pruebas]]
+- **Escalar:** [[Open_Loops|Bucles abiertos]] · [[../02_Systems_Engineering/Risk_Register|Registro de riesgos]]
 
-## What do you want to do?
+## ¿Qué desea hacer?
 
-| Action                  | Template or command                   | Destination                           |
-| ----------------------- | ------------------------------------- | ------------------------------------- |
-| Record today's work     | `Template_Daily_Status` / Daily Notes | `00_PROJECT_CONTROL/DAILY_STATUS/`    |
-| Add a project event     | `Template_Calendar_Event`             | `00_PROJECT_CONTROL/CALENDAR_EVENTS/` |
-| Create a requirement    | `Template_Requirement`                | `01_Requirements/Requirements/`       |
-| Record an interface     | `Template_Interface`                  | `02_Systems_Engineering/Interfaces/`  |
-| Propose a decision      | `Template_Decision`                   | `02_Systems_Engineering/Decisions/`   |
-| Record a technical risk | `Template_Risk`                       | `02_Systems_Engineering/Risks/`       |
-| Plan or record a test   | `Template_Test`                       | `07_TESTING_VALIDATION/Tests/`        |
-| Report a failure        | `Template_Failure_Report`             | `07_TESTING_VALIDATION/Failures/`     |
-| Create meeting notes    | `Template_Meeting`                    | Appropriate folder in `11_MEETINGS/`  |
-| Capture an open loop    | QuickAdd capture after setup          | `Open_Technical_Questions.md`         |
+| Acción | Plantilla o comando | Destino |
+|---|---|---|
+| Registrar el trabajo de hoy | `Template_Daily_Status` / Notas diarias | `00_PROJECT_CONTROL/DAILY_STATUS/` |
+| Añadir un evento del proyecto | `Template_Calendar_Event` | `00_PROJECT_CONTROL/CALENDAR_EVENTS/` |
+| Crear un requisito | `Template_Requirement` | `01_Requirements/Requirements/` |
+| Registrar una interfaz | `Template_Interface` | `02_Systems_Engineering/Interfaces/` |
+| Proponer una decisión | `Template_Decision` | `02_Systems_Engineering/Decisions/` |
+| Registrar un riesgo técnico | `Template_Risk` | `02_Systems_Engineering/Risks/` |
+| Planificar o registrar una prueba | `Template_Test` | `07_TESTING_VALIDATION/Tests/` |
+| Reportar una falla | `Template_Failure_Report` | `07_TESTING_VALIDATION/Failures/` |
+| Crear una minuta | `Template_Meeting` | Carpeta correspondiente en `11_MEETINGS/` |
+| Capturar un bucle abierto | QuickAdd: `Capturar bucle abierto` | `Open_Technical_Questions.md` |
 
-Setup automation: [[../00_PROJECT_CONTROL/QUICKADD_SETUP|QuickAdd]] · [[../00_PROJECT_CONTROL/OBSIDIAN_DAILY_NOTES_SETUP|Daily Notes]]
+Configuración: [[../00_PROJECT_CONTROL/QUICKADD_SETUP|QuickAdd]] · [[../00_PROJECT_CONTROL/OBSIDIAN_DAILY_NOTES_SETUP|Notas diarias]]
 
-## Technical control
+## Control técnico
 
-- Requirements: [[../01_Requirements/Requirements_Traceability_Matrix|Traceability Matrix]]
-- Interfaces: [[../02_Systems_Engineering/Interface_Control_Document|Interface Control Document]]
-- Decisions: [[../02_Systems_Engineering/Decision_Log|Decision Log]]
-- Risks: [[../02_Systems_Engineering/Risk_Register|Risk Register]]
-- Tests: [[../07_TESTING_VALIDATION/Test_Plan|Test Plan]]
-- Safety: [[../08_SAFETY_QUALITY/Safety_Plan|Safety Plan]]
-- Deliverables: [[../18_DELIVERABLES/Deliverables_Index|Deliverables Index]]
+- Requisitos: [[../01_Requirements/Requirements_Traceability_Matrix|Matriz de trazabilidad]]
+- Interfaces: [[../02_Systems_Engineering/Interface_Control_Document|Documento de control de interfaces]]
+- Decisiones: [[../02_Systems_Engineering/Decision_Log|Registro de decisiones]]
+- Riesgos: [[../02_Systems_Engineering/Risk_Register|Registro de riesgos]]
+- Pruebas: [[../07_TESTING_VALIDATION/Test_Plan|Plan de pruebas]]
+- Seguridad: [[../08_SAFETY_QUALITY/Safety_Plan|Plan de seguridad]]
+- Entregables: [[../18_DELIVERABLES/Deliverables_Index|Índice de entregables]]
 
-## New here?
+## ¿Es su primera vez aquí?
 
-> [!tip] First 30 minutes
-> Open [[Team_Onboarding_Map]], learn the folder colors in [[Visual_Navigation]], then find your lead in [[../00_PROJECT_CONTROL/PROJECT_ROLES|Project Roles]].
+> [!tip] Primeros 30 minutos
+> Abra [[Team_Onboarding_Map]], aprenda los colores en [[Visual_Navigation]] y ubique a su líder en [[../00_PROJECT_CONTROL/PROJECT_ROLES|Roles del proyecto]].
 
-> [!warning] Authority boundary
-> Creating a note does not approve it. Discord coordinates; official registers and reviewed evidence remain the source of truth.
+> [!warning] Límite de autoridad
+> Crear una nota no significa aprobarla. Discord sirve para coordinar; los registros oficiales y la evidencia revisada continúan siendo la fuente de verdad.
 
-## Workspace tools
+## Herramientas del workspace
 
-- [[NASA_SE_Process_Map|NASA SE Process Map]]
-- [[../00_PROJECT_CONTROL/GRAPH_VIEW_SETUP|Graph View]]
+- [[../00_PROJECT_CONTROL/MANUAL_DEL_EQUIPO|Manual del equipo]]
+- [[../00_PROJECT_CONTROL/FLUJO_DE_NOTAS|Flujo de notas]]
+- [[NASA_SE_Process_Map|Mapa del proceso de ingeniería de sistemas]]
+- [[../00_PROJECT_CONTROL/GRAPH_VIEW_SETUP|Vista de grafo]]
 - [[../00_PROJECT_CONTROL/BASES_SETUP|Bases]]
-- [[../00_PROJECT_CONTROL/HOMEPAGE_SETUP|Homepage]]
+- [[../00_PROJECT_CONTROL/HOMEPAGE_SETUP|Página de inicio]]
 - [[../00_PROJECT_CONTROL/GOOGLE_CALENDAR_INTEGRATION|Google Calendar]]

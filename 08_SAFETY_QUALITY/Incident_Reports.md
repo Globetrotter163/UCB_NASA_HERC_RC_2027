@@ -1,5 +1,5 @@
-# Incident Reports
+# Reportes de incidentes
 
-| Incident ID | Date/time | Location | People/equipment | Immediate actions | Owner | Investigation | Corrective action | Status |
+| ID del incidente | Fecha/hora | Ubicación | Personas/equipos | Acciones inmediatas | Responsable | Investigación | Acción correctiva | Estado |
 |---|---|---|---|---|---|---|---|---|
-| INC-000 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | open |
+| INC-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | open |

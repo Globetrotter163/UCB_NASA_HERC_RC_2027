@@ -3,10 +3,10 @@ type: decision_register
 status: active
 ---
 
-# Decision Log
+# Registro de decisiones
 
-| Decision ID | Title | Date | Owner | Evidence | Affected subsystems | Status | Approval |
+| ID de decisión | Título | Fecha | Responsable | Evidencia | Subsistemas afectados | Estado | Aprobación |
 |---|---|---|---|---|---|---|---|
-| DEC-000 | TBD | TBD | TBD | TBD | TBD | proposed | pending |
+| DEC-000 | Por definir | Por definir | Por definir | Por definir | Por definir | proposed | pending |
 
 Solo registrar como `approved` después de revisión humana documentada.

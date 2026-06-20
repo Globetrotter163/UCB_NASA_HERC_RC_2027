@@ -1,11 +1,11 @@
-# Safety Plan
+# Plan de seguridad
 
-## Governance
+## Gobernanza
 
-Define authority, stop-work criteria, emergency response, training, PPE and review cadence.
+Defina autoridad, criterios de parada, respuesta ante emergencias, capacitación, EPP y frecuencia de revisión.
 
-## Operational controls
+## Controles operativos
 
-| Activity | Hazard reference | Required controls | Competent person | Checklist | Status |
+| Actividad | Referencia de peligro | Controles requeridos | Persona competente | Lista | Estado |
 |---|---|---|---|---|---|
-| TBD | HAZ-000 | TBD | TBD | TBD | draft |
+| Por definir | HAZ-000 | Por definir | Por definir | Por definir | draft |

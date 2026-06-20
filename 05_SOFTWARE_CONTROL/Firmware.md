@@ -1,7 +1,7 @@
 # Firmware
 
-Document targets, toolchains, build/flash procedures, state machines, timing, watchdogs, fault handling and version mapping.
+Documente objetivos, cadenas de herramientas, procedimientos de compilación y carga, máquinas de estado, temporización, watchdogs, manejo de fallas y mapeo de versiones.
 
-| Target | Repository path | Hardware revision | Release/tag | Owner | Test status |
+| Objetivo | Ruta del repositorio | Revisión de hardware | Versión/etiqueta | Responsable | Estado de pruebas |
 |---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | not_run |
+| Por definir | Por definir | Por definir | Por definir | Por definir | not_run |

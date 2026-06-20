@@ -1,5 +1,5 @@
-# Mechanical BOM
+# Lista de materiales mecánicos
 
-| Part ID | Description | Qty | Material/spec | Mass | Supplier | Cost | CAD/drawing | Status |
+| ID de pieza | Descripción | Cantidad | Material/especificación | Masa | Proveedor | Costo | CAD/plano | Estado |
 |---|---|---:|---|---:|---|---:|---|---|
-| TBD | TBD | 0 | TBD | TBD | TBD | TBD | TBD | proposed |
+| Por definir | Por definir | 0 | Por definir | Por definir | Por definir | Por definir | Por definir | proposed |

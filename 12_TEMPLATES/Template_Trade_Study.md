@@ -8,26 +8,26 @@ related_decision:
 related_requirements:
 ---
 
-# TS-000 - Trade Study Title
+# TS-000 — Título del estudio comparativo
 
-## Decision Question
+## Pregunta de decisión
 
-## Constraints and Requirements
+## Restricciones y requisitos
 
-## Options
+## Opciones
 
-## Evaluation Criteria and Weights
+## Criterios de evaluación y ponderaciones
 
-| Criterion | Weight | Rationale |
+| Criterio | Peso | Justificación |
 |---|---:|---|
 
-## Scoring
+## Puntuación
 
-| Option | Score | Evidence | Sensitivity |
+| Opción | Puntuación | Evidencia | Sensibilidad |
 |---|---:|---|---|
 
-## Recommendation
+## Recomendación
 
-## Uncertainty
+## Incertidumbre
 
-## Required Approval
+## Aprobación requerida

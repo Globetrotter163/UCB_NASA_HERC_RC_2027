@@ -1,11 +1,11 @@
-# Test Plan
+# Plan de pruebas
 
-## Strategy
+## Estrategia
 
 Verificar requisitos progresivamente mediante pruebas de componente, banco, integración, campo y obstáculos.
 
-| Test ID | Requirement | Level | Configuration | Success criterion | Owner | Target date | Status |
+| ID de prueba | Requisito | Nivel | Configuración | Criterio de éxito | Responsable | Fecha objetivo | Estado |
 |---|---|---|---|---|---|---|---|
-| TST-000 | REQ-000 | TBD | BL-000 | TBD | TBD | TBD | planned |
+| TST-000 | REQ-000 | Por definir | BL-000 | Por definir | Por definir | Por definir | planned |
 
 No ejecutar prueba sin configuración, criterio de éxito, seguridad y ubicación de datos definidos.

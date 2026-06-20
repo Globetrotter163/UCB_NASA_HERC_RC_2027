@@ -11,25 +11,25 @@ related_requirements:
 evidence: example_only
 ---
 
-# DEC-000 — Example Decision
+# DEC-000 — Decisión de ejemplo
 
-> [!warning] Example only
+> [!warning] Solo ejemplo
 > Esta nota valida el modelo Dataview. No representa una decisión técnica ni debe aprobarse.
 
-## Decision
+## Decisión
 
-Example placeholder.
+Marcador de ejemplo.
 
-## Context
+## Contexto
 
-No technical context.
+Sin contexto técnico.
 
-## Options Considered
+## Opciones consideradas
 
-| Option | Pros | Cons | Risk | Cost | Decision |
+| Opción | Ventajas | Desventajas | Riesgo | Costo | Decisión |
 |---|---|---|---|---|---|
-| Example A | N/A | N/A | N/A | N/A | not selected |
+| Ejemplo A | No aplica | No aplica | No aplica | No aplica | no seleccionada |
 
-## Approval
+## Aprobación
 
-Not applicable — example.
+No aplica: es un ejemplo.

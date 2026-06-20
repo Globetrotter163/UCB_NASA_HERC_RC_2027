@@ -1,4 +1,4 @@
-# Hazard Objects
+# Objetos de peligro
 
 Una nota por peligro `HAZ-*`.
 

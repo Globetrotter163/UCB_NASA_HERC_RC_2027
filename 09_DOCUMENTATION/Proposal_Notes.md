@@ -1,7 +1,7 @@
-# Proposal Notes
+# Notas de propuesta
 
-Capture claims, evidence, owner, citation and status. Do not reuse 2026 claims as 2027 facts without reverification.
+Registre afirmaciones, evidencia, responsable, cita y estado. No reutilice afirmaciones de 2026 como hechos de 2027 sin volver a verificarlas.
 
-| Claim/section | Evidence | Owner | Citation | Status |
+| Afirmación/sección | Evidencia | Responsable | Cita | Estado |
 |---|---|---|---|---|
-| TBD | TBD | TBD | TBD | draft |
+| Por definir | Por definir | Por definir | Por definir | draft |

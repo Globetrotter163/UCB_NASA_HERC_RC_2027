@@ -1,7 +1,7 @@
-# ORR Report Notes
+# Notas del informe ORR
 
-| Section | Required evidence | Source owner | Draft status | Reviewer | Open issues |
+| Sección | Evidencia requerida | Responsable fuente | Estado del borrador | Revisor | Problemas abiertos |
 |---|---|---|---|---|---|
-| Configuration | Baseline mapping | TBD | not_started | TBD | TBD |
-| Verification | Approved tests | TBD | not_started | TBD | TBD |
-| Safety/readiness | Hazard controls/procedures | TBD | not_started | TBD | TBD |
+| Configuración | Mapeo de línea base | Por definir | not_started | Por definir | Por definir |
+| Verificación | Pruebas aprobadas | Por definir | not_started | Por definir | Por definir |
+| Seguridad/preparación | Controles de peligros/procedimientos | Por definir | not_started | Por definir | Por definir |

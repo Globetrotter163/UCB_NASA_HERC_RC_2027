@@ -1,5 +1,5 @@
-# Meeting Index
+# Índice de reuniones
 
-| Meeting ID | Date | Type | Title | Facilitator | Actions open | Decisions proposed | File |
+| ID de reunión | Fecha | Tipo | Título | Facilitador | Acciones abiertas | Decisiones propuestas | Archivo |
 |---|---|---|---|---|---:|---:|---|
-| MTG-000 | TBD | TBD | TBD | TBD | 0 | 0 | TBD |
+| MTG-000 | Por definir | Por definir | Por definir | Por definir | 0 | 0 | Por definir |

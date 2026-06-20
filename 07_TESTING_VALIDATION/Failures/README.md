@@ -1,4 +1,4 @@
-# Failure Objects
+# Objetos de falla
 
 Una nota por falla `FR-*`, creada desde `Template_Failure_Report.md`.
 

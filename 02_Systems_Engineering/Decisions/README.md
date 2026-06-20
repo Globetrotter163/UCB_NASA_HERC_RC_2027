@@ -1,4 +1,4 @@
-# Decision Objects
+# Objetos de decisión
 
 Una nota por decisión `DEC-*`, creada desde `Template_Decision.md`.
 

@@ -1,7 +1,7 @@
-# Telemetry
+# Telemetría
 
-| Signal | Source | Units | Rate | Encoding | Transport | Log field | Owner |
+| Señal | Fuente | Unidades | Frecuencia | Codificación | Transporte | Campo de registro | Responsable |
 |---|---|---|---:|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
 
-Define timestamps, synchronization, dropped-data behavior and schema version.
+Defina marcas de tiempo, sincronización, comportamiento ante pérdida de datos y versión del esquema.

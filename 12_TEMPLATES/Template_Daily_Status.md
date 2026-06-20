@@ -19,30 +19,30 @@ owner:
 status: draft
 ---
 
-# Daily Status - {{date}}
+# Estado diario — {{date}}
 
-## Summary
+## Resumen
 
-## Evidence Added Today
+## Evidencia agregada hoy
 
-## Area Scores
+## Puntuación por área
 
-| Area | Score | Evidence |
+| Área | Puntuación | Evidencia |
 |---|---:|---|
-| Mechanical | 0 | |
-| Electrical | 0 | |
+| Mecánica | 0 | |
+| Eléctrica | 0 | |
 | Software | 0 | |
-| Payloads | 0 | |
-| Testing | 0 | |
-| Documentation | 0 | |
-| Safety | 0 | |
+| Cargas útiles | 0 | |
+| Pruebas | 0 | |
+| Documentación | 0 | |
+| Seguridad | 0 | |
 
-## Blockers
+## Bloqueos
 
-## Decisions Proposed
+## Decisiones propuestas
 
-## Tests Completed
+## Pruebas completadas
 
-## Risks Opened or Closed
+## Riesgos abiertos o cerrados
 
-## Next Actions
+## Próximas acciones

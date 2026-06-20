@@ -1,9 +1,9 @@
-# Drivetrain
+# Transmisión
 
-Document motor/geartrain allocation, ratios, torque-speed envelopes, efficiency, thermal limits and failure modes.
+Documente la asignación de motores y trenes de engranajes, relaciones, envolventes de par-velocidad, eficiencia, límites térmicos y modos de falla.
 
-| Item | Value | Unit | Evidence |
+| Elemento | Valor | Unidad | Evidencia |
 |---|---:|---|---|
-| Total ratio | TBD | :1 | TBD |
-| Wheel torque | TBD | N·m | TBD |
-| Max speed | TBD | m/s | TBD |
+| Relación total | Por definir | :1 | Por definir |
+| Par en rueda | Por definir | N·m | Por definir |
+| Velocidad máxima | Por definir | m/s | Por definir |

@@ -1,7 +1,7 @@
-# Control System
+# Sistema de control
 
-Document control loops, sampling rates, limits, saturation, failsafes, tuning data and verification.
+Documente lazos de control, frecuencias de muestreo, límites, saturación, mecanismos de seguridad, datos de ajuste y verificación.
 
-| Loop | Input | Output | Rate | Gains/config | Limits | Test |
+| Lazo | Entrada | Salida | Frecuencia | Ganancias/configuración | Límites | Prueba |
 |---|---|---|---:|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TST-000 |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | TST-000 |

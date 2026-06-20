@@ -1,16 +1,20 @@
-# Project Control
+# Control del proyecto
 
 Centro operativo del proyecto: roles, RACI, calendario, métricas, revisiones, fuentes de verdad y control de migración.
 
 ## Reglas
 
-- Cada acción debe tener owner, fecha y estado.
-- Las decisiones técnicas se registran en Systems Engineering, no aquí.
+- Cada acción debe tener responsable, fecha y estado.
+- Las decisiones técnicas se registran en Ingeniería de sistemas, no aquí.
 - Discord puede originar una acción, pero la acción debe quedar documentada en el vault.
 - No ejecutar migraciones sin aprobación explícita.
 
 ## Índice
 
+- [[WORKSPACE_BETA_V0_1]]
+- [[MANUAL_DEL_EQUIPO]]
+- [[FLUJO_DE_NOTAS]]
+- [[CONFIGURACION_RAPIDA]]
 - [[REPO_INVENTORY]]
 - [[CANONICAL_PATHS]]
 - [[MIGRATION_PLAN]]

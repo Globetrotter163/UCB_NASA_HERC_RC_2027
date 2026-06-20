@@ -1,7 +1,7 @@
-# Manufacturing
+# Manufactura
 
-| Part/assembly | Process | Material | Drawing/release | Supplier/owner | Inspection | Status |
+| Pieza/ensamble | Proceso | Material | Plano/versión | Proveedor/responsable | Inspección | Estado |
 |---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | planned |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | planned |
 
-No fabricar desde CAD no liberado. Registrar deviations mediante Change Request.
+No fabrique desde CAD no liberado. Registre desviaciones mediante una solicitud de cambio.

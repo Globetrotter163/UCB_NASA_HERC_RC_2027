@@ -10,19 +10,19 @@ affected_subsystems:
 mitigation:
 ---
 
-# RSK-000 - Risk Title
+# RSK-000 — Título del riesgo
 
-## Risk Statement
-If ..., then ..., causing ...
+## Enunciado del riesgo
+Si ..., entonces ..., causando ...
 
-## Cause
+## Causa
 
-## Consequence
+## Consecuencia
 
-## Mitigation
+## Mitigación
 
-## Trigger
+## Disparador
 
-## Verification of Mitigation
+## Verificación de la mitigación
 
-## Current Status
+## Estado actual

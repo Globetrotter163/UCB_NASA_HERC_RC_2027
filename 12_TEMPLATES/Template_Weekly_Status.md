@@ -10,18 +10,18 @@ risks_open:
 status: draft
 ---
 
-# Weekly Status - Week
+# Estado semanal — Semana
 
-## Executive Summary
+## Resumen ejecutivo
 
-## Completed This Week
+## Completado esta semana
 
-## Evidence
+## Evidencia
 
-## Open Blockers
+## Bloqueos abiertos
 
-## Risks
+## Riesgos
 
-## Decisions Needed
+## Decisiones necesarias
 
-## Next Week Priorities
+## Prioridades de la próxima semana

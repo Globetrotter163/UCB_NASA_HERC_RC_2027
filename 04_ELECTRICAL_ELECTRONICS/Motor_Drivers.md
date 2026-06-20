@@ -1,5 +1,5 @@
-# Motor Drivers
+# Controladores de motor
 
-| Driver ID | Motor/load | Voltage | Continuous/peak current | Control | Protection | Cooling | Status |
+| ID del controlador | Motor/carga | Tensión | Corriente continua/pico | Control | Protección | Refrigeración | Estado |
 |---|---|---:|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | proposed |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | proposed |

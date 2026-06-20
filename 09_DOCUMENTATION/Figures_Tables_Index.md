@@ -1,5 +1,5 @@
-# Figures and Tables Index
+# Índice de figuras y tablas
 
-| ID | Caption/topic | Source file/data | Owner | License/attribution | Used in | Revision | Status |
+| ID | Leyenda/tema | Archivo/datos fuente | Responsable | Licencia/atribución | Usado en | Revisión | Estado |
 |---|---|---|---|---|---|---|---|
-| FIG-000 | TBD | TBD | TBD | TBD | TBD | TBD | draft |
+| FIG-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | draft |

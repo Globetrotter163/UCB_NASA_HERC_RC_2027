@@ -3,10 +3,10 @@ type: interface_register
 status: draft
 ---
 
-# Interface Control Document
+# Documento de control de interfaces
 
-| ICD ID | Interface | Subsystem A / owner | Subsystem B / owner | Mechanical | Electrical | Data | Verification | Status |
+| ID ICD | Interfaz | Subsistema A / responsable | Subsistema B / responsable | Mecánica | Eléctrica | Datos | Verificación | Estado |
 |---|---|---|---|---|---|---|---|---|
-| ICD-000 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | draft |
+| ICD-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | draft |
 
-Use `12_TEMPLATES/Template_Interface.md` para detalle. Una interfaz no está cerrada hasta que ambos owners y el método de verificación estén definidos.
+Use `12_TEMPLATES/Template_Interface.md` para el detalle. Una interfaz no está cerrada hasta que ambos responsables y el método de verificación estén definidos.

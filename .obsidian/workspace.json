@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c1c369f973c904a",
+            "id": "bfdf1d77c19c0a9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_PROJECT_CONTROL/QUICKADD_SETUP.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QUICKADD_SETUP"
+              "title": "AGENTS"
             }
           }
         ]
@@ -184,17 +184,27 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "e6a8f1c09cc441bd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -211,44 +221,44 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3c1c369f973c904a",
+  "active": "bfdf1d77c19c0a9c",
   "lastOpenFiles": [
-    "00_DASHBOARD/Command_Center.md",
-    "00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP.md",
-    "00_DASHBOARD/Team_Onboarding_Map.md",
-    "05_SOFTWARE_CONTROL/Software_Index.md",
-    "00_DASHBOARD/Team_Calendar.md",
-    "12_TEMPLATES/Template_Calendar_Event.md",
-    "00_PROJECT_CONTROL/CALENDAR_EVENTS/README.md",
+    "99_ARCHIVE/README.md",
+    "05_SOFTWARE_CONTROL/GitHub_Workflow.md",
+    "05_SOFTWARE_CONTROL/Control_System.md",
+    "04_ELECTRICAL_ELECTRONICS/Wiring_Harness.md",
+    "04_ELECTRICAL_ELECTRONICS/Sensors.md",
+    "04_ELECTRICAL_ELECTRONICS/README.md",
+    "04_ELECTRICAL_ELECTRONICS/Power_System.md",
+    "04_ELECTRICAL_ELECTRONICS/Electrical_Index.md",
+    "04_ELECTRICAL_ELECTRONICS/Electrical_BOM.md",
+    "04_ELECTRICAL_ELECTRONICS/Battery_System.md",
+    "03_MECHANICAL/Wheels.md",
+    "03_MECHANICAL/Suspension.md",
+    "03_MECHANICAL/Steering.md",
+    "03_MECHANICAL/Mechanical_BOM.md",
+    "03_MECHANICAL/README.md",
+    "03_MECHANICAL/Mechanical_Index.md",
+    "03_MECHANICAL/Manufacturing.md",
+    "03_MECHANICAL/Drivetrain.md",
+    "03_MECHANICAL/Chassis.md",
+    "03_MECHANICAL/CAD_Changelog.md",
+    "00_PROJECT_CONTROL/GRAPH_VIEW_SETUP.md",
     "00_PROJECT_CONTROL/GOOGLE_CALENDAR_INTEGRATION.md",
-    "00_PROJECT_CONTROL/OBSIDIAN_DAILY_NOTES_SETUP.md",
-    "00_DASHBOARD/BASES",
-    "00_PROJECT_CONTROL/CALENDAR_EVENTS",
-    "2026-06-20.md",
-    "Untitled Kanban.md",
-    "00_DASHBOARD/Visual_Navigation.md",
-    "01_Requirements/README.md",
-    "01_Requirements/HERC_REQUIREMENTS.md",
-    "01_Requirements/DERIVED_REQUIREMENTS.md",
+    "00_PROJECT_CONTROL/BASES_SETUP.md",
+    "00_DASHBOARD/Home.md",
+    "README.md",
     "01_Requirements/Requirements/README.md",
-    "00_PROJECT_CONTROL/GIT_CLEANUP_PLAN.md",
-    "00_PROJECT_CONTROL/DISCORD_WORKFLOW.md",
-    "00_PROJECT_CONTROL/CANONICAL_PATHS.md",
-    "00_PROJECT_CONTROL/VISUAL_STYLE_GUIDE.md",
-    "00_DASHBOARD/Engineering_Status.md",
-    "AGENTS.md",
-    "00_PROJECT_CONTROL/PROJECT_STARTUP_CHECKLIST.md",
-    "00_PROJECT_CONTROL/PROJECT_ROLES.md",
-    "00_PROJECT_CONTROL/PLUGIN_SETUP.md",
-    "00_PROJECT_CONTROL/OBSIDIAN_WORKSPACE_GUIDE.md",
-    "18_DELIVERABLES/Deliverable_Items",
-    "10_STEM_MEDIA_SPONSORS/Procurement",
-    "08_SAFETY_QUALITY/Hazards",
-    "07_TESTING_VALIDATION/Failures",
-    "07_TESTING_VALIDATION/Tests",
-    "02_Systems_Engineering/Risks",
-    "02_Systems_Engineering/Decisions",
-    "01_Requirements/Requirements",
+    "99_ARCHIVE/Migration_Backups/plugin-config-pre-beta-2026-06-20/calendar-data.json",
+    "99_ARCHIVE/Migration_Backups/plugin-config-pre-beta-2026-06-20/quickadd-data.json",
+    "99_ARCHIVE/Migration_Backups/plugin-config-pre-beta-2026-06-20",
+    "17_AI_AGENTS/02_AGENT_TASKS/Accepted/desktop.ini",
+    "17_AI_AGENTS/02_AGENT_TASKS/In_Review/desktop.ini",
+    "17_AI_AGENTS/02_AGENT_TASKS/Pending/desktop.ini",
+    "17_AI_AGENTS/02_AGENT_TASKS/Rejected/desktop.ini",
+    "14_LATEX_REPORTS/proposal/output/desktop.ini",
+    "14_LATEX_REPORTS/proposal/sections/desktop.ini",
+    "14_LATEX_REPORTS/design_review_DR/sections/desktop.ini",
     "06_RENDERS/Photos/Logo_Discord.png",
     "06_RENDERS/Photos/Gemini_Generated_Image_g71z90g71z90g71z.png"
   ]

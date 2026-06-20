@@ -1,5 +1,5 @@
-# Electrical BOM
+# Lista de materiales eléctricos
 
-| Part ID | Description | Qty | Manufacturer/MPN | Rating | Supplier | Cost | Datasheet | Status |
+| ID de pieza | Descripción | Cantidad | Fabricante/MPN | Capacidad nominal | Proveedor | Costo | Hoja de datos | Estado |
 |---|---|---:|---|---|---|---:|---|---|
-| TBD | TBD | 0 | TBD | TBD | TBD | TBD | TBD | proposed |
+| Por definir | Por definir | 0 | Por definir | Por definir | Por definir | Por definir | Por definir | proposed |

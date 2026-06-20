@@ -4,12 +4,12 @@ status: draft
 last_review:
 ---
 
-# Derived Requirements
+# Requisitos derivados
 
 Requisitos derivados de arquitectura, seguridad, interfaces, operación, manufactura y verificación.
 
-| ID | Requirement statement | Parent | Rationale | Owner | Verification | Status |
+| ID | Enunciado del requisito | Padre | Justificación | Responsable | Verificación | Estado |
 |---|---|---|---|---|---|---|
-| REQ-000 | The rover shall ... | TBD | TBD | TBD | TBD | draft |
+| REQ-000 | El rover deberá... | Por definir | Por definir | Por definir | Por definir | draft |
 
-Use `12_TEMPLATES/Template_Requirement.md` para notas detalladas. Ningún requisito es baseline hasta revisión humana.
+Use `12_TEMPLATES/Template_Requirement.md` para notas detalladas. Ningún requisito forma parte de la línea base hasta una revisión humana.

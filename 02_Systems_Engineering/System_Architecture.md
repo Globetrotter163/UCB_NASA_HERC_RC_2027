@@ -1,17 +1,17 @@
-# System Architecture
+# Arquitectura del sistema
 
-## System context
+## Contexto del sistema
 
-Remote-controlled rover composed of mechanical mobility, electrical power, sensing, compute/control, communications, payloads and ground/operator systems.
+Rover por control remoto compuesto por movilidad mecánica, potencia eléctrica, sensores, cómputo/control, comunicaciones, cargas y sistemas de apoyo u operación en tierra.
 
-## Subsystems
+## Subsistemas
 
-| Subsystem | Owner | Inputs | Outputs | Key requirements | Status |
+| Subsistema | Responsable | Entradas | Salidas | Requisitos clave | Estado |
 |---|---|---|---|---|---|
-| Mobility | TBD | TBD | TBD | TBD | draft |
-| Power | TBD | TBD | TBD | TBD | draft |
-| Control | TBD | TBD | TBD | TBD | draft |
-| Telemetry/RC | TBD | TBD | TBD | TBD | draft |
-| Payloads | TBD | TBD | TBD | TBD | draft |
+| Movilidad | Por definir | Por definir | Por definir | Por definir | draft |
+| Potencia | Por definir | Por definir | Por definir | Por definir | draft |
+| Control | Por definir | Por definir | Por definir | Por definir | draft |
+| Telemetría/RC | Por definir | Por definir | Por definir | Por definir | draft |
+| Cargas | Por definir | Por definir | Por definir | Por definir | draft |
 
-All authoritative interfaces belong in [[Interface_Control_Document]].
+Todas las interfaces autoritativas pertenecen a [[Interface_Control_Document]].

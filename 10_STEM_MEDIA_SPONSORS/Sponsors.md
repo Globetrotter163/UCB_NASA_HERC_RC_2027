@@ -1,7 +1,7 @@
-# Sponsors
+# Patrocinadores
 
-| Sponsor/prospect | Contact owner | Request | Commitment | Restrictions | Recognition plan | Status |
+| Patrocinador/prospecto | Responsable de contacto | Solicitud | Compromiso | Restricciones | Plan de reconocimiento | Estado |
 |---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | prospect |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | prospect |
 
-Do not store private credentials or sensitive personal data in this vault.
+No almacene credenciales privadas ni datos personales sensibles en este vault.

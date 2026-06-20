@@ -1,5 +1,5 @@
-# STEM Engagement Plan
+# Plan de participación STEM
 
-| Activity | Audience | Learning objective | Date | Owner | Safeguards | Evidence | Status |
+| Actividad | Público | Objetivo de aprendizaje | Fecha | Responsable | Salvaguardas | Evidencia | Estado |
 |---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | planned |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | planned |

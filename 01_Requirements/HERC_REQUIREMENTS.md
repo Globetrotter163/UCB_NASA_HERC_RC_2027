@@ -1,21 +1,21 @@
 ---
 type: requirements_source
 status: draft
-source: NASA HERC official rules
+source: Reglas oficiales de NASA HERC
 last_review:
 ---
 
-# HERC Requirements
+# Requisitos HERC
 
 Transcripción controlada de requisitos oficiales aplicables a la división Remote-Controlled Rover.
 
 > No completar desde memoria. Cada requisito debe citar documento, versión, sección y fecha de consulta.
 
-| ID | Source requirement | Source section | Applicability | Owner | Status |
+| ID | Requisito fuente | Sección de origen | Aplicabilidad | Responsable | Estado |
 |---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | draft |
+| Por definir | Por definir | Por definir | Por definir | Por definir | draft |
 
-## Source documents
+## Documentos fuente
 
-- NASA HERC 2027 rules: pendiente de incorporar y verificar.
-- Material 2026 en `08_ARCHIVE/`: referencia histórica, no baseline 2027.
+- Reglas NASA HERC 2027: pendientes de incorporar y verificar.
+- Material 2026 en `08_ARCHIVE/`: referencia histórica, no es línea base 2027.

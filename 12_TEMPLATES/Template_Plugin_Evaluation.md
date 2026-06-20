@@ -7,20 +7,20 @@ date:
 risk_level:
 ---
 
-# Plugin Evaluation - Plugin Name
+# Evaluación de plugin — Nombre
 
-## Purpose
+## Propósito
 
-## Why It Is Needed
+## Por qué se necesita
 
-## Alternatives
+## Alternativas
 
-## Installation Steps
+## Pasos de instalación
 
-## Configuration Required
+## Configuración requerida
 
-## Risks
+## Riesgos
 
-## Rollback Plan
+## Plan de reversión
 
-## Approval
+## Aprobación humana

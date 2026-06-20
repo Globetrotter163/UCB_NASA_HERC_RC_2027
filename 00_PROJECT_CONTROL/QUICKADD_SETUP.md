@@ -1,67 +1,71 @@
 ---
 type: workspace_setup
-status: manual_configuration_required
+status: configured
+owner: Vault owner
 ---
 
-# QuickAdd Setup
+# Configuración de QuickAdd
 
-**QuickAdd 2.12.3** is present. It appeared during this review through an external action. Codex did not install it or modify its internal configuration. This guide defines the menu to configure manually after owner approval.
+QuickAdd está configurado para crear notas en sus rutas canónicas sin sobrescribir archivos existentes. Las funciones en línea están deshabilitadas y no hay claves de API almacenadas.
 
-## Menu structure
+## Menú disponible
 
-Create a **Multi choice** named:
+Abra la paleta de comandos y ejecute **QuickAdd: Run QuickAdd**. El menú **NASA HERC — Crear nota** contiene:
 
-`NASA HERC QuickAdd`
+| Opción | Plantilla | Destino |
+|---|---|---|
+| Nuevo requisito | `Template_Requirement.md` | `01_Requirements/Requirements/` |
+| Nueva interfaz | `Template_Interface.md` | `02_Systems_Engineering/Interfaces/` |
+| Nueva decisión | `Template_Decision.md` | `02_Systems_Engineering/Decisions/` |
+| Nuevo riesgo | `Template_Risk.md` | `02_Systems_Engineering/Risks/` |
+| Nueva prueba | `Template_Test.md` | `07_TESTING_VALIDATION/Tests/` |
+| Nuevo reporte de falla | `Template_Failure_Report.md` | `07_TESTING_VALIDATION/Failures/` |
+| Nueva minuta | `Template_Meeting.md` | Carpeta seleccionada en `11_MEETINGS/` |
+| Nuevo estado diario | `Template_Daily_Status.md` | `00_PROJECT_CONTROL/DAILY_STATUS/` |
+| Nuevo evento | `Template_Calendar_Event.md` | `00_PROJECT_CONTROL/CALENDAR_EVENTS/` |
+| Capturar bucle abierto | Captura rápida | `Open_Technical_Questions.md` |
 
-Add these Template choices:
+## Convenciones de nombre
 
-| Choice | Template | Destination | File-name suggestion |
-|---|---|---|---|
-| New Requirement | `12_TEMPLATES/Template_Requirement.md` | `01_Requirements/Requirements/` | `REQ-{{VALUE}}` |
-| New Interface | `12_TEMPLATES/Template_Interface.md` | `02_Systems_Engineering/Interfaces/` | `ICD-{{VALUE}}` |
-| New Decision | `12_TEMPLATES/Template_Decision.md` | `02_Systems_Engineering/Decisions/` | `DEC-{{VALUE}}` |
-| New Risk | `12_TEMPLATES/Template_Risk.md` | `02_Systems_Engineering/Risks/` | `RSK-{{VALUE}}` |
-| New Test | `12_TEMPLATES/Template_Test.md` | `07_TESTING_VALIDATION/Tests/` | `TST-{{VALUE}}` |
-| New Failure Report | `12_TEMPLATES/Template_Failure_Report.md` | `07_TESTING_VALIDATION/Failures/` | `FR-{{VALUE}}` |
-| New Meeting Note | `12_TEMPLATES/Template_Meeting.md` | Select appropriate `11_MEETINGS/` folder | `MTG-{{DATE:YYYY-MM-DD}}-{{VALUE}}` |
-| New Daily Status | `12_TEMPLATES/Template_Daily_Status.md` | `00_PROJECT_CONTROL/DAILY_STATUS/` | `{{DATE:YYYY-MM-DD}}` |
-| New Calendar Event | `12_TEMPLATES/Template_Calendar_Event.md` | `00_PROJECT_CONTROL/CALENDAR_EVENTS/` | `{{DATE:YYYY-MM-DD}}_{{VALUE}}` |
+QuickAdd solicita el identificador o título y antepone el prefijo correspondiente:
 
-## Capture Open Loop
+- Requisito: `REQ-`
+- Interfaz: `ICD-`
+- Decisión: `DEC-`
+- Riesgo: `RSK-`
+- Prueba: `TST-`
+- Falla: `FR-`
+- Minutas y eventos: fecha en formato `YYYY-MM-DD`
 
-Create a **Capture choice**:
+Introduzca solo la parte restante. Ejemplo: para `RSK-014_Bateria`, escriba `014_Bateria`.
 
-| Setting | Value |
-|---|---|
-| Name | `Capture Open Loop` |
-| Capture to | `02_Systems_Engineering/Open_Technical_Questions.md` |
-| Write position | Bottom of file |
-| Capture format | `- [ ] {{DATE:YYYY-MM-DD}} — {{VALUE}} #open-loop` |
-| Open captured file | Off |
-| Create file if it doesn't exist | Off |
+## Captura de bucles abiertos
 
-Captured bullets are an inbox. A systems owner must triage them into the official table or another appropriate register.
+La opción añade una tarea con fecha y etiqueta `#bucle-abierto` al final de `02_Systems_Engineering/Open_Technical_Questions.md`.
 
-## Safe behavior
+La captura funciona como bandeja de entrada. El responsable de sistemas debe clasificarla y, cuando corresponda, convertirla en una nota formal de riesgo, decisión, interfaz u otro registro.
 
-- For existing filenames, choose **Ask every time** or **Create another file**.
-- Do not enable overwrite.
-- Open created notes in Live Preview or default view.
-- Do not run arbitrary scripts.
-- Leave “Run Templater on entire destination file” off unless specifically reviewed.
-- Test each choice using example IDs before team rollout.
+## Comportamiento seguro
 
-## Validation
+- Si el archivo ya existe, QuickAdd pregunta qué hacer.
+- No está permitido sobrescribir silenciosamente.
+- Las notas se abren en vista activa.
+- No se ejecutan scripts externos.
+- Las funciones en línea están deshabilitadas.
+- Las claves de API permanecen vacías.
 
-- [ ] Multi menu opens.
-- [ ] Each note lands in the listed folder.
-- [ ] Templates render without losing frontmatter.
-- [ ] Duplicate IDs do not overwrite files.
-- [ ] Example notes remain `status: example`.
-- [ ] Capture Open Loop does not alter existing register rows.
+## Validación
 
-References:
+- [ ] El menú **NASA HERC — Crear nota** aparece en la paleta.
+- [ ] Cada opción crea la nota en la carpeta indicada.
+- [ ] El frontmatter se conserva.
+- [ ] Un ID duplicado no sobrescribe archivos.
+- [ ] Las notas de ejemplo mantienen `status: example`.
+- [ ] La captura no altera filas existentes del registro.
 
-- [QuickAdd Template choices](https://quickadd.obsidian.guide/docs/Choices/TemplateChoice/)
-- [QuickAdd Capture choices](https://quickadd.obsidian.guide/docs/Choices/CaptureChoice/)
-- [QuickAdd Multi choices](https://quickadd.obsidian.guide/docs/Choices/MultiChoice/)
+Referencias:
+
+- [Repositorio oficial de QuickAdd](https://github.com/chhoumann/quickadd)
+- [Documentación de opciones de plantilla](https://quickadd.obsidian.guide/docs/Choices/TemplateChoice/)
+- [Documentación de capturas](https://quickadd.obsidian.guide/docs/Choices/CaptureChoice/)
+

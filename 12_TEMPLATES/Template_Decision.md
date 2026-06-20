@@ -9,25 +9,25 @@ related_requirements:
 evidence:
 ---
 
-# DEC-000 - Decision Title
+# DEC-000 — Título de la decisión
 
-## Decision
+## Decisión
 
-## Context
+## Contexto
 
-## Options Considered
+## Opciones consideradas
 
-| Option | Pros | Cons | Risk | Cost | Decision |
+| Opción | Ventajas | Desventajas | Riesgo | Costo | Resultado |
 |---|---|---|---|---|---|
 
-## Selected Option
+## Opción seleccionada
 
-## Rationale
+## Justificación
 
-## Impact
+## Impacto
 
-## Required Actions
+## Acciones requeridas
 
-## Evidence
+## Evidencia
 
-## Approval
+## Aprobación humana

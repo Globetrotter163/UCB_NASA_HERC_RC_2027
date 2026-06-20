@@ -1,32 +1,33 @@
 ---
 type: workspace_setup
-status: plugin_not_detected
+status: optional_not_installed
+owner: Vault owner
 ---
 
-# Homepage Setup
+# Configuración de la página de inicio
 
-Homepage was not detected during this pass. If the team installs it manually, configure:
+Homepage no está instalado. Es opcional: el workspace funciona sin él y el Centro de mando puede abrirse desde marcadores, archivos recientes o `Home.md`.
 
-| Setting | Recommended value |
+| Ajuste recomendado | Valor |
 |---|---|
-| Homepage | `00_DASHBOARD/Command_Center.md` |
-| Open on startup | Enabled |
-| View mode | Reading view / Preview |
-| Replace all open notes | Disabled initially |
-| Reopen when vault is already open | Team preference |
+| Página de inicio | `00_DASHBOARD/Command_Center.md` |
+| Abrir al iniciar | Habilitado |
+| Modo de vista | Lectura / vista previa |
+| Reemplazar todas las notas abiertas | Deshabilitado |
 
-## Setup
+## Instalación opcional
 
-1. Assign a plugin owner.
-2. Install Homepage manually from Community plugins.
-3. Select `00_DASHBOARD/Command_Center.md`.
-4. Choose Reading view.
-5. Restart Obsidian.
-6. Confirm Command Center opens without changing workspace layout unexpectedly.
-7. Keep `Home.md` as a secondary index and fallback.
+Solo después de aprobación del responsable:
 
-## Rollback
+1. Instale Homepage desde Complementos de la comunidad.
+2. Seleccione `00_DASHBOARD/Command_Center.md`.
+3. Use modo de lectura.
+4. Reinicie Obsidian.
+5. Confirme que se abre [[../00_DASHBOARD/Command_Center|Centro de mando]].
+6. Mantenga [[../00_DASHBOARD/Home|Home]] como índice secundario y respaldo.
 
-Disable **Open on startup** or disable the Homepage plugin. Do not edit `workspace.json`.
+## Reversión
 
-Reference: [Homepage plugin repository](https://github.com/mirnovov/obsidian-homepage).
+Deshabilite **Abrir al iniciar** o el complemento. No edite `workspace.json`.
+
+Referencia: [Repositorio de Homepage](https://github.com/mirnovov/obsidian-homepage).

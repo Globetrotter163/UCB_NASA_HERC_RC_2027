@@ -1,13 +1,13 @@
-# Submission Checklist
+# Lista de verificación de entrega
 
-- [ ] Official rules/version and deadline verified.
-- [ ] Required format, naming and page limits verified.
-- [ ] Technical claims trace to evidence.
-- [ ] Figures/tables have source and readable labels.
-- [ ] Requirements, safety and test status reviewed.
-- [ ] Human approvals recorded.
-- [ ] Final artifact generated from controlled source.
-- [ ] Hash and submitted timestamp recorded.
-- [ ] Frozen copy placed in `18_DELIVERABLES/submitted/`.
+- [ ] Reglas oficiales, versión y fecha límite verificadas.
+- [ ] Formato, nombre y límite de páginas verificados.
+- [ ] Afirmaciones técnicas trazables a evidencia.
+- [ ] Figuras y tablas con fuente y etiquetas legibles.
+- [ ] Estado de requisitos, seguridad y pruebas revisado.
+- [ ] Aprobaciones humanas registradas.
+- [ ] Artefacto final generado desde una fuente controlada.
+- [ ] Hash y fecha de envío registrados.
+- [ ] Copia congelada ubicada en `18_DELIVERABLES/submitted/`.
 
-Only an authorized human marks a package submitted.
+Solo una persona autorizada marca un paquete como enviado.

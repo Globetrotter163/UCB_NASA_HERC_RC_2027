@@ -1,7 +1,7 @@
-# Root Cause Analysis
+# Análisis de causa raíz
 
-| RCA ID | Failure | Method | Root cause evidence | Corrective action | Preventive action | Verification | Status |
+| ID RCA | Falla | Método | Evidencia de causa raíz | Acción correctiva | Acción preventiva | Verificación | Estado |
 |---|---|---|---|---|---|---|---|
-| RCA-000 | FR-000 | TBD | TBD | TBD | TBD | TST-000 | open |
+| RCA-000 | FR-000 | Por definir | Por definir | Por definir | Por definir | TST-000 | open |
 
-Separar causa confirmada de hipótesis; no cerrar sin verificación del fix.
+Separe la causa confirmada de las hipótesis; no cierre sin verificar la corrección.

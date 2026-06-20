@@ -1,25 +1,25 @@
-# Concept of Operations
+# Concepto de operaciones
 
-## Mission and competition context
+## Contexto de misión y competencia
 
-TBD después de verificar reglas HERC 2027.
+Por definir después de verificar las reglas HERC 2027.
 
-## Actors and environments
+## Actores y entornos
 
-| Actor | Responsibility | Interface |
+| Actor | Responsabilidad | Interfaz |
 |---|---|---|
-| Driver/operator | TBD | RC/telemetry |
-| Ground support | TBD | Safety/procedures |
+| Conductor/operador | Por definir | RC/telemetría |
+| Apoyo en tierra | Por definir | Seguridad/procedimientos |
 
-## Operational phases
+## Fases operativas
 
-1. Transport and inspection.
-2. Setup and pre-run checks.
-3. Remote-controlled operation.
-4. Task execution.
-5. Safe stop and recovery.
-6. Post-run data capture.
+1. Transporte e inspección.
+2. Preparación y verificaciones previas.
+3. Operación por control remoto.
+4. Ejecución de tareas.
+5. Parada segura y recuperación.
+6. Captura de datos posterior.
 
-## Off-nominal scenarios
+## Escenarios fuera de lo nominal
 
-TBD: communication loss, power fault, actuator fault, payload jam and emergency stop.
+Por definir: pérdida de comunicación, falla de potencia, falla de actuador, atasco de carga y parada de emergencia.

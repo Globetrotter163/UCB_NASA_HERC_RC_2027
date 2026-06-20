@@ -1,9 +1,9 @@
-# Steering
+# Dirección
 
-Document steering architecture, geometry, actuator selection, limits, sensor feedback, control interface and mechanical stops.
+Documente arquitectura, geometría, selección de actuador, límites, realimentación de sensores, interfaz de control y topes mecánicos.
 
-## Open interfaces
+## Interfaces abiertas
 
-- Electrical power/current: ICD TBD.
-- Control command/feedback: ICD TBD.
-- Chassis mounting: ICD TBD.
+- Potencia/corriente eléctrica: ICD por definir.
+- Comando/realimentación de control: ICD por definir.
+- Montaje al chasis: ICD por definir.

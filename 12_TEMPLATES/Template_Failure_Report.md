@@ -9,24 +9,24 @@ affected_subsystems:
 severity:
 ---
 
-# FR-000 - Failure Title
+# FR-000 — Título de la falla
 
-## Summary
+## Resumen
 
-## Context
+## Contexto
 
-## Symptoms
+## Síntomas
 
-## Immediate Impact
+## Impacto inmediato
 
-## Root Cause Analysis
+## Análisis de causa raíz
 
-## Corrective Action
+## Acción correctiva
 
-## Preventive Action
+## Acción preventiva
 
-## Verification of Fix
+## Verificación de la corrección
 
-## Evidence
+## Evidencia
 
-## Closure Criteria
+## Criterios de cierre

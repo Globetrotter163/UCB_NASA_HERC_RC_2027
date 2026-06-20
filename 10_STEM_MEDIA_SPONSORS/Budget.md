@@ -1,5 +1,5 @@
-# Budget
+# Presupuesto
 
-| Cost ID | Category | Description | Planned | Committed | Actual | Funding source | Owner | Status |
+| ID de costo | Categoría | Descripción | Planificado | Comprometido | Real | Fuente de fondos | Responsable | Estado |
 |---|---|---|---:|---:|---:|---|---|---|
-| COST-000 | TBD | TBD | 0 | 0 | 0 | TBD | TBD | planned |
+| COST-000 | Por definir | Por definir | 0 | 0 | 0 | Por definir | Por definir | planned |

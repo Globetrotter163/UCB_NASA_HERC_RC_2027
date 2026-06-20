@@ -10,18 +10,18 @@ forbidden_paths:
 official_output: false
 ---
 
-# AGT-000 - Agent Task
+# AGT-000 — Tarea de agente
 
-## Objective
+## Objetivo
 
-## Authoritative Inputs
+## Entradas autorizadas
 
-## Constraints
+## Restricciones
 
-## Expected Output
+## Resultado esperado
 
-## Acceptance Criteria
+## Criterios de aceptación
 
-## Assumptions to Surface
+## Supuestos que deben declararse
 
-## Human Review
+## Revisión humana

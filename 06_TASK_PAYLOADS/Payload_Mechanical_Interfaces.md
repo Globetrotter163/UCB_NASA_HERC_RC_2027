@@ -1,5 +1,5 @@
-# Payload Mechanical Interfaces
+# Interfaces mecánicas de cargas
 
-| Payload | Mounting datum | Envelope | Mass/CG | Fasteners | Load case | ICD | Owner |
+| Carga | Referencia de montaje | Envolvente | Masa/CG | Sujetadores | Caso de carga | ICD | Responsable |
 |---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | ICD-000 | TBD |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | ICD-000 | Por definir |

@@ -1,5 +1,5 @@
-# Data Logging
+# Registro de datos
 
-| Log/schema | Producer | Format | Frequency | Timestamp source | Storage | Retention | Parser |
+| Registro/esquema | Productor | Formato | Frecuencia | Fuente de tiempo | Almacenamiento | Retención | Analizador |
 |---|---|---|---:|---|---|---|---|
-| TBD | TBD | CSV/TBD | TBD | TBD | `16_TEST_DATA/04_LOGS/` | TBD | TBD |
+| Por definir | Por definir | CSV/por definir | Por definir | Por definir | `16_TEST_DATA/04_LOGS/` | Por definir | Por definir |

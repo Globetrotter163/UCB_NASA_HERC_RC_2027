@@ -1,7 +1,7 @@
-# PPE Requirements
+# Requisitos de equipo de protección personal
 
-| Activity | Hazard | Required PPE | Additional controls | Training | Owner |
+| Actividad | Peligro | EPP requerido | Controles adicionales | Capacitación | Responsable |
 |---|---|---|---|---|---|
-| Machining | TBD | TBD | TBD | TBD | TBD |
-| Battery handling | TBD | TBD | TBD | TBD | TBD |
-| Field testing | TBD | TBD | TBD | TBD | TBD |
+| Mecanizado | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Manejo de baterías | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Pruebas de campo | Por definir | Por definir | Por definir | Por definir | Por definir |

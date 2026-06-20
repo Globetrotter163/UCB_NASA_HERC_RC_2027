@@ -1,8 +1,8 @@
-# Wheels
+# Ruedas
 
-Document wheel geometry, material, traction assumptions, terrain compatibility, manufacturing and test evidence.
+Documente geometría, material, supuestos de tracción, compatibilidad con el terreno, manufactura y evidencia de pruebas.
 
-| Parameter | Value | Unit | Source | Revision |
+| Parámetro | Valor | Unidad | Fuente | Revisión |
 |---|---:|---|---|---|
-| Diameter | TBD | mm | TBD | TBD |
-| Width | TBD | mm | TBD | TBD |
+| Diámetro | Por definir | mm | Por definir | Por definir |
+| Ancho | Por definir | mm | Por definir | Por definir |

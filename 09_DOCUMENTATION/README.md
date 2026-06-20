@@ -1,3 +1,3 @@
-# Documentation
+# Documentación
 
-Preparación y control de reportes, figuras, terminología y checklists. Fuentes formales viven en `14_LATEX_REPORTS/`; paquetes congelados en `18_DELIVERABLES/`.
+Preparación y control de informes, figuras, terminología y listas de verificación. Las fuentes formales viven en `14_LATEX_REPORTS/`; los paquetes congelados en `18_DELIVERABLES/`.

@@ -1,5 +1,5 @@
-# Electrical Test Notes
+# Notas de pruebas eléctricas
 
-| Date | Test ID | Assembly/revision | Objective | Instrumentation | Result | Data | Issues |
+| Fecha | ID de prueba | Ensamble/revisión | Objetivo | Instrumentación | Resultado | Datos | Problemas |
 |---|---|---|---|---|---|---|---|
-| TBD | TST-000 | TBD | TBD | TBD | not_run | TBD | TBD |
+| Por definir | TST-000 | Por definir | Por definir | Por definir | not_run | Por definir | Por definir |

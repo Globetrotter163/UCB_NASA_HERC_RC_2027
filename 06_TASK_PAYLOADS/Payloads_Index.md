@@ -1,7 +1,7 @@
-# Payloads Index
+# Índice de cargas
 
-| Payload | Mechanical owner | Electrical owner | Software owner | Requirement | Test | Status |
+| Carga | Responsable mecánico | Responsable eléctrico | Responsable de software | Requisito | Prueba | Estado |
 |---|---|---|---|---|---|---|
-| Soil sampling | TBD | TBD | TBD | REQ-000 | TST-000 | draft |
-| Water sampling | TBD | TBD | TBD | REQ-000 | TST-000 | draft |
-| Air sampling | TBD | TBD | TBD | REQ-000 | TST-000 | draft |
+| Muestreo de suelo | Por definir | Por definir | Por definir | REQ-000 | TST-000 | draft |
+| Muestreo de agua | Por definir | Por definir | Por definir | REQ-000 | TST-000 | draft |
+| Muestreo de aire | Por definir | Por definir | Por definir | REQ-000 | TST-000 | draft |

@@ -1,56 +1,48 @@
 ---
 type: workspace_setup
-status: manual_configuration_required
+status: ready_for_team_creation
+owner: Vault owner
 ---
 
-# Bases Setup
+# Configuración de Bases
 
-Obsidian Bases creates database-like views from Markdown notes and their properties. The notes remain the data source; a Base is only a view.
+Obsidian Bases crea vistas tipo base de datos a partir de notas Markdown y sus propiedades. Las notas siguen siendo la fuente; una Base es solo una vista.
 
-## Decision for this pass
+## Estado
 
-No `.base` files were generated manually. Create them from the Obsidian UI to ensure compatibility with the installed Obsidian version, then save them in `00_DASHBOARD/BASES/`.
+El complemento nativo Bases está habilitado. Los archivos `.base` deben crearse desde la interfaz de Obsidian y guardarse en `00_DASHBOARD/BASES/` para asegurar compatibilidad con la versión instalada.
 
-## Bases to create
+## Bases recomendadas
 
-| Base file | Source folder | Required filter | Useful columns |
+| Archivo | Carpeta fuente | Filtro obligatorio | Columnas útiles |
 |---|---|---|---|
-| `Requirements.base` | `01_Requirements/Requirements/` | `type = requirement`, exclude `status = example` | id, status, owner, source, verification_method, linked_tests |
-| `Decisions.base` | `02_Systems_Engineering/Decisions/` | `type = decision`, exclude examples | id, status, owner, date, affected_subsystems, evidence |
-| `Interfaces.base` | `02_Systems_Engineering/Interfaces/` | `type = interface`, exclude examples | id, status, owners, subsystems, last_review |
-| `Risks.base` | `02_Systems_Engineering/Risks/` | `type = risk`, exclude examples | id, severity, probability, impact, owner, mitigation, status |
-| `Tests.base` | `07_TESTING_VALIDATION/Tests/` | `type = test`, exclude examples | id, status, owner, date, related_requirements, result |
-| `Failures.base` | `07_TESTING_VALIDATION/Failures/` | `type = failure_report`, exclude examples | id, status, severity, owner, date, related_test |
-| `Deliverables.base` | `18_DELIVERABLES/Deliverable_Items/` | `type = deliverable`, exclude examples | id, status, due, owner, source_path, artifact_path |
-| `Tasks.base` | Entire vault | incomplete Markdown tasks | file, task, due, priority, owner/context |
+| `Requirements.base` | `01_Requirements/Requirements/` | `type = requirement`, excluir `status = example` | id, status, owner, source, verification_method, linked_tests |
+| `Decisions.base` | `02_Systems_Engineering/Decisions/` | `type = decision`, excluir ejemplos | id, status, owner, date, affected_subsystems, evidence |
+| `Interfaces.base` | `02_Systems_Engineering/Interfaces/` | `type = interface`, excluir ejemplos | id, status, owners, subsystems, last_review |
+| `Risks.base` | `02_Systems_Engineering/Risks/` | `type = risk`, excluir ejemplos | id, severity, probability, impact, owner, mitigation, status |
+| `Tests.base` | `07_TESTING_VALIDATION/Tests/` | `type = test`, excluir ejemplos | id, status, owner, date, related_requirements, result |
+| `Failures.base` | `07_TESTING_VALIDATION/Failures/` | `type = failure_report`, excluir ejemplos | id, status, severity, owner, date, related_test |
+| `Deliverables.base` | `18_DELIVERABLES/Deliverable_Items/` | `type = deliverable`, excluir ejemplos | id, status, due, owner, source_path, artifact_path |
+| `Tasks.base` | Vault completo | tareas Markdown incompletas | file, task, due, priority, owner/context |
 
-## Manual creation
+## Creación
 
-For each Base:
+1. Confirme que **Bases** esté habilitado.
+2. Cree una Base desde Obsidian.
+3. Guárdela en `00_DASHBOARD/BASES/`.
+4. Añada una vista de tabla.
+5. Filtre por carpeta fuente y `type`.
+6. Excluya `status: example`.
+7. Muestre solo columnas útiles para decidir.
+8. Ordene por severidad, fecha límite o fecha.
+9. Compare el resultado con el índice humano.
 
-1. Confirm the **Bases** core plugin is enabled.
-2. Create a new Base from Obsidian.
-3. Save it in `00_DASHBOARD/BASES/`.
-4. Add a table view.
-5. Filter by source folder and `type`.
-6. Exclude `status: example`.
-7. Add only the columns needed for decisions.
-8. Sort by severity/due/date where useful.
-9. Compare results with the human index.
+## Reglas
 
-## Suggested views
+- No edite propiedades desde Bases sin comprender qué nota Markdown cambia.
+- Una fila visible no significa aprobación.
+- Conserve índices humanos y respaldos Dataview.
+- No use Bases para ocultar responsables o evidencia faltante.
 
-- Requirements: `Open`, `Without tests`, `Verified`.
-- Risks: `Active by severity`, `Without mitigation`, `Closed`.
-- Tests: `Planned`, `Ready`, `Failed`, `Completed`.
-- Deliverables: `Upcoming`, `Without owner`, `Frozen`.
-- Tasks: `Due this week`, `Blocked`, `By area`.
+Referencia: [Introducción a Obsidian Bases](https://obsidian.md/help/bases).
 
-## Rules
-
-- Do not edit a property through Bases unless you understand which Markdown note changes.
-- A row appearing in a Base is not approval.
-- Keep the human indexes and Dataview fallbacks.
-- Do not use Bases to hide missing owners or missing evidence.
-
-Reference: [Introduction to Obsidian Bases](https://obsidian.md/help/bases).

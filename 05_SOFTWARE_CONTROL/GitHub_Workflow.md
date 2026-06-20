@@ -1,10 +1,10 @@
-# GitHub Workflow
+# Flujo de trabajo en GitHub
 
-1. Create an issue/change context.
-2. Work on a short-lived branch.
-3. Add tests and update documentation/configuration.
-4. Review diff; exclude secrets, CAD and generated artifacts.
-5. Require human review for safety/controls/interface changes.
-6. Tag releases mapped to a configuration baseline.
+1. Cree un issue o contexto de cambio.
+2. Trabaje en una rama de corta duración.
+3. Añada pruebas y actualice documentación o configuración.
+4. Revise las diferencias; excluya secretos, CAD y artefactos generados.
+5. Exija revisión humana para cambios de seguridad, control o interfaces.
+6. Etiquete versiones asociadas a una línea base de configuración.
 
-Do not commit automatically from agents or Obsidian Git.
+No cree commits automáticos desde agentes ni Obsidian Git.

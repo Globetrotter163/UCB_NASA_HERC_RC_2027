@@ -1,8 +1,8 @@
-# Functional Decomposition
+# Descomposición funcional
 
-| Level 0 | Level 1 function | Inputs | Outputs | Allocated subsystem | Verification |
+| Nivel 0 | Función de nivel 1 | Entradas | Salidas | Subsistema asignado | Verificación |
 |---|---|---|---|---|---|
-| Complete mission | Traverse terrain | TBD | Rover position | Mobility/Control | TST-000 |
-| Complete mission | Execute task payload | TBD | Sample/measurement | Payloads | TST-000 |
-| Operate safely | Detect/control hazards | TBD | Safe state | All | TST-000 |
-| Preserve evidence | Log mission data | Sensors/time | Logs | Telemetry | TST-000 |
+| Completar la misión | Recorrer el terreno | Por definir | Posición del rover | Movilidad/control | TST-000 |
+| Completar la misión | Ejecutar la carga de tarea | Por definir | Muestra/medición | Cargas | TST-000 |
+| Operar con seguridad | Detectar/controlar peligros | Por definir | Estado seguro | Todos | TST-000 |
+| Conservar evidencia | Registrar datos de misión | Sensores/tiempo | Registros | Telemetría | TST-000 |

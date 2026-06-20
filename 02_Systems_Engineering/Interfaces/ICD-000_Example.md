@@ -12,27 +12,27 @@ last_review: 0000-01-01
 verification_method: example_only
 ---
 
-# ICD-000 — Example Interface
+# ICD-000 — Interfaz de ejemplo
 
-> [!warning] Example only
+> [!warning] Solo ejemplo
 > No representa una interfaz real y se excluye de los dashboards operativos.
 
-## Connected Subsystems
+## Subsistemas conectados
 
-Example A and Example B.
+Ejemplo A y Ejemplo B.
 
-## Mechanical Interface
+## Interfaz mecánica
 
-N/A.
+No aplica.
 
-## Electrical Interface
+## Interfaz eléctrica
 
-N/A.
+No aplica.
 
-## Data / Signal Interface
+## Interfaz de datos o señales
 
-N/A.
+No aplica.
 
-## Verification Plan
+## Plan de verificación
 
-Example only.
+Solo ejemplo.

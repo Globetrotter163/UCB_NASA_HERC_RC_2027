@@ -1,7 +1,7 @@
-# Water Sampling
+# Muestreo de agua
 
-Document task requirement, collection/measurement method, capacity, contamination controls, sequence, failure modes and evidence.
+Documente requisito de tarea, método de recolección o medición, capacidad, controles de contaminación, secuencia, modos de falla y evidencia.
 
-| Requirement | Criterion | Test | Evidence | Status |
+| Requisito | Criterio | Prueba | Evidencia | Estado |
 |---|---|---|---|---|
-| REQ-000 | TBD | TST-000 | TBD | planned |
+| REQ-000 | Por definir | TST-000 | Por definir | planned |

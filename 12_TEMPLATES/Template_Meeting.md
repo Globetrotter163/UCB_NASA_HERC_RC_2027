@@ -8,21 +8,21 @@ attendees:
 status: draft
 ---
 
-# MTG-000 - Meeting Title
+# MTG-000 — Título de la reunión
 
-## Objective
+## Objetivo
 
 ## Agenda
 
-## Notes
+## Notas
 
-## Decisions Proposed
+## Decisiones propuestas
 
-## Actions
+## Acciones
 
-| Action | Owner | Due | Status | Evidence |
+| Acción | Responsable | Fecha límite | Estado | Evidencia |
 |---|---|---|---|---|
 
-## Risks / Interfaces Raised
+## Riesgos o interfaces planteados
 
-## Next Review
+## Próxima revisión

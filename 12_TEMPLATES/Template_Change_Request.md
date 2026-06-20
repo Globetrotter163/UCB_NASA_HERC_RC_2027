@@ -9,20 +9,20 @@ affected_subsystems:
 related_requirements:
 ---
 
-# CHG-000 - Change Request
+# CHG-000 — Solicitud de cambio
 
-## Requested Change
+## Cambio solicitado
 
-## Reason
+## Motivo
 
-## Current Baseline
+## Línea base actual
 
-## Impact Analysis
+## Análisis de impacto
 
-## Interfaces Affected
+## Interfaces afectadas
 
-## Risks and Verification
+## Riesgos y verificación
 
-## Rollback Plan
+## Plan de reversión
 
-## Approval
+## Aprobación humana

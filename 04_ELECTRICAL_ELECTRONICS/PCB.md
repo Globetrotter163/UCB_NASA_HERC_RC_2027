@@ -1,7 +1,7 @@
 # PCB
 
-| Board | Revision | Function | Inputs/outputs | Repository/release | Owner | Verification | Status |
+| Placa | Revisión | Función | Entradas/salidas | Repositorio/versión | Responsable | Verificación | Estado |
 |---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | draft |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | draft |
 
-Link schematic, layout, BOM, design rules and bring-up evidence without storing uncontrolled exports.
+Enlace esquemático, diseño, lista de materiales, reglas de diseño y evidencia de puesta en marcha sin almacenar exportaciones no controladas.

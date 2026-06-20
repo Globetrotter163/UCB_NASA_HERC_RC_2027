@@ -1,10 +1,10 @@
-# Systems Engineering
+# Ingeniería de sistemas
 
-Arquitectura, ConOps, descomposición funcional, interfaces, decisiones, trade studies, riesgos y baseline.
+Arquitectura, ConOps, descomposición funcional, interfaces, decisiones, estudios comparativos, riesgos y línea base.
 
 ## Reglas
 
-- Cambios entre subsistemas pasan por ICD, Decision Log o ambos.
+- Los cambios entre subsistemas pasan por el ICD, el registro de decisiones o ambos.
 - Toda decisión enlaza evidencia y requisitos afectados.
-- Todo riesgo tiene owner y mitigación o justificación.
+- Todo riesgo tiene responsable y mitigación o justificación.
 - El contenido previo en subcarpetas se conserva hasta revisión.

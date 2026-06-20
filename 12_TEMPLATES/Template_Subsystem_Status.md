@@ -9,16 +9,16 @@ related_requirements:
 related_tests:
 ---
 
-# Subsystem Status - Name
+# Estado del subsistema — Nombre
 
-## Current Status
+## Estado actual
 
-## Evidence
+## Evidencia
 
-## Open Interfaces
+## Interfaces abiertas
 
-## Open Risks
+## Riesgos abiertos
 
-## Tests Needed
+## Pruebas necesarias
 
-## Next Actions
+## Próximas acciones

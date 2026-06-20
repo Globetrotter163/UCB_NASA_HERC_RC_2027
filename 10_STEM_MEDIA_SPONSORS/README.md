@@ -1,3 +1,3 @@
-# STEM, Media and Sponsors
+# STEM, medios y patrocinadores
 
-Outreach, STEM engagement, social media, sponsors, budget and procurement. Public claims must match reviewed technical sources.
+Divulgación, participación STEM, redes sociales, patrocinadores, presupuesto y adquisiciones. Las afirmaciones públicas deben coincidir con fuentes técnicas revisadas.

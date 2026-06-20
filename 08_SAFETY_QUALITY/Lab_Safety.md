@@ -1,11 +1,11 @@
-# Lab Safety
+# Seguridad de laboratorio
 
-## Stop-work conditions
+## Condiciones para detener el trabajo
 
-- Missing guards/PPE.
-- Unknown energized state.
-- Uncontrolled stored energy.
-- Damaged battery or wiring.
-- Unapproved test setup.
+- Protecciones o EPP faltantes.
+- Estado energizado desconocido.
+- Energía almacenada sin control.
+- Batería o cableado dañados.
+- Montaje de prueba no aprobado.
 
-Record local laboratory rules, emergency contacts and inspection cadence after human review.
+Registre reglas locales del laboratorio, contactos de emergencia y frecuencia de inspección después de revisión humana.

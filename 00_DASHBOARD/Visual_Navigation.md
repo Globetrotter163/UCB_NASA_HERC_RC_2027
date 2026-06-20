@@ -3,55 +3,55 @@ type: dashboard
 status: active
 ---
 
-# Visual Navigation
+# Navegación visual
 
-Color is a navigation aid. Always read status, owner, severity and evidence before making a technical judgment.
+El color es una ayuda de navegación. Antes de emitir un juicio técnico, revise siempre el estado, responsable, severidad y evidencia.
 
-## Color legend
+## Leyenda de colores
 
-| Signal | Areas |
+| Señal | Áreas |
 |---|---|
-| 🔵 Blue | Mission Control, documentation and formal reports |
-| 🟣 Purple | Systems Engineering and AI agents |
-| 🟠 Orange | Mechanical design and CAD |
-| 🔴 Red | Electrical and Safety |
-| 🟢 Green | Software, testing and evidence |
-| 🩷 Pink | STEM, sponsors and media |
-| 🟡 Yellow/Gold | Requirements, releases and deliverables |
-| ⚪ Gray | Project control, historical and archived material |
+| 🔵 Azul | Centro de mando, documentación e informes formales |
+| 🟣 Morado | Ingeniería de sistemas y agentes de IA |
+| 🟠 Naranja | Diseño mecánico y CAD |
+| 🔴 Rojo | Electricidad y seguridad |
+| 🟢 Verde | Software, pruebas y evidencia |
+| 🩷 Rosado | STEM, patrocinadores y medios |
+| 🟡 Amarillo/dorado | Requisitos, versiones y entregables |
+| ⚪ Gris | Control del proyecto, material histórico y archivo |
 
-> [!info] Mission Control — electric blue
+> [!info] Centro de mando — azul eléctrico
 > [[Command_Center]] · [[Home]] · [[Project_Dashboard]] · [[Engineering_Status]] · [[Open_Loops]] · [[Team_Calendar]]
 
-> [!tip] Engineering — yellow, purple, orange, red, green and cyan
-> [[../01_Requirements/README|Requirements]] · [[../02_Systems_Engineering/README|Systems Engineering]] · [[../03_MECHANICAL/README|Mechanical]] · [[../04_ELECTRICAL_ELECTRONICS/README|Electrical]] · [[../05_SOFTWARE_CONTROL/README|Software & Control]] · [[../06_TASK_PAYLOADS/README|Payloads]]
+> [!tip] Ingeniería — amarillo, morado, naranja, rojo, verde y cian
+> [[../01_Requirements/README|Requisitos]] · [[../02_Systems_Engineering/README|Ingeniería de sistemas]] · [[../03_MECHANICAL/README|Mecánica]] · [[../04_ELECTRICAL_ELECTRONICS/README|Eléctrica]] · [[../05_SOFTWARE_CONTROL/README|Software y control]] · [[../06_TASK_PAYLOADS/README|Cargas]]
 
-> [!success] Testing — lime
-> [[../07_TESTING_VALIDATION/README|Testing & Validation]] · [[Heatmap_Testing_Status|Testing Heatmap]] · [[../16_TEST_DATA/00_TEST_INDEX|Test Data]]
+> [!success] Pruebas — verde lima
+> [[../07_TESTING_VALIDATION/README|Pruebas y validación]] · [[Heatmap_Testing_Status|Mapa de estado de pruebas]] · [[../16_TEST_DATA/00_TEST_INDEX|Datos de prueba]]
 
-> [!danger] Safety — dark red
-> [[../08_SAFETY_QUALITY/README|Safety & Quality]] · [[../08_SAFETY_QUALITY/Hazard_Log|Hazard Log]] · [[Heatmap_Risk_Status|Risk Heatmap]]
+> [!danger] Seguridad — rojo oscuro
+> [[../08_SAFETY_QUALITY/README|Seguridad y calidad]] · [[../08_SAFETY_QUALITY/Hazard_Log|Registro de peligros]] · [[Heatmap_Risk_Status|Mapa de riesgos]]
 
-> [!note] Documentation — light blue
-> [[../09_DOCUMENTATION/README|Documentation]] · [[../14_LATEX_REPORTS/README|LaTeX Reports]] · [[../09_DOCUMENTATION/Submission_Checklist|Submission Checklist]]
+> [!note] Documentación — azul claro
+> [[../09_DOCUMENTATION/README|Documentación]] · [[../14_LATEX_REPORTS/README|Informes LaTeX]] · [[../09_DOCUMENTATION/Submission_Checklist|Lista de envío]]
 
-> [!example] AI Agents — violet
-> [[../17_AI_AGENTS/README|AI Agents]] · [[../17_AI_AGENTS/00_AGENT_RULES/AGENT_README|Agent Rules]] · [[../17_AI_AGENTS/04_AGENT_LOGS/Agent_Run_Log|Run Log]]
+> [!example] Agentes de IA — violeta
+> [[../17_AI_AGENTS/README|Agentes de IA]] · [[../17_AI_AGENTS/00_AGENT_RULES/AGENT_README|Reglas de agentes]] · [[../17_AI_AGENTS/04_AGENT_LOGS/Agent_Run_Log|Registro de ejecuciones]]
 
-> [!warning] Deliverables — gold
-> [[../18_DELIVERABLES/README|Deliverables]] · [[../18_DELIVERABLES/Deliverables_Index|Deliverables Index]] · [[Heatmap_Deliverables_Status|Deliverables Heatmap]]
+> [!warning] Entregables — dorado
+> [[../18_DELIVERABLES/README|Entregables]] · [[../18_DELIVERABLES/Deliverables_Index|Índice de entregables]] · [[Heatmap_Deliverables_Status|Mapa de entregables]]
 
-## Historical material
+## Material histórico
 
-Gray or muted historical folders are context, not the current baseline. Confirm the canonical path in [[../00_PROJECT_CONTROL/CANONICAL_PATHS|Canonical Paths]] before reusing content.
+Las carpetas históricas grises o atenuadas sirven como contexto, no como línea base actual. Confirme la ruta canónica en [[../00_PROJECT_CONTROL/CANONICAL_PATHS|Rutas canónicas]] antes de reutilizar contenido.
 
-## Navigation and capture setup
+## Configuración de navegación y captura
 
-| Need | Guide |
+| Necesidad | Guía |
 |---|---|
-| Google Calendar / local events | [[../00_PROJECT_CONTROL/GOOGLE_CALENDAR_INTEGRATION|Google Calendar Integration]] |
-| Graph groups and traceability view | [[../00_PROJECT_CONTROL/GRAPH_VIEW_SETUP|Graph View Setup]] |
-| Fast note creation and capture | [[../00_PROJECT_CONTROL/QUICKADD_SETUP|QuickAdd Setup]] |
-| Daily note destination | [[../00_PROJECT_CONTROL/OBSIDIAN_DAILY_NOTES_SETUP|Daily Notes Setup]] |
-| Startup homepage | [[../00_PROJECT_CONTROL/HOMEPAGE_SETUP|Homepage Setup]] |
-| Database-like views | [[../00_PROJECT_CONTROL/BASES_SETUP|Bases Setup]] |
+| Google Calendar / eventos locales | [[../00_PROJECT_CONTROL/GOOGLE_CALENDAR_INTEGRATION|Integración con Google Calendar]] |
+| Grupos del grafo y trazabilidad | [[../00_PROJECT_CONTROL/GRAPH_VIEW_SETUP|Configurar vista de grafo]] |
+| Creación y captura rápida | [[../00_PROJECT_CONTROL/QUICKADD_SETUP|Configurar QuickAdd]] |
+| Destino de notas diarias | [[../00_PROJECT_CONTROL/OBSIDIAN_DAILY_NOTES_SETUP|Configurar notas diarias]] |
+| Página inicial | [[../00_PROJECT_CONTROL/HOMEPAGE_SETUP|Configurar página de inicio]] |
+| Vistas tipo base de datos | [[../00_PROJECT_CONTROL/BASES_SETUP|Configurar Bases]] |

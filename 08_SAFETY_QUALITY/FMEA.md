@@ -1,7 +1,7 @@
 # FMEA
 
-| Item/function | Failure mode | Effect | Cause | Severity | Occurrence | Detection | RPN | Control/action | Owner | Status |
+| Elemento/función | Modo de falla | Efecto | Causa | Severidad | Ocurrencia | Detección | RPN | Control/acción | Responsable | Estado |
 |---|---|---|---|---:|---:|---:|---:|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | open |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | open |
 
-Definir escalas antes de puntuar y enlazar riesgos/hazards relacionados.
+Defina escalas antes de puntuar y enlace riesgos o peligros relacionados.

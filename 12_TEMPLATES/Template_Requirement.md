@@ -11,19 +11,19 @@ linked_interfaces:
 last_review:
 ---
 
-# REQ-000 - Requirement Title
+# REQ-000 — Título del requisito
 
-## Requirement Statement
+## Enunciado del requisito
 The rover shall ...
 
-## Rationale
+## Justificación
 
-## Source
+## Fuente
 
-## Acceptance Criteria
+## Criterios de aceptación
 
-## Verification Method
+## Método de verificación
 
-## Linked Evidence
+## Evidencia vinculada
 
-## Notes
+## Notas

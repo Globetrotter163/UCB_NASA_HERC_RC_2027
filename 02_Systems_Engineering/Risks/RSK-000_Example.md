@@ -11,19 +11,19 @@ affected_subsystems:
 mitigation: example_only
 ---
 
-# RSK-000 — Example Risk
+# RSK-000 — Riesgo de ejemplo
 
-> [!warning] Example only
+> [!warning] Solo ejemplo
 > No representa un riesgo real ni una aceptación de riesgo.
 
-## Risk Statement
+## Enunciado del riesgo
 
-If this example were treated as real data, then dashboards could be misleading, causing an invalid project status.
+Si este ejemplo se tratara como dato real, los paneles podrían resultar engañosos y producir un estado de proyecto inválido.
 
-## Mitigation
+## Mitigación
 
-Exclude `status: example` from operational queries.
+Excluir `status: example` de las consultas operativas.
 
-## Current Status
+## Estado actual
 
-Example only.
+Solo ejemplo.

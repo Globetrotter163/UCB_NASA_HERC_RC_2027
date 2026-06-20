@@ -1,5 +1,5 @@
-# Payload Testing
+# Pruebas de cargas
 
-| Test ID | Payload | Requirement | Environment | Success criterion | Data | Owner | Status |
+| ID de prueba | Carga | Requisito | Entorno | Criterio de éxito | Datos | Responsable | Estado |
 |---|---|---|---|---|---|---|---|
-| TST-000 | TBD | REQ-000 | TBD | TBD | TBD | TBD | planned |
+| TST-000 | Por definir | REQ-000 | Por definir | Por definir | Por definir | Por definir | planned |

@@ -1,11 +1,11 @@
-# Software Architecture
+# Arquitectura de software
 
-## Components
+## Componentes
 
-| Component | Responsibility | Runs on | Inputs | Outputs | Failure behavior |
+| Componente | Responsabilidad | Se ejecuta en | Entradas | Salidas | Comportamiento ante falla |
 |---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
 
 ## Interfaces
 
-Authoritative protocol IDs and ownership belong in the ICD and `13_SOFTWARE/config/`.
+Los ID de protocolo y responsables autoritativos pertenecen al ICD y a `13_SOFTWARE/config/`.

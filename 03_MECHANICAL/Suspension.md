@@ -1,8 +1,8 @@
-# Suspension
+# Suspensión
 
-Document kinematics, travel, stiffness/damping assumptions, articulation, load cases and obstacle test criteria.
+Documente cinemática, recorrido, supuestos de rigidez y amortiguamiento, articulación, casos de carga y criterios de prueba de obstáculos.
 
-| Parameter | Target | Actual | Evidence |
+| Parámetro | Objetivo | Actual | Evidencia |
 |---|---:|---:|---|
-| Travel | TBD | TBD | TBD |
-| Ground clearance | TBD | TBD | TBD |
+| Recorrido | Por definir | Por definir | Por definir |
+| Distancia al suelo | Por definir | Por definir | Por definir |

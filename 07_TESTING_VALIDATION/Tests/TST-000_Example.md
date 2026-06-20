@@ -12,23 +12,23 @@ configuration: BL-000
 result: not_run
 ---
 
-# TST-000 — Example Test
+# TST-000 — Prueba de ejemplo
 
-> [!warning] Example only
+> [!warning] Solo ejemplo
 > No se ejecutó esta prueba y no existe resultado técnico.
 
-## Objective
+## Objetivo
 
-Validate Dataview fields only.
+Validar únicamente los campos de Dataview.
 
-## Success Criteria
+## Criterios de éxito
 
-The note is discoverable in a diagnostic query and excluded from operational status.
+La nota aparece en una consulta de diagnóstico y se excluye del estado operativo.
 
-## Raw Data
+## Datos crudos
 
-None.
+Ninguno.
 
-## Results
+## Resultados
 
-Not run.
+No ejecutada.

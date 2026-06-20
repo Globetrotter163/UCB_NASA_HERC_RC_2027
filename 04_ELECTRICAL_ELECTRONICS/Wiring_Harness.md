@@ -1,7 +1,7 @@
-# Wiring Harness
+# Arnés de cableado
 
-| Harness ID | From | To | Connector | Pinout | Wire gauge | Protection | Drawing | Status |
+| ID del arnés | Desde | Hasta | Conector | Mapa de pines | Calibre | Protección | Plano | Estado |
 |---|---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | draft |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | draft |
 
-Canonical pin mappings should also be reflected in `13_SOFTWARE/config/pinout.yaml`.
+Los mapas de pines canónicos también deben reflejarse en `13_SOFTWARE/config/pinout.yaml`.

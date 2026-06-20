@@ -1,9 +1,9 @@
-# Battery Safety
+# Seguridad de baterías
 
-Document approved chemistry, charging area, charger settings, inspection, storage SOC, transport, damaged-pack isolation, fire response and disposal.
+Documente química aprobada, zona de carga, ajustes del cargador, inspección, estado de carga para almacenamiento, transporte, aislamiento de paquetes dañados, respuesta ante incendio y disposición final.
 
-| Check | Requirement | Owner | Evidence | Status |
+| Verificación | Requisito | Responsable | Evidencia | Estado |
 |---|---|---|---|---|
-| Charger compatibility | TBD | TBD | TBD | open |
-| Current/fuse protection | TBD | TBD | TBD | open |
-| Enclosure/retention | TBD | TBD | TBD | open |
+| Compatibilidad del cargador | Por definir | Por definir | Por definir | open |
+| Protección de corriente/fusible | Por definir | Por definir | Por definir | open |
+| Carcasa/retención | Por definir | Por definir | Por definir | open |

@@ -1,7 +1,7 @@
-# Air Sampling
+# Muestreo de aire
 
-Document measurement principle, range, calibration, airflow, environmental assumptions, sequence, data schema and evidence.
+Documente principio de medición, rango, calibración, flujo de aire, supuestos ambientales, secuencia, esquema de datos y evidencia.
 
-| Sensor | Range | Accuracy | Calibration | Interface | Status |
+| Sensor | Rango | Precisión | Calibración | Interfaz | Estado |
 |---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | ICD-000 | proposed |
+| Por definir | Por definir | Por definir | Por definir | ICD-000 | proposed |

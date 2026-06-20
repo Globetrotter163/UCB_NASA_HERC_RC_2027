@@ -1,5 +1,5 @@
-# Known Bugs
+# Errores conocidos
 
-| Bug ID | Summary | Component/version | Severity | Reproduction | Workaround | Owner | Linked test/failure | Status |
+| ID del error | Resumen | Componente/versión | Severidad | Reproducción | Solución temporal | Responsable | Prueba/falla enlazada | Estado |
 |---|---|---|---|---|---|---|---|---|
-| BUG-000 | TBD | TBD | TBD | TBD | TBD | TBD | FR-000 | open |
+| BUG-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | FR-000 | open |

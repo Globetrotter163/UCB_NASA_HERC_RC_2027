@@ -1,19 +1,19 @@
-# Quality Checklists
+# Listas de calidad
 
-## Pre-release
+## Antes de liberar
 
-- [ ] Correct revision and owner.
-- [ ] Requirements/interfaces linked.
-- [ ] Dimensions/units checked.
-- [ ] Independent review recorded.
-- [ ] Evidence location accessible.
-- [ ] Open deviations documented.
-- [ ] CAD/software/document baseline mapped.
+- [ ] Revisión y responsable correctos.
+- [ ] Requisitos e interfaces enlazados.
+- [ ] Dimensiones y unidades verificadas.
+- [ ] Revisión independiente registrada.
+- [ ] Ubicación de evidencia accesible.
+- [ ] Desviaciones abiertas documentadas.
+- [ ] Línea base de CAD, software y documentos mapeada.
 
-## Pre-test
+## Antes de probar
 
-- [ ] Approved procedure and success criteria.
-- [ ] Configuration identified.
-- [ ] Safety review complete.
-- [ ] Instrument calibration valid.
-- [ ] Data paths and timestamps verified.
+- [ ] Procedimiento y criterios de éxito aprobados.
+- [ ] Configuración identificada.
+- [ ] Revisión de seguridad completa.
+- [ ] Calibración de instrumentos válida.
+- [ ] Rutas de datos y marcas de tiempo verificadas.

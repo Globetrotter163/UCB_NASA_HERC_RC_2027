@@ -3,10 +3,10 @@ type: risk_register
 status: active
 ---
 
-# Risk Register
+# Registro de riesgos
 
-| ID | Risk statement | Probability | Impact | Severity | Owner | Mitigation | Trigger | Verification | Status |
+| ID | Enunciado del riesgo | Probabilidad | Impacto | Severidad | Responsable | Mitigación | Disparador | Verificación | Estado |
 |---|---|---:|---:|---:|---|---|---|---|---|
-| RSK-000 | If ..., then ..., causing ... | TBD | TBD | TBD | TBD | TBD | TBD | TBD | open |
+| RSK-000 | Si..., entonces..., causando... | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | open |
 
 Seguridad de personas y laboratorio se registra también en `08_SAFETY_QUALITY/Hazard_Log.md`.

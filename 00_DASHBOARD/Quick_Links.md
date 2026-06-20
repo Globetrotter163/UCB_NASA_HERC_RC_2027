@@ -1,4 +1,4 @@
-# Quick Links
+# Enlaces rápidos
 
 | Tema | Enlace |
 |---|---|

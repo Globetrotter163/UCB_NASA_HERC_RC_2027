@@ -1,7 +1,7 @@
-# RC Link
+# Enlace de control remoto
 
-Document architecture, frequency/protocol, range assumptions, pairing, command mapping, latency, loss detection and safe-state behavior.
+Documente arquitectura, frecuencia/protocolo, supuestos de alcance, emparejamiento, mapeo de comandos, latencia, detección de pérdida y comportamiento de estado seguro.
 
-| Requirement | Criterion | Test | Evidence | Status |
+| Requisito | Criterio | Prueba | Evidencia | Estado |
 |---|---|---|---|---|
-| Link loss response | TBD | TST-000 | TBD | planned |
+| Respuesta ante pérdida de enlace | Por definir | TST-000 | Por definir | planned |

@@ -1,5 +1,5 @@
-# Social Media Calendar
+# Calendario de redes sociales
 
-| Date | Platform | Topic | Asset owner | Technical reviewer | Approval | Link | Status |
+| Fecha | Plataforma | Tema | Responsable del recurso | Revisor técnico | Aprobación | Enlace | Estado |
 |---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | pending | TBD | draft |
+| Por definir | Por definir | Por definir | Por definir | Por definir | pending | Por definir | draft |

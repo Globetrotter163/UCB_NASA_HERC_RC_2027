@@ -1,5 +1,5 @@
-# Sensors
+# Sensores
 
-| Sensor ID | Measurement | Range | Interface | Rate | Calibration | Location | Owner | Status |
+| ID del sensor | Medición | Rango | Interfaz | Frecuencia | Calibración | Ubicación | Responsable | Estado |
 |---|---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | proposed |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | proposed |

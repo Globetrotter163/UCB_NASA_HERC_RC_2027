@@ -3,63 +3,63 @@ type: onboarding
 status: active
 ---
 
-# Team Onboarding Map
+# Mapa de incorporación del equipo
 
-## Start in 15 minutes
+## Comience en 15 minutos
 
-1. Open [[Command_Center]].
-2. Read [[../00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Source of Truth]].
-3. Find your area below.
-4. Read its README and current dashboard.
-5. Ask your lead before changing an official register.
+1. Abra [[Command_Center]].
+2. Lea [[../00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Mapa de fuentes de verdad]].
+3. Encuentre su área en la tabla inferior.
+4. Lea su README y el panel vigente.
+5. Consulte a su líder antes de cambiar un registro oficial.
 
-## 30-minute onboarding route
+## Ruta de incorporación de 30 minutos
 
-| Minutes | Action | Outcome |
+| Minutos | Acción | Resultado |
 |---:|---|---|
-| 0–5 | Open [[Command_Center]] and [[Visual_Navigation]] | Understand the workspace map |
-| 5–10 | Read [[../00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Source of Truth]] and `AGENTS.md` | Know authority boundaries |
-| 10–15 | Open your area README and find your lead below | Know where your work belongs |
-| 15–20 | Review [[Project_Dashboard]] and [[Team_Calendar]] | Understand current operational state |
-| 20–25 | Inspect the template for your most common action | Learn the expected metadata |
-| 25–30 | Create an example or ask your lead to review your first note | Validate the workflow safely |
+| 0–5 | Abra [[Command_Center]] y [[Visual_Navigation]] | Comprender el mapa del workspace |
+| 5–10 | Lea [[../00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Mapa de fuentes de verdad]] y `AGENTS.md` | Conocer los límites de autoridad |
+| 10–15 | Abra el README de su área y encuentre a su líder | Saber dónde pertenece su trabajo |
+| 15–20 | Revise [[Project_Dashboard]] y [[Team_Calendar]] | Comprender el estado operativo actual |
+| 20–25 | Inspeccione la plantilla de su acción más frecuente | Aprender los metadatos esperados |
+| 25–30 | Cree un ejemplo o pida revisión de su primera nota | Validar el flujo de forma segura |
 
-Do not create a real technical object only to practice. Use `status: example` or work with your lead.
+No cree un objeto técnico real solo para practicar. Use `status: example` o trabaje con su líder.
 
 ## Cómo leer los colores del vault
 
-- Color = technical area or document family.
-- Color ≠ priority, approval, severity or progress.
-- Red folders are electrical/safety domains; they are not automatically “in danger.”
-- Gold means release/deliverable material, not “approved.”
-- Gray means historical/archive or neutral project control.
-- Nested files use a quieter tint of their root folder.
-- If colors disappear, navigation and documents still work normally.
+- Color = área técnica o familia documental.
+- Color ≠ prioridad, aprobación, severidad ni avance.
+- Las carpetas rojas son dominios eléctricos o de seguridad; no significan automáticamente “en peligro”.
+- Dorado significa material de versión o entregable, no “aprobado”.
+- Gris significa archivo, material histórico o control neutral del proyecto.
+- Los archivos anidados usan un tono más discreto que su carpeta raíz.
+- Si los colores desaparecen, la navegación y los documentos continúan funcionando.
 
-## Quick technical routes
+## Rutas técnicas rápidas
 
-| You work on… | Color | Start here | Lead |
+| Trabaja en… | Color | Empiece aquí | Líder |
 |---|---|---|---|
-| Requirements / systems | Yellow / purple | [[../01_Requirements/README|Requirements]] · [[../02_Systems_Engineering/README|Systems]] | Alan Gonzales |
-| Mechanical / CAD | Orange | [[../03_MECHANICAL/README|Mechanical]] · [[../15_CAD_DRIVE_LINKS/CAD_Index|CAD Index]] | Israel Silva |
-| Electrical | Red | [[../04_ELECTRICAL_ELECTRONICS/README|Electrical]] | Slevana |
-| Software / control | Green | [[../05_SOFTWARE_CONTROL/README|Software Memory]] · [[../13_SOFTWARE/README|Repository]] | Jhoe Marin |
-| Payloads | Cyan | [[../06_TASK_PAYLOADS/README|Task Payloads]] | Jamie Oliver |
-| Testing / evidence | Lime | [[../07_TESTING_VALIDATION/README|Testing]] · [[../16_TEST_DATA/00_TEST_INDEX|Test Data]] | Pops Racer |
-| Safety / quality | Dark red | [[../08_SAFETY_QUALITY/README|Safety]] | Jon Doe |
-| Documentation / deliverables | Light blue / gold | [[../09_DOCUMENTATION/README|Documentation]] · [[../18_DELIVERABLES/README|Deliverables]] | Manuel |
+| Requisitos / sistemas | Amarillo / morado | [[../01_Requirements/README|Requisitos]] · [[../02_Systems_Engineering/README|Sistemas]] | Alan Gonzales |
+| Mecánica / CAD | Naranja | [[../03_MECHANICAL/README|Mecánica]] · [[../15_CAD_DRIVE_LINKS/CAD_Index|Índice CAD]] | Israel Silva |
+| Eléctrica | Rojo | [[../04_ELECTRICAL_ELECTRONICS/README|Eléctrica]] | Slevana |
+| Software / control | Verde | [[../05_SOFTWARE_CONTROL/README|Memoria de software]] · [[../13_SOFTWARE/README|Repositorio]] | Jhoe Marin |
+| Cargas | Cian | [[../06_TASK_PAYLOADS/README|Cargas de misión]] | Jamie Oliver |
+| Pruebas / evidencia | Verde lima | [[../07_TESTING_VALIDATION/README|Pruebas]] · [[../16_TEST_DATA/00_TEST_INDEX|Datos de prueba]] | Pops Racer |
+| Seguridad / calidad | Rojo oscuro | [[../08_SAFETY_QUALITY/README|Seguridad]] | Jon Doe |
+| Documentación / entregables | Azul claro / dorado | [[../09_DOCUMENTATION/README|Documentación]] · [[../18_DELIVERABLES/README|Entregables]] | Manuel |
 
-## Visual checklist for new members
+## Lista visual para miembros nuevos
 
-- [ ] I can identify my root folder by color and name.
-- [ ] I know color does not replace `status`, owner or evidence.
-- [ ] I read `AGENTS.md` before using an AI agent.
-- [ ] I know Discord is coordination, not the source of truth.
-- [ ] I know where decisions, interfaces, risks and tests live.
-- [ ] I know CAD masters live in Drive and are indexed here.
-- [ ] I know not to edit `.obsidian/` configuration.
-- [ ] I know whom to ask before changing an official register.
+- [ ] Puedo identificar mi carpeta raíz por color y nombre.
+- [ ] Sé que el color no reemplaza `status`, responsable ni evidencia.
+- [ ] Leí `AGENTS.md` antes de usar un agente de IA.
+- [ ] Sé que Discord sirve para coordinar, no es la fuente de verdad.
+- [ ] Sé dónde viven decisiones, interfaces, riesgos y pruebas.
+- [ ] Sé que los archivos maestros CAD viven en Drive y aquí solo se indexan.
+- [ ] Sé que no debo editar la configuración de `.obsidian/`.
+- [ ] Sé a quién consultar antes de cambiar un registro oficial.
 
-## Need orientation?
+## ¿Necesita orientación?
 
-Open [[Visual_Navigation]] for the full legend, [[NASA_SE_Process_Map]] for process orientation and [[../00_PROJECT_CONTROL/VISUAL_STYLE_GUIDE|Visual Style Guide]] for exact colors and rules.
+Abra [[Visual_Navigation]] para la leyenda completa, [[NASA_SE_Process_Map]] para orientarse por proceso y [[../00_PROJECT_CONTROL/VISUAL_STYLE_GUIDE|Guía de estilo visual]] para conocer colores y reglas exactas.

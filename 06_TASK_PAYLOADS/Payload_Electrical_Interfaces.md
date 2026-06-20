@@ -1,5 +1,5 @@
-# Payload Electrical Interfaces
+# Interfaces eléctricas de cargas
 
-| Payload | Voltage/current | Connector/pins | Signals/bus | Protection | Power state | ICD | Owner |
+| Carga | Tensión/corriente | Conector/pines | Señales/bus | Protección | Estado de potencia | ICD | Responsable |
 |---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | ICD-000 | TBD |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | ICD-000 | Por definir |

@@ -1,7 +1,7 @@
-# Power System
+# Sistema de potencia
 
-| Rail | Nominal V | Min/Max V | Peak A | Continuous A | Protection | Loads | Owner |
+| Riel | V nominal | V mín./máx. | A pico | A continuos | Protección | Cargas | Responsable |
 |---|---:|---|---:|---:|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
 
-Include power budget, grounding, distribution, isolation, fusing and emergency shutdown.
+Incluya presupuesto de potencia, puesta a tierra, distribución, aislamiento, fusibles y apagado de emergencia.

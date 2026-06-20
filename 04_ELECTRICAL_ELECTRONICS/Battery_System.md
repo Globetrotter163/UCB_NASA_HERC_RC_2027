@@ -1,11 +1,11 @@
-# Battery System
+# Sistema de baterías
 
-Document chemistry, configuration, BMS, connectors, enclosure, charging, storage, transport and operating limits.
+Documente química, configuración, BMS, conectores, carcasa, carga, almacenamiento, transporte y límites operativos.
 
-| Parameter | Value | Unit | Source |
+| Parámetro | Valor | Unidad | Fuente |
 |---|---:|---|---|
-| Nominal voltage | TBD | V | TBD |
-| Capacity | TBD | Ah | TBD |
-| Max continuous current | TBD | A | TBD |
+| Tensión nominal | Por definir | V | Por definir |
+| Capacidad | Por definir | Ah | Por definir |
+| Corriente continua máxima | Por definir | A | Por definir |
 
-Safety controls belong in `08_SAFETY_QUALITY/Battery_Safety.md`.
+Los controles de seguridad pertenecen a `08_SAFETY_QUALITY/Battery_Safety.md`.
