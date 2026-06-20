@@ -1,10 +1,10 @@
-# Engineering Rules
+# Reglas de ingeniería
 
-- Every test connects to a requirement or explicitly explains why not.
-- Every interface has owners on both sides and a verification method.
-- Every decision has evidence, alternatives and impact analysis.
-- Every risk has an owner and mitigation or explicit justification.
-- Every cross-area change passes through the ICD, Decision Log or both.
-- Configuration-dependent evidence identifies hardware, software and CAD revisions.
-- Raw test data remains immutable; analyses are derived artifacts.
-- Conflicting sources become an open question, not a silent choice.
+- Toda prueba se conecta con un requisito o explica explícitamente por qué no.
+- Toda interfaz tiene responsables de ambos lados y método de verificación.
+- Toda decisión tiene evidencia, alternativas y análisis de impacto.
+- Todo riesgo tiene responsable y mitigación o justificación explícita.
+- Todo cambio entre áreas pasa por el ICD, el registro de decisiones o ambos.
+- La evidencia dependiente de configuración identifica revisiones de hardware, software y CAD.
+- Los datos crudos de prueba permanecen inmutables; los análisis son artefactos derivados.
+- Las fuentes contradictorias se convierten en una pregunta abierta, no en una elección silenciosa.

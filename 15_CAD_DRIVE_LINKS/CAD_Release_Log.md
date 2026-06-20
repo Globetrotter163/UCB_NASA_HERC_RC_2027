@@ -1,5 +1,5 @@
-# CAD Release Log
+# Registro de versiones CAD
 
-| Date | Release | File/assembly | Revision | Change/decision | Reviewer | Exported formats | Baseline |
+| Fecha | Versión | Archivo/ensamble | Revisión | Cambio/decisión | Revisor | Formatos exportados | Línea base |
 |---|---|---|---|---|---|---|---|
-| TBD | CAD-R0 | TBD | TBD | DEC-000 | TBD | TBD | BL-000 |
+| Por definir | CAD-R0 | Por definir | Por definir | DEC-000 | Por definir | Por definir | BL-000 |

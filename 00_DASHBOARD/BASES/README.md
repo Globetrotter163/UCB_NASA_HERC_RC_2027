@@ -1,18 +1,18 @@
 # Bases
 
-Save UI-created Obsidian `.base` files here.
+Guarde aquí los archivos `.base` creados desde la interfaz de Obsidian.
 
-Planned views:
+Vistas planificadas:
 
-- Requirements
-- Decisions
+- Requisitos
+- Decisiones
 - Interfaces
-- Risks
-- Tests
-- Failures
-- Deliverables
-- Tasks
+- Riesgos
+- Pruebas
+- Fallas
+- Entregables
+- Tareas
 
-Setup and filters: [[../../00_PROJECT_CONTROL/BASES_SETUP|Bases Setup]].
+Configuración y filtros: [[../../00_PROJECT_CONTROL/BASES_SETUP|Configuración de Bases]].
 
-No handwritten `.base` draft was created during friction polish v0.1.
+No se creó manualmente ningún borrador `.base` durante la mejora de fricción v0.1.

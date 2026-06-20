@@ -1,15 +1,15 @@
-# HERC Context Pack
+# Paquete de contexto HERC
 
-## Verified context
+## Contexto verificado
 
 - NASA Human Exploration Rover Challenge.
-- 2027 project, Remote-Controlled Rover division.
-- University team: Universidad Católica Boliviana San Pablo, Sede La Paz.
+- Proyecto 2027, división Remote-Controlled Rover.
+- Equipo universitario: Universidad Católica Boliviana San Pablo, Sede La Paz.
 
-## Required before rule-based work
+## Requerido antes de trabajar con reglas
 
-- Verified official 2027 handbook/rules URL or file.
-- Document version/date and applicable division.
-- Competition deadlines and required deliverables.
+- URL o archivo verificado del manual o reglas oficiales 2027.
+- Versión o fecha del documento y división aplicable.
+- Fechas límite y entregables requeridos por la competencia.
 
-The 2026 handbook in `08_ARCHIVE/` is historical only.
+El manual 2026 en `08_ARCHIVE/` es solo histórico.

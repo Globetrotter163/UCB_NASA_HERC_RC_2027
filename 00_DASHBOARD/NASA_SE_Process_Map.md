@@ -5,11 +5,11 @@ status: orientation_only
 
 # Mapa del proceso de ingeniería de sistemas
 
-Orientación del workspace inspirada en las tres grandes familias de procesos de ingeniería de sistemas de NASA. Este mapa no evalúa cumplimiento ni reemplaza el manual vigente de NASA.
+Orientación del espacio de trabajo inspirada en las tres grandes familias de procesos de ingeniería de sistemas de NASA. Este mapa no evalúa cumplimiento ni reemplaza el manual vigente de NASA.
 
 ## Diseño del sistema
 
-| Actividad del workspace | Empiece aquí | Áreas de apoyo |
+| Actividad del espacio de trabajo | Empiece aquí | Áreas de apoyo |
 |---|---|---|
 | Comprender el contexto de misión e interesados | [[../02_Systems_Engineering/ConOps|ConOps]] | [[../01_Requirements/HERC_REQUIREMENTS|Requisitos HERC]] |
 | Definir requisitos técnicos | [[../01_Requirements/README|Requisitos]] | [[../01_Requirements/Requirements_Traceability_Matrix|Matriz de trazabilidad]] |
@@ -19,7 +19,7 @@ Orientación del workspace inspirada en las tres grandes familias de procesos de
 
 ## Realización del producto
 
-| Actividad del workspace | Empiece aquí | Áreas de apoyo |
+| Actividad del espacio de trabajo | Empiece aquí | Áreas de apoyo |
 |---|---|---|
 | Implementar productos | [[../03_MECHANICAL/README|Mecánica]] · [[../04_ELECTRICAL_ELECTRONICS/README|Eléctrica]] · [[../13_SOFTWARE/README|Software]] | [[../06_TASK_PAYLOADS/README|Cargas]] |
 | Integrar subsistemas | [[../02_Systems_Engineering/Interface_Control_Document|ICD]] | [[../11_MEETINGS/Meeting_Index|Índice de revisiones de integración]] |
@@ -29,7 +29,7 @@ Orientación del workspace inspirada en las tres grandes familias de procesos de
 
 ## Gestión técnica
 
-| Actividad del workspace | Empiece aquí | Áreas de apoyo |
+| Actividad del espacio de trabajo | Empiece aquí | Áreas de apoyo |
 |---|---|---|
 | Planificar y controlar | [[../00_PROJECT_CONTROL/README|Control del proyecto]] | [[Team_Calendar|Calendario del equipo]] |
 | Gestionar requisitos | [[../01_Requirements/Requirement_Change_Log|Cambios de requisitos]] | [[../01_Requirements/Requirements_Traceability_Matrix|Matriz de trazabilidad]] |
@@ -48,4 +48,4 @@ Orientación del workspace inspirada en las tres grandes familias de procesos de
 4. Enlace evidencia y solicite revisión humana.
 
 > [!warning] Solo orientación
-> Esta página relaciona ubicaciones del workspace. No declara cumplimiento NASA, preparación ni finalización de procesos.
+> Esta página relaciona ubicaciones del espacio de trabajo. No declara cumplimiento NASA, preparación ni finalización de procesos.

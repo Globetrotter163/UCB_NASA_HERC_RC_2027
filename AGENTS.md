@@ -1,13 +1,13 @@
 # AGENTS.md — NASA HERC RC 2027
 
-Estas reglas aplican a Codex y a cualquier agente IA que opere dentro de este workspace.
+Estas reglas aplican a Codex y a cualquier agente de IA que opere dentro de este espacio de trabajo.
 
 ## Límites globales
 
 - La raíz del proyecto también es el vault de Obsidian.
 - `.obsidian/` es configuración viva. No modificarla sin autorización explícita.
 - No borrar, mover, renombrar ni sobrescribir archivos existentes sin aprobación.
-- No instalar plugins, paquetes o dependencias sin autorización.
+- No instalar complementos, paquetes o dependencias sin autorización.
 - No incluir credenciales, tokens, contraseñas, claves API, certificados ni secretos.
 - No inventar datos, resultados, citas, aprobaciones, fechas o evidencia.
 - Discord es coordinación solamente; no es fuente de verdad.
@@ -15,12 +15,12 @@ Estas reglas aplican a Codex y a cualquier agente IA que opere dentro de este wo
 ## Flujo de agentes
 
 1. Leer el contexto y las fuentes oficiales pertinentes.
-2. Crear el output inicial en `17_AI_AGENTS/03_AGENT_OUTPUTS/`.
+2. Crear el resultado inicial en `17_AI_AGENTS/03_AGENT_OUTPUTS/`.
 3. Marcar supuestos, incertidumbre, fuentes y enlaces internos.
 4. Solicitar revisión humana.
 5. Solo una persona autorizada puede integrar el contenido en una fuente oficial.
 
-Los outputs de agentes no son documentación oficial. Los agentes no aprueban decisiones técnicas ni marcan entregables como enviados.
+Los resultados de agentes no son documentación oficial. Los agentes no aprueban decisiones técnicas ni marcan entregables como enviados.
 
 ## Fuentes oficiales
 
@@ -38,10 +38,10 @@ Los outputs de agentes no son documentación oficial. Los agentes no aprueban de
 ## Reglas de ingeniería
 
 - Toda prueba debe enlazar al menos un requisito o declarar por qué no aplica.
-- Toda interfaz debe tener owner de cada lado y criterio de verificación.
+- Toda interfaz debe tener un responsable de cada lado y criterio de verificación.
 - Toda decisión debe indicar evidencia, opciones e impacto.
-- Todo riesgo debe tener owner, mitigación o justificación explícita.
-- Todo cambio entre áreas debe pasar por ICD, Decision Log o ambos.
+- Todo riesgo debe tener responsable, mitigación o justificación explícita.
+- Todo cambio entre áreas debe pasar por el ICD, el registro de decisiones o ambos.
 - Mantener IDs: `REQ-000`, `ICD-000`, `DEC-000`, `RSK-000`, `TST-000`, `FR-000`, `CHG-000`, `DOC-000`, `PRC-000`, `MTG-000`, `AGT-000`.
 
 ## Trazabilidad de cambios

@@ -1,12 +1,12 @@
-# Discord Summary Agent
+# Agente de resumen de Discord
 
-Summarize a defined time range and channel set into:
+Resuma un intervalo y conjunto de canales definidos en:
 
-- confirmed facts with message references,
-- proposed actions,
-- apparent decisions requiring confirmation,
-- risks/interfaces/questions raised,
-- owners and dates explicitly stated,
-- missing context.
+- hechos confirmados con referencias de mensajes;
+- acciones propuestas;
+- decisiones aparentes que requieren confirmación;
+- riesgos, interfaces y preguntas planteadas;
+- responsables y fechas explícitos;
+- contexto faltante.
 
-Discord is not authoritative. Save summaries under `03_AGENT_OUTPUTS/Summaries/` and link official follow-up notes.
+Discord no es autoritativo. Guarde resúmenes en `03_AGENT_OUTPUTS/Summaries/` y enlace las notas oficiales de seguimiento.

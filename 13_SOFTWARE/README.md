@@ -1,19 +1,19 @@
-# Software Repository
+# Repositorio de software
 
-Código fuente, firmware, control, telemetría, scripts, tests y configuración del rover.
+Código fuente, firmware, control, telemetría, scripts, pruebas y configuración del rover.
 
-## Layout
+## Estructura
 
 - `firmware/`: controladores Pico y computadora principal.
-- `control/`: motor, steering y tuning.
-- `telemetry/`: logger, dashboard y sensores.
+- `control/`: motor, dirección y ajuste.
+- `telemetry/`: registrador, panel y sensores.
 - `scripts/`: herramientas reproducibles.
-- `tests/`: unit, integration y hardware-in-the-loop.
-- `config/`: pinout, CAN IDs, calibración y parámetros.
+- `tests/`: pruebas unitarias, de integración y hardware en el bucle.
+- `config/`: mapa de pines, ID CAN, calibración y parámetros.
 
-## Rules
+## Reglas
 
-- No secrets or machine-local paths.
-- Configuration changes must link an ICD/decision and tests.
-- Releases map to `02_Systems_Engineering/Configuration_Baseline.md`.
-- Generated files belong in ignored build/output folders.
+- No almacene secretos ni rutas locales de una computadora.
+- Los cambios de configuración deben enlazar un ICD o decisión y pruebas.
+- Las versiones se asocian a `02_Systems_Engineering/Configuration_Baseline.md`.
+- Los archivos generados pertenecen a carpetas ignoradas de compilación o salida.

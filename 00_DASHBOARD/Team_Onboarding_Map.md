@@ -17,7 +17,7 @@ status: active
 
 | Minutos | Acción | Resultado |
 |---:|---|---|
-| 0–5 | Abra [[Command_Center]] y [[Visual_Navigation]] | Comprender el mapa del workspace |
+| 0–5 | Abra [[Command_Center]] y [[Visual_Navigation]] | Comprender el mapa del espacio de trabajo |
 | 5–10 | Lea [[../00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Mapa de fuentes de verdad]] y `AGENTS.md` | Conocer los límites de autoridad |
 | 10–15 | Abra el README de su área y encuentre a su líder | Saber dónde pertenece su trabajo |
 | 15–20 | Revise [[Project_Dashboard]] y [[Team_Calendar]] | Comprender el estado operativo actual |

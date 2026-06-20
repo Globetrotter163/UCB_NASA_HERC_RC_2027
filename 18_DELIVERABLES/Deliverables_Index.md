@@ -1,7 +1,7 @@
-# Deliverables Index
+# Índice de entregables
 
-| ID | Deliverable | Due | Owner | Source path | Artifact path | Reviewers | Hash | Submitted at | Status |
+| ID | Entregable | Fecha límite | Responsable | Ruta fuente | Ruta del artefacto | Revisores | Hash | Fecha de envío | Estado |
 |---|---|---|---|---|---|---|---|---|---|
-| DOC-000 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | — | planned |
+| DOC-000 | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | — | planned |
 
-Only a human authorized by the team may populate `Submitted at` and set `status: submitted`.
+Solo una persona autorizada por el equipo puede completar la fecha de envío y establecer `status: submitted`.

@@ -1,5 +1,5 @@
-# CAD Lock Log
+# Registro de bloqueo CAD
 
-| Date/time | File/assembly | User | Action | Purpose | Expected release | Actual release | Notes |
+| Fecha/hora | Archivo/ensamble | Usuario | Acción | Propósito | Liberación prevista | Liberación real | Notas |
 |---|---|---|---|---|---|---|---|
-| TBD | TBD | TBD | lock | TBD | TBD | TBD | TBD |
+| Por definir | Por definir | Por definir | lock | Por definir | Por definir | Por definir | Por definir |

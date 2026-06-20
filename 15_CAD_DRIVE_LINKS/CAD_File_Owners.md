@@ -1,5 +1,5 @@
-# CAD File Owners
+# Responsables de archivos CAD
 
-| Assembly/file | Primary owner | Backup | Reviewers | Allowed editors | Notes |
+| Ensamble/archivo | Responsable principal | Suplente | Revisores | Editores autorizados | Notas |
 |---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD |
+| Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |

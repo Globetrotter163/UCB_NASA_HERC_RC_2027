@@ -1,5 +1,5 @@
-# Rover Architecture Context
+# Contexto de arquitectura del rover
 
-Authoritative architecture: `02_Systems_Engineering/System_Architecture.md`.
+Arquitectura autoritativa: `02_Systems_Engineering/System_Architecture.md`.
 
-Current bootstrap assumption only: rover includes mobility, power, compute/control, RC/communications, telemetry/sensing, payloads and operator/ground elements. Replace with reviewed architecture and ICD links; do not treat this statement as baseline.
+Supuesto exclusivo de la estructura inicial: el rover incluye movilidad, potencia, cómputo/control, RC/comunicaciones, telemetría/sensores, cargas y elementos de operación o tierra. Reemplácelo con arquitectura revisada y enlaces ICD; no trate este enunciado como línea base.

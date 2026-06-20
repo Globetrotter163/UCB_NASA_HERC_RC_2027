@@ -1,12 +1,12 @@
-# Deliverables
+# Entregables
 
-Controlled location for drafts, reviewed artifacts, submitted packages and obsolete/rejected packages.
+Ubicación controlada para borradores, artefactos revisados, paquetes enviados y paquetes obsoletos o rechazados.
 
-## States
+## Estados
 
-- `drafts/`: work products not approved.
-- `reviewed/`: human-reviewed, not necessarily final.
-- `submitted/`: frozen copy of an actually submitted package.
-- `rejected_or_obsolete/`: retained for traceability.
+- `drafts/`: productos de trabajo no aprobados.
+- `reviewed/`: revisados por una persona, no necesariamente finales.
+- `submitted/`: copia congelada de un paquete realmente enviado.
+- `rejected_or_obsolete/`: conservados por trazabilidad.
 
-Never put source-of-truth LaTeX here; source lives in `14_LATEX_REPORTS/`.
+Nunca coloque aquí la fuente autoritativa LaTeX; vive en `14_LATEX_REPORTS/`.

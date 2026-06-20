@@ -6,7 +6,7 @@ status: baseline
 
 # Repository Inventory
 
-Inspección no destructiva realizada el **2026-06-20** antes del bootstrap. No se inspeccionó ni modificó contenido binario.
+Inspección no destructiva realizada el **2026-06-20** antes de crear la estructura inicial. No se inspeccionó ni modificó contenido binario.
 
 ## Estado de la raíz detectado
 
@@ -71,20 +71,20 @@ Solo se detectó documentación en `04_SOFTWARE/Software.md`; no se identificaro
 
 ## Markdown detectado
 
-Se detectaron **23 archivos Markdown** antes del bootstrap. Ninguno fue movido ni sobrescrito. Las colisiones de nombre por mayúsculas/minúsculas en `01_Requirements/` y `02_Systems_Engineering/` se conservaron.
+Se detectaron **23 archivos Markdown** antes de la estructura inicial. Ninguno fue movido ni sobrescrito. Las colisiones de nombre por mayúsculas/minúsculas en `01_Requirements/` y `02_Systems_Engineering/` se conservaron.
 
 ## Estado de Obsidian
 
 - `.obsidian/`: detectado.
 - Archivos detectados bajo `.obsidian/`: 35.
-- Huella agregada SHA-256 previa al bootstrap: `FFAD0903D758E2BB03C6353AB6DE454B792AD4C59CB5A88D79276E6CFBDB5875`.
+- Huella agregada SHA-256 previa a la estructura inicial: `FFAD0903D758E2BB03C6353AB6DE454B792AD4C59CB5A88D79276E6CFBDB5875`.
 - Había cambios Git preexistentes en `.obsidian/app.json` y `.obsidian/workspace.json`.
-- Ningún comando del bootstrap escribió en `.obsidian/`.
+- Ningún comando de la estructura inicial escribió en `.obsidian/`.
 - Durante la validación, una aplicación externa activa (Obsidian y/o sincronización) autoactualizó archivos de estado, incluido `workspace.json`, al detectar las notas nuevas. Por seguridad no se revirtió ni editó esa configuración. Consulte `REVIEWS/BOOTSTRAP_VALIDATION_2026-06-20.md`.
 
-### Plugins detectados
+### Complementos detectados
 
-| Plugin | ID | Versión | Estado |
+| Complemento | ID | Versión | Estado |
 |---|---|---:|---|
 | Dataview | `dataview` | 0.5.68 | INSTALLED |
 | Heatmap Calendar | `heatmap-calendar` | 0.7.1 | INSTALLED |
@@ -95,4 +95,4 @@ Se detectaron **23 archivos Markdown** antes del bootstrap. Ninguno fue movido n
 
 ## Estado Git preexistente
 
-El repositorio ya estaba “dirty” antes del bootstrap: incluía modificaciones, eliminaciones y archivos no rastreados. En particular, Git mostraba eliminaciones bajo una estructura histórica `00_PROJECT/` y algunos archivos CAD. El bootstrap no restauró, movió ni eliminó esos elementos. Se requiere revisión humana antes de cualquier commit.
+El repositorio ya tenía cambios sin confirmar antes de la estructura inicial: incluía modificaciones, eliminaciones y archivos no rastreados. En particular, Git mostraba eliminaciones bajo una estructura histórica `00_PROJECT/` y algunos archivos CAD. La estructura inicial no restauró, movió ni eliminó esos elementos. Se requiere revisión humana antes de cualquier commit.

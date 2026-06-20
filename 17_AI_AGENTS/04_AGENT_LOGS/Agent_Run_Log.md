@@ -1,5 +1,5 @@
-# Agent Run Log
+# Registro de ejecuciones de agentes
 
-| Date/time | Run ID | Agent/prompt | Task ID | Inputs | Output | Model/tool | Reviewer | Result |
+| Fecha/hora | ID de ejecución | Agente/instrucción | ID de tarea | Entradas | Resultado | Modelo/herramienta | Revisor | Resultado final |
 |---|---|---|---|---|---|---|---|---|
-| TBD | RUN-000 | TBD | AGT-000 | TBD | TBD | TBD | TBD | pending |
+| Por definir | RUN-000 | Por definir | AGT-000 | Por definir | Por definir | Por definir | Por definir | pending |

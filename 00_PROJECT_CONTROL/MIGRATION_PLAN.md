@@ -5,7 +5,7 @@ status: proposed
 execution_authorized: false
 ---
 
-# Migration Plan
+# Plan de migración
 
 ## Alcance
 
@@ -15,13 +15,13 @@ Propuesta para armonizar la estructura histórica con el nuevo mapa del vault. *
 
 - Índices y minutas en `00_Index/`.
 - Requisitos ya existentes en `01_Requirements/`.
-- Systems Engineering existente con casing diferente al solicitado.
+- Ingeniería de sistemas existente con uso de mayúsculas diferente al solicitado.
 - Mecánica histórica y CAD pesado en `02_MECHANICAL/`.
 - Eléctrica histórica en `03_ELECTRICAL/`.
 - Software histórico en `04_SOFTWARE/`.
 - Pruebas históricas en `05_TESTING/`.
 - Renders/medios en `06_RENDERS/`.
-- Releases en `07_RELEASE/`.
+- Versiones en `07_RELEASE/`.
 - PDFs históricos en `08_ARCHIVE/`.
 - Cambios Git preexistentes y temporales de Google Drive.
 
@@ -35,9 +35,9 @@ Propuesta para armonizar la estructura histórica con el nuevo mapa del vault. *
 | `01_Requirements/HERC_REQUIREMENTS.md` | Mantener como fuente existente | HIGH | keep | Colisiona por casing con nombre solicitado |
 | `01_Requirements/DERIVED_REQUIREMENTS.md` | Mantener como fuente existente | HIGH | keep | Colisiona por casing con nombre solicitado |
 | `02_Systems_Engineering/` | Mantener ubicación actual | HIGH | keep | Windows trata el casing como la misma ruta |
-| `02_MECHANICAL/` notas técnicas | `03_MECHANICAL/` o enlaces desde allí | MEDIUM | review | Requiere owner y revisión de enlaces |
-| `02_MECHANICAL/` CAD master | Google Drive + índice en `15_CAD_DRIVE_LINKS/` | HIGH | move_later | Evitar CAD pesado en Git |
-| `03_ELECTRICAL/` | `04_ELECTRICAL_ELECTRONICS/` | MEDIUM | review | Revisar enlaces y ownership |
+| `02_MECHANICAL/` notas técnicas | `03_MECHANICAL/` o enlaces desde allí | MEDIUM | review | Requiere responsable y revisión de enlaces |
+| `02_MECHANICAL/` CAD maestro | Google Drive + índice en `15_CAD_DRIVE_LINKS/` | HIGH | move_later | Evitar CAD pesado en Git |
+| `03_ELECTRICAL/` | `04_ELECTRICAL_ELECTRONICS/` | MEDIUM | review | Revisar enlaces y responsables |
 | `04_SOFTWARE/Software.md` | `05_SOFTWARE_CONTROL/` como memoria; código a `13_SOFTWARE/` | MEDIUM | review | Separar documentación de código |
 | `05_TESTING/TESTS.md` | `07_TESTING_VALIDATION/` | HIGH | move_later | Alinear planes y resultados |
 | `06_RENDERS/` | Drive; índices en documentación/STEM/CAD | MEDIUM | review | Clasificar fotos, video y presentaciones |
@@ -49,68 +49,68 @@ Propuesta para armonizar la estructura histórica con el nuevo mapa del vault. *
 
 1. Congelar actividad de sincronización de Drive.
 2. Revisar `git status` y recuperar/confirmar eliminaciones preexistentes.
-3. Aprobar cada fila con owner.
+3. Aprobar cada fila con responsable.
 4. Crear backup verificable antes de mover.
 5. Actualizar enlaces Obsidian y registrar cada acción en `MIGRATION_LOG.md`.
 6. Validar que Git no incorpore CAD o binarios pesados.
 
 ## Migración por fases
 
-Ninguna fase está autorizada para ejecución. Cada fase requiere revisión de diff, owner y criterio de rollback.
+Ninguna fase está autorizada para ejecución. Cada fase requiere revisión de diferencias, responsable y criterio de reversión.
 
-### Phase A — limpieza Git y protección de temporales
+### Fase A — limpieza Git y protección de temporales
 
-Objetivo: separar estado local, vendor files y binarios pesados del contenido técnico versionable.
+Objetivo: separar estado local, archivos de terceros y binarios pesados del contenido técnico versionable.
 
 - Revisar `GIT_CLEANUP_PLAN.md`.
-- Sacar `.obsidian/workspace.json` del tracking con `git rm --cached` si se aprueba.
+- Retirar `.obsidian/workspace.json` del seguimiento con `git rm --cached` si se aprueba.
 - Definir si `.obsidian/plugins/` debe permanecer versionado.
-- Confirmar que temporales de Drive, CAD master y videos no estén rastreados.
+- Confirmar que temporales de Drive, CAD maestro y videos no estén rastreados.
 - Cerrar Obsidian y pausar Drive durante la operación.
 
-**Criterio de salida:** `git status` entendido, archivos locales preservados y política de tracking aprobada.
+**Criterio de salida:** `git status` entendido, archivos locales preservados y política de seguimiento aprobada.
 
-### Phase B — consolidación de índices
+### Fase B — consolidación de índices
 
 Objetivo: acordar qué registros humanos siguen vigentes sin mover notas técnicas.
 
 - Validar `CANONICAL_PATHS.md`.
 - Comparar índices históricos con `Decision_Log`, ICD, Risk Register, Test Log y Deliverables Index.
-- Asignar owners y marcar duplicidades.
+- Asignar responsables y marcar duplicidades.
 - Crear enlaces cruzados y registrar decisiones de conservación.
 
 **Criterio de salida:** un índice humano designado por objeto y sin fuentes ambiguas.
 
-### Phase C — migración de notas técnicas
+### Fase C — migración de notas técnicas
 
-Objetivo: trasladar contenido histórico revisado a paths canónicos y notas-objeto.
+Objetivo: trasladar contenido histórico revisado a rutas canónicas y notas de objeto.
 
 - Migrar una disciplina o tipo de objeto por lote pequeño.
 - Crear backup y mapa origen-destino antes de cada lote.
 - Asignar IDs y frontmatter sin inventar estado o evidencia.
 - Actualizar enlaces Obsidian y registrar cada movimiento en `MIGRATION_LOG.md`.
 
-**Criterio de salida:** enlaces válidos, contenido preservado y revisión del owner.
+**Criterio de salida:** enlaces válidos, contenido preservado y revisión del responsable.
 
-### Phase D — CAD a Drive e índices
+### Fase D — CAD a Drive e índices
 
-Objetivo: retirar masters CAD pesados del repositorio de trabajo y controlar sus releases.
+Objetivo: retirar archivos maestros CAD pesados del repositorio de trabajo y controlar sus versiones.
 
-- Definir carpeta Drive, permisos, owner y lock policy.
+- Definir carpeta de Drive, permisos, responsable y política de bloqueo.
 - Verificar hashes/revisiones antes de retirar tracking.
-- Completar CAD Index, owners, lock log y release log.
+- Completar índice CAD, responsables y registros de bloqueo y versiones.
 - Mantener en Git solo notas, índices y exports expresamente aprobados.
 
-**Criterio de salida:** CAD master verificable en Drive y trazable a una baseline.
+**Criterio de salida:** CAD maestro verificable en Drive y trazable a una línea base.
 
-### Phase E — validación de dashboards
+### Fase E — validación de paneles
 
 Objetivo: comprobar que objetos individuales e índices humanos producen vistas consistentes.
 
 - Validar Dataview sobre Requirements, Decisions, Interfaces, Risks, Tests, Failures, Hazards, Procurement y Deliverables.
 - Confirmar exclusión de `status: example`.
 - Comparar consultas con registros humanos.
-- Validar heatmaps con notas reales y tablas fallback.
+- Validar mapas de calor con notas reales y tablas de respaldo.
 - Registrar discrepancias sin cambiar silenciosamente fuentes oficiales.
 
 **Criterio de salida:** dashboards reproducibles y reconciliados con los índices humanos.
@@ -119,7 +119,7 @@ Objetivo: comprobar que objetos individuales e índices humanos producen vistas 
 
 - ¿Las eliminaciones Git bajo `00_PROJECT/` fueron intencionales?
 - ¿`00_Index/` seguirá como índice histórico o debe congelarse?
-- ¿Qué ubicación en Google Drive será el CAD master oficial?
+- ¿Qué ubicación en Google Drive será el CAD maestro oficial?
 - ¿Quién puede liberar y bloquear archivos CAD?
 - ¿Los documentos de requisitos actuales son baseline, borrador o material 2026?
 - ¿Qué documentos de `07_RELEASE/` fueron realmente enviados?

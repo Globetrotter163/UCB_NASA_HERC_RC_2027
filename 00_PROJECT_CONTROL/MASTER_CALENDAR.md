@@ -1,12 +1,12 @@
-# Master Calendar
+# Calendario maestro
 
 > Completar fechas únicamente desde reglas oficiales vigentes y acuerdos confirmados.
 
-| Hito | Fecha objetivo | Owner | Evidencia requerida | Estado |
+| Hito | Fecha objetivo | Responsable | Evidencia requerida | Estado |
 |---|---|---|---|---|
-| Requirements baseline | TBD | TBD | RTM revisada | planned |
-| Architecture baseline | TBD | TBD | Arquitectura + ICD | planned |
-| Design Review | TBD | TBD | Paquete DR | planned |
-| Integration complete | TBD | TBD | Evidencia de integración | planned |
-| Operational Readiness Review | TBD | TBD | Paquete ORR | planned |
-| Submission | TBD | TBD | Paquete congelado | planned |
+| Línea base de requisitos | Por definir | Por definir | Matriz revisada | planned |
+| Línea base de arquitectura | Por definir | Por definir | Arquitectura + ICD | planned |
+| Revisión de diseño | Por definir | Por definir | Paquete DR | planned |
+| Integración completa | Por definir | Por definir | Evidencia de integración | planned |
+| Revisión de preparación operativa | Por definir | Por definir | Paquete ORR | planned |
+| Envío | Por definir | Por definir | Paquete congelado | planned |

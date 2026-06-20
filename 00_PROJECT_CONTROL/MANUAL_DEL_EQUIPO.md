@@ -55,7 +55,7 @@ No traduzca claves como `type`, `status`, `owner`, `severity`, `date` ni los val
 
 ## Enlazar correctamente
 
-- Use `[[Nota]]` para enlazar otra nota del vault.
+- Use enlaces internos de Obsidian para enlazar otra nota del vault; por ejemplo, [[SOURCE_OF_TRUTH_MAP|Mapa de fuentes de verdad]].
 - Enlace evidencia concreta, no solo una carpeta general.
 - Una decisión debe enlazar opciones y evidencia.
 - Una prueba debe enlazar requisitos y datos crudos.
@@ -95,4 +95,3 @@ Para cerrar:
 ## Si algo no encaja
 
 No elija silenciosamente entre dos fuentes. Registre un bucle abierto mediante QuickAdd, identifique responsables y resuelva el conflicto en la fuente oficial correspondiente.
-

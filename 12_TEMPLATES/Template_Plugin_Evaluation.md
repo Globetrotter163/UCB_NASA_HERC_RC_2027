@@ -1,4 +1,5 @@
 ---
+type: plugin_evaluation
 plugin:
 status: proposed
 priority:
@@ -7,7 +8,7 @@ date:
 risk_level:
 ---
 
-# Evaluación de plugin — Nombre
+# Evaluación de complemento — Nombre
 
 ## Propósito
 

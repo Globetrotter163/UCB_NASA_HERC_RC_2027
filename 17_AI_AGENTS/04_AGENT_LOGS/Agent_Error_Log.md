@@ -1,5 +1,5 @@
-# Agent Error Log
+# Registro de errores de agentes
 
-| Date/time | Run ID | Error | Impact | Files affected | Recovery | Owner | Status |
+| Fecha/hora | ID de ejecución | Error | Impacto | Archivos afectados | Recuperación | Responsable | Estado |
 |---|---|---|---|---|---|---|---|
-| TBD | RUN-000 | TBD | TBD | TBD | TBD | TBD | open |
+| Por definir | RUN-000 | Por definir | Por definir | Por definir | Por definir | Por definir | open |

@@ -1,9 +1,9 @@
-# Heatmap — Project Activity
+# Mapa de calor — Actividad del proyecto
 
-Requiere Dataview y Heatmap Calendar. Puede necesitar un ajuste menor si cambia la API del plugin.
+Requiere Dataview y Heatmap Calendar. Puede necesitar un ajuste menor si cambia la API del complemento.
 
 ```dataviewjs
-// Requires the Heatmap Calendar plugin and its renderHeatmapCalendar API.
+// Requiere el complemento Heatmap Calendar y su API renderHeatmapCalendar.
 const pages = dv.pages('"00_PROJECT_CONTROL/DAILY_STATUS"')
   .where(p => p.type === "daily_status" && p.status !== "example" && p.date);
 const entries = [];
@@ -21,11 +21,11 @@ if (typeof renderHeatmapCalendar === "function") {
     entries
   });
 } else {
-  dv.paragraph("Heatmap Calendar no está disponible. Use la tabla fallback.");
+  dv.paragraph("Heatmap Calendar no está disponible. Use la tabla de respaldo.");
 }
 ```
 
-## Fallback Dataview
+## Respaldo Dataview
 
 ```dataview
 TABLE date, project_score, owner, status

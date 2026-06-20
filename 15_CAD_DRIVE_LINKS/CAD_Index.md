@@ -1,7 +1,7 @@
-# CAD Index
+# Índice CAD
 
-| CAD ID | Assembly/file | Drive link | Revision | Owner | Lock status | Released | Baseline | Last verified |
+| ID CAD | Ensamble/archivo | Enlace de Drive | Revisión | Responsable | Estado de bloqueo | Liberado | Línea base | Última verificación |
 |---|---|---|---|---|---|---|---|---|
-| CAD-000 | TBD | TBD | TBD | TBD | unlocked | no | TBD | TBD |
+| CAD-000 | Por definir | Por definir | Por definir | Por definir | unlocked | no | Por definir | Por definir |
 
-Historical local CAD exists under `02_MECHANICAL/CAD/`; migration is pending approval.
+Existe CAD local histórico en `02_MECHANICAL/CAD/`; su migración está pendiente de aprobación.

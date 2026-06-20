@@ -1,13 +1,13 @@
-# AI Agents
+# Agentes de IA
 
-Zona controlada para reglas, prompts, tareas, outputs, logs y context packs.
+Zona controlada para reglas, instrucciones, tareas, resultados, registros y paquetes de contexto.
 
-## Workflow
+## Flujo
 
-`Input → Agent Output → Human Review → Official Document`
+`Entrada → Resultado del agente → Revisión humana → Documento oficial`
 
-- Create tasks in `02_AGENT_TASKS/Pending/`.
-- Draft outputs go to `03_AGENT_OUTPUTS/Drafts/`.
-- Move/copy only after human review and according to approved workflow.
-- Record runs and errors.
-- Never treat an agent output as an approval or source of truth.
+- Cree tareas en `02_AGENT_TASKS/Pending/`.
+- Los borradores van a `03_AGENT_OUTPUTS/Drafts/`.
+- Mueva o copie solo después de revisión humana y según el flujo aprobado.
+- Registre ejecuciones y errores.
+- Nunca trate un resultado de agente como aprobación ni fuente de verdad.

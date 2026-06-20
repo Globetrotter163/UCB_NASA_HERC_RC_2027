@@ -42,6 +42,32 @@ No cree un segundo vault dentro del proyecto.
    - [[GOOGLE_CALENDAR_INTEGRATION]]
 5. No modifique JSON manualmente para resolver un problema local; registre el error y consulte al responsable del vault.
 
+## Validación por terminal
+
+Desde la raíz del proyecto, ejecute:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "13_SOFTWARE/scripts/validate_workspace.ps1"
+```
+
+El script comprueba JSON, enlaces internos, tablas, bloques de código, frontmatter, plantillas, ejemplos y archivos vacíos.
+
+## Reaplicar QuickAdd y Templater en otra computadora
+
+Los `data.json` de complementos están ignorados por Git para evitar que se publiquen credenciales. Para instalar el perfil sanitizado:
+
+1. Cierre Obsidian.
+2. Desde la raíz, ejecute:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "13_SOFTWARE/scripts/configure_obsidian_beta.ps1" -Apply
+```
+
+3. Abra Obsidian.
+4. Compruebe QuickAdd y Templater con la lista de aceptación.
+
+El script crea un respaldo fechado antes de reemplazar la configuración local. No contiene claves de API ni habilita comandos del sistema.
+
 ## Configuración técnica preservada
 
 - QuickAdd tiene diez acciones de creación/captura y no usa servicios en línea.

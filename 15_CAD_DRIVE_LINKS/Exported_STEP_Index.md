@@ -1,5 +1,5 @@
-# Exported STEP Index
+# Índice de STEP exportados
 
-| Export ID | Source CAD/revision | STEP file/link | Date | Exported by | Units | Hash | Consumer |
+| ID de exportación | CAD/revisión fuente | Archivo/enlace STEP | Fecha | Exportado por | Unidades | Hash | Consumidor |
 |---|---|---|---|---|---|---|---|
-| STEP-000 | CAD-000/TBD | TBD | TBD | TBD | mm | TBD | TBD |
+| STEP-000 | CAD-000/por definir | Por definir | Por definir | Por definir | mm | Por definir | Por definir |

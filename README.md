@@ -1,14 +1,15 @@
 # NASA HERC RC 2027
 
-Workspace técnico y vault de Obsidian del equipo de la Universidad Católica Boliviana San Pablo, Sede La Paz, para la división **Remote-Controlled Rover** de NASA Human Exploration Rover Challenge.
+Espacio de trabajo técnico y vault de Obsidian del equipo de la Universidad Católica Boliviana San Pablo, Sede La Paz, para la división **Remote-Controlled Rover** de NASA Human Exploration Rover Challenge.
 
-## Start here
+## Empiece aquí
 
 1. Abra esta carpeta raíz directamente como vault de Obsidian.
-2. Lea [[00_DASHBOARD/Home]] y [[00_PROJECT_CONTROL/PROJECT_STARTUP_CHECKLIST]].
-3. Consulte [[00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP]] antes de crear o aprobar información.
-4. Registre trabajo diario con [[12_TEMPLATES/Template_Daily_Status]].
-5. Revise [[AGENTS]] antes de usar Codex u otro agente IA.
+2. Abra [[00_DASHBOARD/Command_Center|Centro de mando]].
+3. Lea [[00_PROJECT_CONTROL/MANUAL_DEL_EQUIPO|Manual del equipo]] y [[00_PROJECT_CONTROL/PROJECT_STARTUP_CHECKLIST|Lista de arranque]].
+4. Consulte [[00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Mapa de fuentes de verdad]] antes de crear o aprobar información.
+5. Registre trabajo diario con [[12_TEMPLATES/Template_Daily_Status]].
+6. Revise [[AGENTS]] antes de usar Codex u otro agente de IA.
 
 ## Organización
 
@@ -27,11 +28,11 @@ Workspace técnico y vault de Obsidian del equipo de la Universidad Católica Bo
 | Paquetes congelados | `18_DELIVERABLES/` |
 | Material obsoleto o congelado | `99_ARCHIVE/` |
 
-La estructura histórica detectada durante el bootstrap se conserva sin movimientos. Consulte [[00_PROJECT_CONTROL/MIGRATION_PLAN]].
+La estructura histórica detectada durante la creación inicial se conserva sin movimientos. Consulte [[00_PROJECT_CONTROL/MIGRATION_PLAN]].
 
 ## Obsidian
 
-La raíz del repositorio **es** el vault. No cree otro vault anidado. `.obsidian/` contiene configuración viva: no debe editarse, reemplazarse ni sincronizarse a ciegas. Los dashboards incluyen vistas Markdown y consultas opcionales para Dataview y Heatmap Calendar.
+La raíz del repositorio **es** el vault. No cree otro vault anidado. `.obsidian/` contiene configuración viva: no debe editarse, reemplazarse ni sincronizarse a ciegas. Los paneles incluyen vistas Markdown y consultas opcionales para Dataview y Heatmap Calendar.
 
 ## Codex y agentes IA
 
@@ -48,8 +49,8 @@ Los agentes pueden preparar borradores, análisis y reportes de inconsistencias.
 
 ## Arranque inicial del equipo
 
-- Asignar owners y completar `00_PROJECT_CONTROL/PROJECT_ROLES.md`.
+- Asignar responsables y completar `00_PROJECT_CONTROL/PROJECT_ROLES.md`.
 - Revisar la matriz RACI, calendario y mapa de fuentes.
 - Confirmar IDs y estados de requisitos, interfaces, riesgos y pruebas.
-- Instalar o validar plugins únicamente mediante el proceso de `PLUGIN_SETUP.md`.
+- Instalar o validar complementos únicamente mediante el proceso de `PLUGIN_SETUP.md`.
 - Revisar el inventario y aprobar, corregir o rechazar la propuesta de migración.

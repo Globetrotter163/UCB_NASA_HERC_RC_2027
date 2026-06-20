@@ -6,7 +6,7 @@ status: active
 owner: Project Control
 ---
 
-# Workspace beta v0.1
+# Beta del espacio de trabajo v0.1
 
 Esta versión establece una experiencia de trabajo coherente sin mover ni renombrar los directorios principales del proyecto.
 
@@ -67,7 +67,7 @@ Las rutas históricas se conservan para proteger enlaces y trazabilidad. Antes d
 - Flujo QuickAdd probado por al menos una persona de cada área.
 - Paneles comparados contra evidencia real.
 - Revisión de enlaces y consultas sin errores.
-- Aprobación humana del checklist en `00_PROJECT_CONTROL/REVIEWS/`.
+- Aprobación humana de la lista en `00_PROJECT_CONTROL/REVIEWS/`.
 
 ## Documentos de operación
 
@@ -76,4 +76,4 @@ Las rutas históricas se conservan para proteger enlaces y trazabilidad. Antes d
 - [[CONFIGURACION_RAPIDA]]
 - [[SOURCE_OF_TRUTH_MAP]]
 - [[../00_DASHBOARD/Team_Onboarding_Map|Mapa de incorporación]]
-
+- [[REVIEWS/WORKSPACE_BETA_VALIDATION_2026-06-20|Validación automatizada de la beta]]

@@ -1,4 +1,4 @@
-# Discord Workflow
+# Flujo de Discord
 
 Discord sirve para coordinar trabajo rápido, no para conservar la verdad técnica.
 
@@ -6,7 +6,7 @@ Discord sirve para coordinar trabajo rápido, no para conservar la verdad técni
 
 1. Conversación o hallazgo en Discord.
 2. Crear tarea, minuta, propuesta de decisión, riesgo, interfaz o reporte de falla en el vault.
-3. Enlazar evidencia y asignar owner.
+3. Enlazar evidencia y asignar responsable.
 4. Revisar y aprobar por el proceso humano correspondiente.
 5. Publicar en Discord un enlace a la nota oficial, no una copia divergente.
 

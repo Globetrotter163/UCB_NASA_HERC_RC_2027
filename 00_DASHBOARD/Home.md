@@ -17,7 +17,7 @@ Vault técnico del Remote-Controlled Rover de la Universidad Católica Boliviana
 - [[NASA_SE_Process_Map|Mapa del proceso de ingeniería de sistemas]]
 - [[../00_PROJECT_CONTROL/PROJECT_STARTUP_CHECKLIST|Lista de arranque]]
 - [[../00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Mapa de fuentes de verdad]]
-- [[../00_PROJECT_CONTROL/OBSIDIAN_WORKSPACE_GUIDE|Guía del workspace]]
+- [[../00_PROJECT_CONTROL/OBSIDIAN_WORKSPACE_GUIDE|Guía del espacio de trabajo]]
 - [[../00_PROJECT_CONTROL/MIGRATION_PLAN|Plan de migración]]
 - [[Visual_Navigation|Navegación visual]]
 - [[Team_Onboarding_Map|Mapa de incorporación]]
@@ -45,11 +45,11 @@ Vault técnico del Remote-Controlled Rover de la Universidad Católica Boliviana
 - [[../18_DELIVERABLES/Deliverables_Index|Entregables]]
 
 > [!warning] Discord no es fuente de verdad
-> Use Discord para coordinación y publique enlaces hacia la nota oficial del vault.
+> Utilice Discord para coordinación y publique enlaces hacia la nota oficial del vault.
 
 > [!info] El color ayuda a encontrar un área
 > Abra [[Visual_Navigation]] para ver la leyenda. El color identifica una familia de carpetas; nunca reemplaza el estado, responsable, severidad ni evidencia.
 
 ## Índice histórico
 
-La estructura anterior sigue disponible en [[../00_Index/HOME|00_Index/HOME]]. No se migró durante el bootstrap.
+La estructura anterior sigue disponible en [[../00_Index/HOME|00_Index/HOME]]. No se migró durante la creación inicial.

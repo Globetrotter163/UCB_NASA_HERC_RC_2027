@@ -1,14 +1,14 @@
-# RACI Matrix
+# Matriz RACI
 
-`R` Responsible · `A` Accountable · `C` Consulted · `I` Informed
+`R` Responsable · `A` Autoridad final · `C` Consultado · `I` Informado
 
-| Actividad | Project | Systems | Mechanical | Electrical | Software | Test | Safety | Docs |
+| Actividad | Proyecto | Sistemas | Mecánica | Eléctrica | Software | Pruebas | Seguridad | Documentación |
 |---|---|---|---|---|---|---|---|---|
-| Baseline de requisitos | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Control de interfaces | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Design Review | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Operational Readiness Review | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Liberación de software | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Aceptación de prueba | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Gestión de incidentes | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Envío de entregables | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| Línea base de requisitos | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Control de interfaces | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Revisión de diseño | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Revisión de preparación operativa | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Liberación de software | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Aceptación de prueba | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Gestión de incidentes | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |
+| Envío de entregables | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir | Por definir |

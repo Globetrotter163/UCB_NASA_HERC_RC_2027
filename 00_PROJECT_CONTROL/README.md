@@ -15,6 +15,7 @@ Centro operativo del proyecto: roles, RACI, calendario, métricas, revisiones, f
 - [[MANUAL_DEL_EQUIPO]]
 - [[FLUJO_DE_NOTAS]]
 - [[CONFIGURACION_RAPIDA]]
+- [[REVIEWS/WORKSPACE_BETA_VALIDATION_2026-06-20]]
 - [[REPO_INVENTORY]]
 - [[CANONICAL_PATHS]]
 - [[MIGRATION_PLAN]]

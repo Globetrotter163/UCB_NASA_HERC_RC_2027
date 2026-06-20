@@ -1,11 +1,11 @@
-# CAD Drive Links
+# Enlaces CAD en Drive
 
-Este directorio indexa CAD pesado almacenado en Google Drive. No guardar aquí masters SolidWorks ni enlaces con tokens privados.
+Este directorio indexa CAD pesado almacenado en Google Drive. No guarde aquí archivos maestros de SolidWorks ni enlaces con tokens privados.
 
-## Workflow
+## Flujo
 
-1. Lock file/assembly.
-2. Edit in Drive-managed location.
-3. Review and release with revision.
-4. Export neutral formats if needed.
-5. Update index, changelog and configuration baseline.
+1. Bloquee el archivo o ensamble.
+2. Edite en la ubicación administrada en Drive.
+3. Revise y libere con una revisión.
+4. Exporte formatos neutrales si son necesarios.
+5. Actualice índice, registro de cambios y línea base de configuración.

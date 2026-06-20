@@ -1,86 +1,78 @@
 ---
 type: workspace_acceptance
-version: 0.1
+version: 0.1-beta
 status: pending_manual_validation
 date: 2026-06-20
 ---
 
-# Workspace Friction Acceptance Checklist
+# Lista de aceptación de la beta del espacio de trabajo
 
-> [!note] Concurrent Obsidian activity
-> Full Calendar and QuickAdd appeared during this pass, and Obsidian updated `workspace.json`, `graph.json`, `community-plugins.json` and plugin files externally. Codex did not write those protected paths. Review their current configuration manually before acceptance.
+Esta lista separa lo comprobado desde archivos de lo que necesita una prueba visual dentro de Obsidian.
 
-## Daily Notes
+## Configuración verificada por archivos
 
-- [ ] Date format is `YYYY-MM-DD`.
-- [ ] New file location is `00_PROJECT_CONTROL/DAILY_STATUS`.
-- [ ] Template is `12_TEMPLATES/Template_Daily_Status`.
-- [ ] Default new-note location is “Same folder as current file”.
-- [ ] Test note appears in the project heatmap.
+- [x] Formato de nota diaria `YYYY-MM-DD`.
+- [x] Destino de notas diarias `00_PROJECT_CONTROL/DAILY_STATUS`.
+- [x] Plantilla diaria `12_TEMPLATES/Template_Daily_Status`.
+- [x] Carpeta de plantillas nativas y Templater: `12_TEMPLATES`.
+- [x] QuickAdd contiene el menú `NASA HERC — Crear nota`.
+- [x] QuickAdd contiene diez acciones y evita sobrescritura silenciosa.
+- [x] QuickAdd tiene funciones en línea deshabilitadas y claves vacías.
+- [x] Templater no ejecuta comandos del sistema.
+- [x] El grafo filtra archivo, `.obsidian`, resultados de agentes y temporales.
+- [x] El grafo oculta adjuntos, huérfanos y enlaces sin resolver.
+- [x] El grafo contiene grupos de color por área.
+- [x] Bases está habilitado como complemento nativo.
+- [x] Calendar y Full Calendar están instalados.
+- [x] Full Calendar no tiene una fuente externa configurada.
+- [x] Homepage no está instalado y está documentado como opcional.
+- [x] El snippet `herc-folder-colors` está activo.
+- [x] Las notas `*-000_Example.md` usan `status: example`.
+- [x] El estado diario estructural usa `status: example`.
 
-## Calendar
+## Prueba manual dentro de Obsidian
 
-- [ ] `00_PROJECT_CONTROL/CALENDAR_EVENTS/` exists.
-- [ ] `Template_Calendar_Event.md` creates valid frontmatter.
-- [ ] [[../../00_DASHBOARD/Team_Calendar|Team Calendar]] renders without Dataview errors.
-- [ ] Reviews, tests and deliverables appear in their sections.
-- [ ] Any ICS source is read-only.
-- [ ] No ICS URLs, OAuth credentials or plugin `data.json` are tracked.
-
-## Command Center and navigation
-
-- [ ] [[../../00_DASHBOARD/Command_Center|Command Center]] opens all critical destinations.
-- [ ] “What do you want to do?” maps each action to a template and folder.
-- [ ] Home links Command Center, Team Calendar, NASA SE Process Map and Visual Navigation.
-- [ ] Visual Navigation links calendar, Graph View and QuickAdd setup.
-- [ ] Team Onboarding includes the 30-minute route.
-
-## Graph View
-
-- [ ] Archive, `.obsidian`, agent outputs and temporary folders are filtered.
-- [ ] Attachments are hidden for normal navigation.
-- [ ] Folder color groups match the visual style guide.
-- [ ] REQ–ICD–TST–RSK traceability filter works.
-- [ ] `.obsidian/graph.json` was not edited automatically.
+- [ ] El Centro de mando abre todos los destinos críticos.
+- [ ] El menú QuickAdd crea cada tipo de nota en su carpeta canónica.
+- [ ] Un ID duplicado solicita una decisión y no sobrescribe.
+- [ ] La captura de bucle abierto agrega una viñeta sin dañar la tabla existente.
+- [ ] La nota diaria de hoy se crea con frontmatter válido.
+- [ ] Dataview renderiza las tablas del Panel del proyecto.
+- [ ] Tasks renderiza las tareas bloqueadas.
+- [ ] Los cuatro mapas de calor renderizan o muestran su respaldo.
+- [ ] El Calendario del equipo muestra eventos locales.
+- [ ] La vista de grafo muestra los grupos y filtros configurados.
+- [ ] El snippet es legible en tema claro y oscuro.
 
 ## Bases
 
-- [ ] Bases core plugin is enabled.
-- [ ] Requirements, Decisions, Interfaces, Risks, Tests, Failures and Deliverables views exist.
-- [ ] Task view lists incomplete tasks.
-- [ ] Every operational view excludes `status: example`.
-- [ ] Base results match human indexes.
+Las vistas `.base` todavía deben crearse desde la interfaz para asegurar compatibilidad:
 
-## QuickAdd
+- [ ] Requisitos.
+- [ ] Decisiones.
+- [ ] Interfaces.
+- [ ] Riesgos.
+- [ ] Pruebas.
+- [ ] Fallas.
+- [ ] Entregables.
+- [ ] Tareas incompletas.
 
-- [ ] QuickAdd has an assigned owner and was installed manually if approved.
-- [ ] `NASA HERC QuickAdd` Multi exists.
-- [ ] Each Template choice writes to the canonical folder.
-- [ ] Duplicate IDs cannot overwrite files silently.
-- [ ] Capture Open Loop appends an inbox bullet without changing official rows.
-- [ ] No arbitrary scripts or whole-file Templater execution are enabled.
+Cada vista operativa debe excluir `status: example` y coincidir con su índice humano.
 
-## Homepage
+## Seguridad y regresión
 
-- [ ] Homepage has an assigned owner and was installed manually if approved.
-- [ ] Startup target is `00_DASHBOARD/Command_Center.md`.
-- [ ] View mode is Reading/Preview.
-- [ ] Existing workspace layout is not unexpectedly replaced.
+- [x] No se detectaron claves de API configuradas en QuickAdd.
+- [x] No se añadió ninguna URL ICS privada.
+- [x] No se movieron ni renombraron directorios principales.
+- [x] No se promovió ningún objeto técnico a `approved`.
+- [x] Los ejemplos quedaron delimitados y excluidos de las consultas operativas.
+- [ ] Una persona debe revisar `git diff` antes de cualquier commit.
+- [ ] El equipo debe decidir si conserva o retira del seguimiento `workspace.json` y los binarios de complementos.
 
-## Safety and regression
+## Aceptación humana
 
-- [ ] No tokens, passwords, private ICS URLs or OAuth secrets exist in tracked files.
-- [ ] `workspace.json`, `community-plugins.json` and plugin internals were not modified by this pass.
-- [ ] Existing Project Dashboard queries still render.
-- [ ] Existing four heatmaps still render or show their fallbacks.
-- [ ] No historical files were moved, renamed or deleted.
-- [ ] No technical object was marked `approved`.
-- [ ] Git diff was reviewed before any future commit.
-
-## Acceptance
-
-| Role | Person | Date | Result | Notes |
+| Rol | Persona | Fecha | Resultado | Notas |
 |---|---|---|---|---|
-| Project Lead | Israel Silva | TBD | pending | |
-| Systems Engineer | Alan Gonzales | TBD | pending | |
-| Vault/Workflow Owner | TBD | TBD | pending | |
+| Líder del proyecto | Israel Silva | Por definir | pending | |
+| Ingeniero de sistemas | Alan Gonzales | Por definir | pending | |
+| Responsable del vault/flujo | Por definir | Por definir | pending | |

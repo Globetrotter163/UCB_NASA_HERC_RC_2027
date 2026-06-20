@@ -1,10 +1,10 @@
-# Calendar Events
+# Eventos de calendario
 
 Una nota por evento operativo relevante para el proyecto.
 
 ## Convención
 
-- Nombre: `YYYY-MM-DD_Event_Title.md`
+- Nombre: `YYYY-MM-DD_Titulo_Evento.md`
 - Plantilla: `12_TEMPLATES/Template_Calendar_Event.md`
 - `type: calendar_event`
 - `event_kind`: `meeting`, `review`, `test`, `deliverable`, `milestone` u `outreach`
@@ -18,4 +18,4 @@ Una nota por evento operativo relevante para el proyecto.
 - Use fecha ISO `YYYY-MM-DD` y hora de 24 horas.
 - Confirme la zona horaria cuando participen personas remotas.
 
-Vista principal: [[../../00_DASHBOARD/Team_Calendar|Team Calendar]].
+Vista principal: [[../../00_DASHBOARD/Team_Calendar|Calendario del equipo]].

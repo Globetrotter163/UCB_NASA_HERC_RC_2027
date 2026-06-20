@@ -44,6 +44,8 @@ No instale, actualice ni configure complementos sin responsable, necesidad docum
 - Full Calendar: sin fuente externa ni secretos.
 - Homepage: opcional y no instalado.
 
+Los datos vivos de QuickAdd y Templater están ignorados por Git. El perfil reproducible y sanitizado se genera mediante `13_SOFTWARE/scripts/configure_obsidian_beta.ps1`; consulte [[CONFIGURACION_RAPIDA]].
+
 ## Reglas por complemento
 
 ### Dataview y mapas de calor
@@ -70,7 +72,7 @@ No instale, actualice ni configure complementos sin responsable, necesidad docum
 - No incluya temporales, secretos ni datos personales.
 - No confíe en confirmaciones automáticas para cambios de línea base.
 
-## Checklist para cambios futuros
+## Lista para cambios futuros
 
 - [ ] Nombrar responsable.
 - [ ] Documentar necesidad y alternativa.

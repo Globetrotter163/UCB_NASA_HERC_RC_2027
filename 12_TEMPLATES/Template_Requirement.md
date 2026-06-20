@@ -14,7 +14,7 @@ last_review:
 # REQ-000 — Título del requisito
 
 ## Enunciado del requisito
-The rover shall ...
+El rover deberá...
 
 ## Justificación
 

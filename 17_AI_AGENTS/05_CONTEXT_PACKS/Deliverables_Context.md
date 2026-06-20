@@ -1,9 +1,9 @@
-# Deliverables Context
+# Contexto de entregables
 
-Draft notes: `09_DOCUMENTATION/`.
+Notas de borrador: `09_DOCUMENTATION/`.
 
-Formal source: `14_LATEX_REPORTS/`.
+Fuente formal: `14_LATEX_REPORTS/`.
 
-Frozen artifacts: `18_DELIVERABLES/`.
+Artefactos congelados: `18_DELIVERABLES/`.
 
-An agent may draft and review, but only an authorized human can approve, freeze or mark a deliverable submitted. Verify current NASA rules and deadlines before planning.
+Un agente puede redactar y revisar, pero solo una persona autorizada puede aprobar, congelar o marcar un entregable como enviado. Verifique reglas y fechas límite actuales de NASA antes de planificar.

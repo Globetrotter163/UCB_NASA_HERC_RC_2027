@@ -43,7 +43,7 @@ description includes #blocked
 sort by due
 ```
 
-## Fallback manual
+## Respaldo manual
 
 | ID | Tipo | Descripción | Responsable | Bloqueo | Próxima acción | Fecha |
 |---|---|---|---|---|---|---|

@@ -1,49 +1,49 @@
 ---
 type: bootstrap_validation
 date: 2026-06-20
-status: completed_with_external_state_change
+status: historical
 ---
 
-# Bootstrap Validation — 2026-06-20
+# Validación de la estructura inicial — 2026-06-20
 
-## Result
+> [!info] Registro histórico
+> Este informe describe la primera creación de estructura. La configuración actual se valida en [[WORKSPACE_FRICTION_ACCEPTANCE_CHECKLIST]] y en el informe de beta más reciente.
 
-- Required files checked: 172.
-- Missing required files: 0.
-- Empty required files: 0.
-- Forbidden nested vault `01_OBSIDIAN_VAULT`: absent.
-- Plugins installed/downloaded by bootstrap: 0.
-- Existing files moved or deleted by bootstrap: 0.
-- Commits created: 0.
+## Resultado de aquella pasada
 
-## `.obsidian/` integrity observation
+- Archivos requeridos comprobados: 172.
+- Archivos requeridos faltantes: 0.
+- Archivos requeridos vacíos: 0.
+- Vault anidado prohibido `01_OBSIDIAN_VAULT`: ausente.
+- Complementos instalados o descargados por esa pasada: 0.
+- Archivos existentes movidos o eliminados por esa pasada: 0.
+- Commits creados: 0.
 
-Pre-bootstrap aggregate:
+## Observación de integridad de `.obsidian/`
+
+Huella agregada anterior:
 
 `FFAD0903D758E2BB03C6353AB6DE454B792AD4C59CB5A88D79276E6CFBDB5875`
 
-Validation aggregate:
+Huella durante aquella validación:
 
 `9150E1B019BFCA9F4D4BE8A102646328683CF8AE18A2124A75E2788E974A8B03`
 
-The file count remained 35, but the aggregate changed. No bootstrap command targeted `.obsidian/`. Timestamps and Git diff show that active Obsidian/synchronization state updated while new notes appeared, notably:
+El número de archivos permaneció en 35, pero la huella cambió mientras Obsidian o la sincronización estaban activos. En particular, `workspace.json` actualizó el archivo activo y la lista de recientes. No se revirtieron esos cambios porque eran estado vivo y no existía un respaldo byte a byte.
 
-- `.obsidian/workspace.json` updated its active file and recent-file list.
-- `.obsidian/graph.json` and some plugin/config timestamps also changed externally.
+Para futuras comparaciones exactas, cierre Obsidian y pause la sincronización.
 
-These files were not reverted because the task prohibits modifying live Obsidian configuration and the initial bytes were not captured as a restorable backup. Close Obsidian and pause synchronization before any future byte-for-byte integrity test.
+## Riesgo Git preexistente
 
-## Preexisting Git risk
+Antes de aquella creación inicial, Git ya informaba modificaciones, eliminaciones y archivos no rastreados. Estos elementos requerían revisión humana antes de preparar o confirmar cambios.
 
-Before bootstrap, Git already reported modified `.obsidian` files, deleted historical notes/configuration, deleted CAD files and many untracked files. These remain unresolved and require human review before staging or committing.
+## Validación de paneles
 
-## Dashboard validation
+Los cuatro mapas de calor contenían:
 
-All four heatmap pages include:
+- bloque DataviewJS;
+- protección cuando falta `renderHeatmapCalendar`;
+- exclusión de `status: example`;
+- respaldo Dataview visible.
 
-- a DataviewJS block,
-- a guard for missing `renderHeatmapCalendar`,
-- exclusion of `status: example`,
-- a visible Dataview fallback.
-
-Full rendering still requires Dataview and Heatmap Calendar enabled in Obsidian.
+El renderizado completo requiere Dataview y Heatmap Calendar habilitados.

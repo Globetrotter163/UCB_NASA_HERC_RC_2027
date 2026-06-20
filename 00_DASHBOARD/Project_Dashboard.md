@@ -95,7 +95,7 @@ SORT due ASC
 
 Respaldo manual: [[../18_DELIVERABLES/Deliverables_Index|Índice de entregables]]
 
-## Blockers and pending tasks
+## Bloqueos y tareas pendientes
 
 ```dataview
 TASK

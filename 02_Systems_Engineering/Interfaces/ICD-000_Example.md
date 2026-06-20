@@ -15,7 +15,7 @@ verification_method: example_only
 # ICD-000 — Interfaz de ejemplo
 
 > [!warning] Solo ejemplo
-> No representa una interfaz real y se excluye de los dashboards operativos.
+> No representa una interfaz real y se excluye de los paneles operativos.
 
 ## Subsistemas conectados
 

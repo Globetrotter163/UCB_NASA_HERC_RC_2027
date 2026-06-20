@@ -1,9 +1,9 @@
-# Drive Links
+# Enlaces de Drive
 
-| Area | Folder link | Owner | Access policy | Last verified |
+| Área | Enlace de carpeta | Responsable | Política de acceso | Última verificación |
 |---|---|---|---|---|
-| CAD master | TBD | TBD | Team-controlled | TBD |
-| Renders/video | TBD | TBD | Team-controlled | TBD |
-| Test video | TBD | TBD | Team-controlled | TBD |
+| CAD maestro | Por definir | Por definir | Controlado por el equipo | Por definir |
+| Renders/video | Por definir | Por definir | Controlado por el equipo | Por definir |
+| Video de pruebas | Por definir | Por definir | Controlado por el equipo | Por definir |
 
-Use stable team links; never store share tokens, credentials or personal-only paths.
+Use enlaces estables del equipo; nunca almacene tokens compartidos, credenciales ni rutas personales.

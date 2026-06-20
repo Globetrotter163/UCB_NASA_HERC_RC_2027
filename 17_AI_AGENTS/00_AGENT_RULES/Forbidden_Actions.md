@@ -1,11 +1,11 @@
-# Forbidden Actions
+# Acciones prohibidas
 
-- Delete, move, rename or overwrite files without approval.
-- Modify `.obsidian/`.
-- Install or update plugins/dependencies.
-- Edit CAD master or bypass the CAD lock/release process.
-- Invent test data, measurements, citations, requirements or approvals.
-- Approve decisions, interfaces, risks, baselines or deliverables.
-- Mark a deliverable submitted.
-- Store credentials, keys, tokens, passwords or private links.
-- Commit or push automatically.
+- Eliminar, mover, renombrar o sobrescribir archivos sin aprobación.
+- Modificar `.obsidian/`.
+- Instalar o actualizar complementos o dependencias.
+- Editar el CAD maestro o eludir el proceso de bloqueo y liberación.
+- Inventar datos de prueba, mediciones, citas, requisitos o aprobaciones.
+- Aprobar decisiones, interfaces, riesgos, líneas base o entregables.
+- Marcar un entregable como enviado.
+- Almacenar credenciales, claves, tokens, contraseñas o enlaces privados.
+- Crear commits o publicar cambios automáticamente.

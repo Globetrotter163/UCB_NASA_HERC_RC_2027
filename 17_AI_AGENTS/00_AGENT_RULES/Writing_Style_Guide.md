@@ -1,11 +1,11 @@
-# Writing Style Guide
+# Guía de estilo de escritura
 
-- Write concise, testable engineering statements.
-- Separate facts, assumptions, recommendations and approvals.
-- Use SI units and define symbols.
-- Prefer tables for traceability, not for narrative nuance.
-- Cite file paths, IDs, revision/date and evidence.
-- Use “TBD” for missing information; never fabricate.
-- Requirements use “shall” and one verifiable obligation.
-- Risks use “If [cause/event], then [effect], causing [consequence].”
-- Avoid claiming NASA approval, compliance or readiness without official evidence.
+- Escriba enunciados de ingeniería concisos y comprobables.
+- Separe hechos, supuestos, recomendaciones y aprobaciones.
+- Use unidades SI y defina símbolos.
+- Prefiera tablas para trazabilidad, no para matices narrativos.
+- Cite rutas, ID, revisión o fecha y evidencia.
+- Use “Por definir” para información faltante; nunca fabrique.
+- Los requisitos usan “deberá” y una sola obligación verificable.
+- Los riesgos usan “Si [causa/evento], entonces [efecto], causando [consecuencia]”.
+- Evite afirmar aprobación, cumplimiento o preparación NASA sin evidencia oficial.

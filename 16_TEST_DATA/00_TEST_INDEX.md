@@ -1,13 +1,13 @@
-# Test Data Index
+# Índice de datos de prueba
 
-| Test ID | Date | Configuration | Data folder | Raw data immutable | Analysis | Conclusion | Failure IDs | Owner |
+| ID de prueba | Fecha | Configuración | Carpeta de datos | Datos crudos inmutables | Análisis | Conclusión | ID de fallas | Responsable |
 |---|---|---|---|---|---|---|---|---|
-| TST-000 | TBD | BL-000 | TBD | yes | TBD | TBD | TBD | TBD |
+| TST-000 | Por definir | BL-000 | Por definir | sí | Por definir | Por definir | Por definir | Por definir |
 
-## Data rules
+## Reglas de datos
 
-- Preserve raw data and record acquisition metadata.
-- Use UTC or document timezone explicitly.
-- Record units, schema/software version and calibration.
-- Store videos and very large binaries in Drive; index them here.
-- Analysis must not overwrite raw files.
+- Preserve los datos crudos y registre metadatos de adquisición.
+- Use UTC o documente explícitamente la zona horaria.
+- Registre unidades, versión de esquema o software y calibración.
+- Almacene videos y binarios muy grandes en Drive; indexe aquí.
+- Los análisis no deben sobrescribir archivos crudos.

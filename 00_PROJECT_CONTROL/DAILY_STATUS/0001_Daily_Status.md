@@ -16,50 +16,50 @@ failures_reported: 0
 decisions_approved: 0
 blockers: 0
 owner: Alan
-status: draft
+status: example
 ---
 
-# Daily Status - Example Only
+# Estado diario — Solo ejemplo
 
-> [!warning] Do not edit or count this note
-> Copie `12_TEMPLATES/Template_Daily_Status.md` a un archivo `YYYY-MM-DD.md`. Los dashboards excluyen `status: example`.
+> [!warning] No edite ni contabilice esta nota
+> Copie `12_TEMPLATES/Template_Daily_Status.md` a un archivo `YYYY-MM-DD.md`. Los paneles excluyen `status: example`.
 
-## Summary
+## Resumen
 
 Ejemplo estructural sin actividad real.
 
-## Evidence Added Today
+## Evidencia agregada hoy
 
-N/A
+No aplica
 
-## Area Scores
+## Puntuación por área
 
-| Area          | Score | Evidence |
+| Área          | Puntuación | Evidencia |
 | ------------- | ----: | -------- |
-| Mechanical    |     0 | N/A      |
-| Electrical    |     0 | N/A      |
-| Software      |     0 | N/A      |
-| Payloads      |     0 | N/A      |
-| Testing       |     0 | N/A      |
-| Documentation |     0 | N/A      |
-| Safety        |     0 | N/A      |
+| Mecánica      | 0 | No aplica |
+| Eléctrica     | 0 | No aplica |
+| Software      | 0 | No aplica |
+| Cargas        | 0 | No aplica |
+| Pruebas       | 0 | No aplica |
+| Documentación | 0 | No aplica |
+| Seguridad     | 0 | No aplica |
 
-## Blockers
+## Bloqueos
 
-N/A
+No aplica
 
-## Decisions Proposed
+## Decisiones propuestas
 
-N/A
+No aplica
 
-## Tests Completed
+## Pruebas completadas
 
-N/A
+No aplica
 
-## Risks Opened or Closed
+## Riesgos abiertos o cerrados
 
-N/A
+No aplica
 
-## Next Actions
+## Próximas acciones
 
 Crear una nota real desde la plantilla.

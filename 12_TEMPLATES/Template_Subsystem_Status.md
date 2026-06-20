@@ -1,4 +1,5 @@
 ---
+type: subsystem_status
 subsystem:
 owner:
 status:

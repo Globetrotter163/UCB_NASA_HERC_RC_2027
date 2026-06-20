@@ -1,10 +1,10 @@
-# LaTeX Reports
+# Informes LaTeX
 
-Fuentes formales para proposal, Design Review y Operational Readiness Review.
+Fuentes formales para la propuesta, revisión de diseño y revisión de preparación operativa.
 
-## Build policy
+## Política de compilación
 
-- Edit source in Git; generated PDFs and auxiliary files are not authoritative source.
-- Put reusable commands, acronyms and references under `common/`.
-- Keep figures traceable to `09_DOCUMENTATION/Figures_Tables_Index.md`.
-- Do not claim submission or approval from a successful compile.
+- Edite las fuentes en Git; los PDF y archivos auxiliares generados no son la fuente autoritativa.
+- Coloque comandos, acrónimos y referencias reutilizables en `common/`.
+- Mantenga las figuras trazables a `09_DOCUMENTATION/Figures_Tables_Index.md`.
+- Una compilación correcta no demuestra envío ni aprobación.

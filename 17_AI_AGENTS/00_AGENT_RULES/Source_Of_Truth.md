@@ -1,13 +1,13 @@
-# Agent Source of Truth
+# Fuentes de verdad para agentes
 
-| Domain | Official source | Agent treatment |
+| Dominio | Fuente oficial | Tratamiento por el agente |
 |---|---|---|
-| Discord | Coordination only | Summarize as unverified input |
-| Obsidian | Technical memory | Read official registers and cite paths |
-| GitHub / `13_SOFTWARE` | Code and configuration | Cite commit/tag when available |
-| Google Drive | CAD, videos, heavy binaries | Use indexed links/revisions only |
-| LaTeX | Formal source documents | Draft only from reviewed evidence |
-| Deliverables | Frozen packages | Never mark submitted |
-| Decisions | `Decision_Log.md` | Propose, never approve |
-| Interfaces | `Interface_Control_Document.md` | Flag conflicts; do not silently edit |
-| Tests | `07_TESTING_VALIDATION` + `16_TEST_DATA` | Never invent or infer missing results |
+| Discord | Solo coordinación | Resumir como entrada no verificada |
+| Obsidian | Memoria técnica | Leer registros oficiales y citar rutas |
+| GitHub / `13_SOFTWARE` | Código y configuración | Citar commit o etiqueta cuando exista |
+| Google Drive | CAD, videos y binarios pesados | Usar solo enlaces y revisiones indexados |
+| LaTeX | Documentos fuente formales | Redactar solo desde evidencia revisada |
+| Entregables | Paquetes congelados | Nunca marcar como enviados |
+| Decisiones | `Decision_Log.md` | Proponer, nunca aprobar |
+| Interfaces | `Interface_Control_Document.md` | Señalar conflictos; no editar silenciosamente |
+| Pruebas | `07_TESTING_VALIDATION` + `16_TEST_DATA` | Nunca inventar ni inferir resultados faltantes |

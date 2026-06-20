@@ -50,7 +50,7 @@ Configuración: [[../00_PROJECT_CONTROL/QUICKADD_SETUP|QuickAdd]] · [[../00_PRO
 > [!warning] Límite de autoridad
 > Crear una nota no significa aprobarla. Discord sirve para coordinar; los registros oficiales y la evidencia revisada continúan siendo la fuente de verdad.
 
-## Herramientas del workspace
+## Herramientas del espacio de trabajo
 
 - [[../00_PROJECT_CONTROL/MANUAL_DEL_EQUIPO|Manual del equipo]]
 - [[../00_PROJECT_CONTROL/FLUJO_DE_NOTAS|Flujo de notas]]

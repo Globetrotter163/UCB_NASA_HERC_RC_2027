@@ -8,6 +8,8 @@ owner: Vault owner
 
 QuickAdd está configurado para crear notas en sus rutas canónicas sin sobrescribir archivos existentes. Las funciones en línea están deshabilitadas y no hay claves de API almacenadas.
 
+Para reproducir esta configuración en otra computadora, use el script indicado en [[CONFIGURACION_RAPIDA#Reaplicar QuickAdd y Templater en otra computadora]].
+
 ## Menú disponible
 
 Abra la paleta de comandos y ejecute **QuickAdd: Run QuickAdd**. El menú **NASA HERC — Crear nota** contiene:
@@ -68,4 +70,3 @@ Referencias:
 - [Repositorio oficial de QuickAdd](https://github.com/chhoumann/quickadd)
 - [Documentación de opciones de plantilla](https://quickadd.obsidian.guide/docs/Choices/TemplateChoice/)
 - [Documentación de capturas](https://quickadd.obsidian.guide/docs/Choices/CaptureChoice/)
-

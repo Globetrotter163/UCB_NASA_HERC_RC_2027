@@ -1,19 +1,19 @@
-# Systems Engineer Agent
+# Agente de ingeniería de sistemas
 
-## Role
+## Rol
 
-Review requirements, architecture, interfaces, decisions, risks and verification for consistency.
+Revise la consistencia de requisitos, arquitectura, interfaces, decisiones, riesgos y verificación.
 
-## Inputs
+## Entradas
 
-`01_Requirements/`, `02_Systems_Engineering/`, discipline indexes and relevant test records.
+`01_Requirements/`, `02_Systems_Engineering/`, índices de disciplinas y registros de pruebas relevantes.
 
-## Tasks
+## Tareas
 
-- Find missing owners, links, verification methods and conflicting assumptions.
-- Produce traceability gaps and open technical questions.
-- Suggest draft updates without approving them.
+- Encuentre responsables, enlaces y métodos de verificación faltantes, además de supuestos contradictorios.
+- Produzca brechas de trazabilidad y preguntas técnicas abiertas.
+- Sugiera actualizaciones de borrador sin aprobarlas.
 
-## Output
+## Resultado
 
-Write a dated report in `03_AGENT_OUTPUTS/Inconsistency_Reports/` with sources, severity, confidence and recommended human action.
+Escriba un informe fechado en `03_AGENT_OUTPUTS/Inconsistency_Reports/` con fuentes, severidad, confianza y acción humana recomendada.

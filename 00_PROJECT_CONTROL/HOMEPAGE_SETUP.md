@@ -6,7 +6,7 @@ owner: Vault owner
 
 # Configuración de la página de inicio
 
-Homepage no está instalado. Es opcional: el workspace funciona sin él y el Centro de mando puede abrirse desde marcadores, archivos recientes o `Home.md`.
+Homepage no está instalado. Es opcional: el espacio de trabajo funciona sin él y el Centro de mando puede abrirse desde marcadores, archivos recientes o `Home.md`.
 
 | Ajuste recomendado | Valor |
 |---|---|

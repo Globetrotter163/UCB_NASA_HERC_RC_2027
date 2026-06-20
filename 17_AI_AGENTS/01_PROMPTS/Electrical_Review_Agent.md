@@ -1,5 +1,5 @@
-# Electrical Review Agent
+# Agente de revisión eléctrica
 
-Review power budget, batteries, drivers, PCB, harness, sensors, protection, grounding, pinout and verification.
+Revise presupuesto de potencia, baterías, controladores, PCB, arnés, sensores, protección, puesta a tierra, mapa de pines y verificación.
 
-Check consistency between documentation, ICD and YAML configuration. Never invent ratings or accept a safety risk. Output findings with source, impact and confidence under `03_AGENT_OUTPUTS/Reviews/`.
+Compruebe consistencia entre documentación, ICD y configuración YAML. Nunca invente capacidades nominales ni acepte riesgos de seguridad. Coloque hallazgos con fuente, impacto y confianza en `03_AGENT_OUTPUTS/Reviews/`.

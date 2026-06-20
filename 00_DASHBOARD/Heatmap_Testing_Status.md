@@ -1,22 +1,22 @@
-# Heatmap — Testing Status
+# Mapa de calor — Estado de pruebas
 
 Intensidad = `tests_completed` por día, limitada visualmente a 5.
 
 ```dataviewjs
-// Requires the Heatmap Calendar plugin and may need minor API adjustment by version.
+// Requiere Heatmap Calendar y puede necesitar un ajuste menor de API según la versión.
 const pages = dv.pages('"00_PROJECT_CONTROL/DAILY_STATUS"')
   .where(p => p.type === "daily_status" && p.status !== "example" && p.date);
 const entries = pages.array().map(p => ({
   date: dv.date(p.date).toFormat("yyyy-LL-dd"),
   intensity: Math.max(0, Math.min(5, Number(p.tests_completed ?? 0))),
-  content: `${p.tests_completed ?? 0} tests`
+  content: `${p.tests_completed ?? 0} pruebas`
 }));
 if (typeof renderHeatmapCalendar === "function") {
   renderHeatmapCalendar(this.container, { year: Number(dv.date("today").toFormat("yyyy")), entries });
-} else dv.paragraph("Heatmap Calendar no disponible; revise la tabla fallback.");
+} else dv.paragraph("Heatmap Calendar no disponible; revise la tabla de respaldo.");
 ```
 
-## Fallback diario
+## Respaldo diario
 
 ```dataview
 TABLE date, tests_completed, failures_reported, owner
