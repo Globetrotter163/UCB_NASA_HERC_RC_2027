@@ -9,11 +9,16 @@ Vault técnico del Remote-Controlled Rover de la Universidad Católica Boliviana
 
 ## Start Here
 
+- [[Command_Center|Command Center]]
 - [[Project_Dashboard|Project Dashboard]]
+- [[Team_Calendar|Team Calendar]]
+- [[NASA_SE_Process_Map|NASA SE Process Map]]
 - [[../00_PROJECT_CONTROL/PROJECT_STARTUP_CHECKLIST|Startup Checklist]]
 - [[../00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP|Source of Truth]]
 - [[../00_PROJECT_CONTROL/OBSIDIAN_WORKSPACE_GUIDE|Workspace Guide]]
 - [[../00_PROJECT_CONTROL/MIGRATION_PLAN|Migration Plan]]
+- [[Visual_Navigation|Visual Navigation]]
+- [[Team_Onboarding_Map|Team Onboarding Map]]
 
 ## Engineering
 
@@ -39,6 +44,9 @@ Vault técnico del Remote-Controlled Rover de la Universidad Católica Boliviana
 
 > [!warning] Discord no es fuente de verdad
 > Use Discord para coordinación y publique enlaces hacia la nota oficial del vault.
+
+> [!info] Color helps you find an area
+> Open [[Visual_Navigation]] for the legend. Color identifies a folder family; it never replaces status, owner, severity or evidence.
 
 ## Historical index
 

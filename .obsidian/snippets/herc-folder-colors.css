@@ -1,0 +1,295 @@
+/*
+ * NASA HERC RC 2027 — Folder colors
+ * Scope: Obsidian file explorer only.
+ * Reversible: disable "herc-folder-colors" in Appearance > CSS snippets.
+ * Colors identify engineering areas; they do not encode status, priority or approval.
+ */
+
+:root {
+  --herc-folder-root-bg: 14%;
+  --herc-folder-child-bg: 7%;
+  --herc-folder-hover-bg: 20%;
+  --herc-folder-text-mix: 78%;
+  --herc-file-text-mix: 68%;
+
+  --herc-dashboard: #2f80ed;
+  --herc-project-control: #4b5563;
+  --herc-historical-index: #64748b;
+  --herc-requirements: #f2c94c;
+  --herc-systems: #9b51e0;
+  --herc-mechanical: #f2994a;
+  --herc-electrical: #eb5757;
+  --herc-software: #27ae60;
+  --herc-testing: #6fcf97;
+  --herc-payloads: #2d9cdb;
+  --herc-media: #ff6b9a;
+  --herc-releases: #f59e0b;
+  --herc-safety: #b91c1c;
+  --herc-archive: #9ca3af;
+  --herc-documentation: #56ccf2;
+  --herc-meetings: #38bdf8;
+  --herc-templates: #a78bfa;
+  --herc-software-repo: #16a34a;
+  --herc-latex: #0ea5e9;
+  --herc-cad: #f97316;
+  --herc-test-data: #84cc16;
+  --herc-ai: #7c3aed;
+  --herc-deliverables: #f59e0b;
+}
+
+.theme-dark {
+  --herc-folder-root-bg: 18%;
+  --herc-folder-child-bg: 10%;
+  --herc-folder-hover-bg: 25%;
+  --herc-folder-text-mix: 72%;
+  --herc-file-text-mix: 62%;
+}
+
+/* Mission Control */
+.nav-folder-title[data-path='00_DASHBOARD'],
+.nav-folder-title[data-path^='00_DASHBOARD/'],
+.nav-file-title[data-path^='00_DASHBOARD/'] {
+  --herc-area-color: var(--herc-dashboard);
+}
+
+/* Project control and historical index */
+.nav-folder-title[data-path='00_PROJECT_CONTROL'],
+.nav-folder-title[data-path^='00_PROJECT_CONTROL/'],
+.nav-file-title[data-path^='00_PROJECT_CONTROL/'] {
+  --herc-area-color: var(--herc-project-control);
+}
+
+.nav-folder-title[data-path='00_Index'],
+.nav-folder-title[data-path^='00_Index/'],
+.nav-file-title[data-path^='00_Index/'] {
+  --herc-area-color: var(--herc-historical-index);
+}
+
+/* Requirements — canonical and historical casing */
+.nav-folder-title[data-path='01_Requirements'],
+.nav-folder-title[data-path^='01_Requirements/'],
+.nav-file-title[data-path^='01_Requirements/'],
+.nav-folder-title[data-path='01_REQUIREMENTS'],
+.nav-folder-title[data-path^='01_REQUIREMENTS/'],
+.nav-file-title[data-path^='01_REQUIREMENTS/'] {
+  --herc-area-color: var(--herc-requirements);
+}
+
+/* Systems engineering — canonical and historical casing */
+.nav-folder-title[data-path='02_Systems_Engineering'],
+.nav-folder-title[data-path^='02_Systems_Engineering/'],
+.nav-file-title[data-path^='02_Systems_Engineering/'],
+.nav-folder-title[data-path='02_SYSTEMS_ENGINEERING'],
+.nav-folder-title[data-path^='02_SYSTEMS_ENGINEERING/'],
+.nav-file-title[data-path^='02_SYSTEMS_ENGINEERING/'] {
+  --herc-area-color: var(--herc-systems);
+}
+
+/* Mechanical — historical and canonical */
+.nav-folder-title[data-path='02_MECHANICAL'],
+.nav-folder-title[data-path^='02_MECHANICAL/'],
+.nav-file-title[data-path^='02_MECHANICAL/'],
+.nav-folder-title[data-path='03_MECHANICAL'],
+.nav-folder-title[data-path^='03_MECHANICAL/'],
+.nav-file-title[data-path^='03_MECHANICAL/'] {
+  --herc-area-color: var(--herc-mechanical);
+}
+
+/* Electrical — historical and canonical */
+.nav-folder-title[data-path='03_ELECTRICAL'],
+.nav-folder-title[data-path^='03_ELECTRICAL/'],
+.nav-file-title[data-path^='03_ELECTRICAL/'],
+.nav-folder-title[data-path='04_ELECTRICAL_ELECTRONICS'],
+.nav-folder-title[data-path^='04_ELECTRICAL_ELECTRONICS/'],
+.nav-file-title[data-path^='04_ELECTRICAL_ELECTRONICS/'] {
+  --herc-area-color: var(--herc-electrical);
+}
+
+/* Software memory — historical and canonical */
+.nav-folder-title[data-path='04_SOFTWARE'],
+.nav-folder-title[data-path^='04_SOFTWARE/'],
+.nav-file-title[data-path^='04_SOFTWARE/'],
+.nav-folder-title[data-path='05_SOFTWARE_CONTROL'],
+.nav-folder-title[data-path^='05_SOFTWARE_CONTROL/'],
+.nav-file-title[data-path^='05_SOFTWARE_CONTROL/'] {
+  --herc-area-color: var(--herc-software);
+}
+
+/* Testing — historical and canonical */
+.nav-folder-title[data-path='05_TESTING'],
+.nav-folder-title[data-path^='05_TESTING/'],
+.nav-file-title[data-path^='05_TESTING/'],
+.nav-folder-title[data-path='07_TESTING_VALIDATION'],
+.nav-folder-title[data-path^='07_TESTING_VALIDATION/'],
+.nav-file-title[data-path^='07_TESTING_VALIDATION/'] {
+  --herc-area-color: var(--herc-testing);
+}
+
+/* Task payloads */
+.nav-folder-title[data-path='06_TASK_PAYLOADS'],
+.nav-folder-title[data-path^='06_TASK_PAYLOADS/'],
+.nav-file-title[data-path^='06_TASK_PAYLOADS/'] {
+  --herc-area-color: var(--herc-payloads);
+}
+
+/* Historical renders and media */
+.nav-folder-title[data-path='06_RENDERS'],
+.nav-folder-title[data-path^='06_RENDERS/'],
+.nav-file-title[data-path^='06_RENDERS/'] {
+  --herc-area-color: var(--herc-media);
+}
+
+/* Historical releases */
+.nav-folder-title[data-path='07_RELEASE'],
+.nav-folder-title[data-path^='07_RELEASE/'],
+.nav-file-title[data-path^='07_RELEASE/'] {
+  --herc-area-color: var(--herc-releases);
+}
+
+/* Safety and quality — darkest red is reserved for safety */
+.nav-folder-title[data-path='08_SAFETY_QUALITY'],
+.nav-folder-title[data-path^='08_SAFETY_QUALITY/'],
+.nav-file-title[data-path^='08_SAFETY_QUALITY/'] {
+  --herc-area-color: var(--herc-safety);
+}
+
+/* Historical and canonical archives */
+.nav-folder-title[data-path='08_ARCHIVE'],
+.nav-folder-title[data-path^='08_ARCHIVE/'],
+.nav-file-title[data-path^='08_ARCHIVE/'],
+.nav-folder-title[data-path='99_ARCHIVE'],
+.nav-folder-title[data-path^='99_ARCHIVE/'],
+.nav-file-title[data-path^='99_ARCHIVE/'] {
+  --herc-area-color: var(--herc-archive);
+}
+
+/* Documentation */
+.nav-folder-title[data-path='09_DOCUMENTATION'],
+.nav-folder-title[data-path^='09_DOCUMENTATION/'],
+.nav-file-title[data-path^='09_DOCUMENTATION/'] {
+  --herc-area-color: var(--herc-documentation);
+}
+
+/* STEM, media and sponsors */
+.nav-folder-title[data-path='10_STEM_MEDIA_SPONSORS'],
+.nav-folder-title[data-path^='10_STEM_MEDIA_SPONSORS/'],
+.nav-file-title[data-path^='10_STEM_MEDIA_SPONSORS/'] {
+  --herc-area-color: var(--herc-media);
+}
+
+/* Meetings */
+.nav-folder-title[data-path='11_MEETINGS'],
+.nav-folder-title[data-path^='11_MEETINGS/'],
+.nav-file-title[data-path^='11_MEETINGS/'] {
+  --herc-area-color: var(--herc-meetings);
+}
+
+/* Templates */
+.nav-folder-title[data-path='12_TEMPLATES'],
+.nav-folder-title[data-path^='12_TEMPLATES/'],
+.nav-file-title[data-path^='12_TEMPLATES/'] {
+  --herc-area-color: var(--herc-templates);
+}
+
+/* Versioned software repository */
+.nav-folder-title[data-path='13_SOFTWARE'],
+.nav-folder-title[data-path^='13_SOFTWARE/'],
+.nav-file-title[data-path^='13_SOFTWARE/'] {
+  --herc-area-color: var(--herc-software-repo);
+}
+
+/* Formal LaTeX reports */
+.nav-folder-title[data-path='14_LATEX_REPORTS'],
+.nav-folder-title[data-path^='14_LATEX_REPORTS/'],
+.nav-file-title[data-path^='14_LATEX_REPORTS/'] {
+  --herc-area-color: var(--herc-latex);
+}
+
+/* CAD indexes and Drive links */
+.nav-folder-title[data-path='15_CAD_DRIVE_LINKS'],
+.nav-folder-title[data-path^='15_CAD_DRIVE_LINKS/'],
+.nav-file-title[data-path^='15_CAD_DRIVE_LINKS/'] {
+  --herc-area-color: var(--herc-cad);
+}
+
+/* Test data and evidence */
+.nav-folder-title[data-path='16_TEST_DATA'],
+.nav-folder-title[data-path^='16_TEST_DATA/'],
+.nav-file-title[data-path^='16_TEST_DATA/'] {
+  --herc-area-color: var(--herc-test-data);
+}
+
+/* AI agents, prompts and audit trail */
+.nav-folder-title[data-path='17_AI_AGENTS'],
+.nav-folder-title[data-path^='17_AI_AGENTS/'],
+.nav-file-title[data-path^='17_AI_AGENTS/'] {
+  --herc-area-color: var(--herc-ai);
+}
+
+/* Frozen deliverables */
+.nav-folder-title[data-path='18_DELIVERABLES'],
+.nav-folder-title[data-path^='18_DELIVERABLES/'],
+.nav-file-title[data-path^='18_DELIVERABLES/'] {
+  --herc-area-color: var(--herc-deliverables);
+}
+
+/*
+ * Shared rendering.
+ * The inset shadow acts as a left border without shifting Obsidian's layout.
+ */
+.nav-folder-title[data-path] {
+  color: color-mix(
+    in srgb,
+    var(--herc-area-color) var(--herc-folder-text-mix),
+    var(--text-normal)
+  );
+  box-shadow: inset 3px 0 0 var(--herc-area-color);
+  background-color: color-mix(
+    in srgb,
+    var(--herc-area-color) var(--herc-folder-child-bg),
+    transparent
+  );
+  border-radius: 4px;
+}
+
+/* Root folders carry the strongest area signal. */
+.nav-folder > .nav-folder-title[data-path]:not([data-path*='/']) {
+  font-weight: 650;
+  background-color: color-mix(
+    in srgb,
+    var(--herc-area-color) var(--herc-folder-root-bg),
+    transparent
+  );
+}
+
+/* Files inherit a quieter version of their area's color. */
+.nav-file-title[data-path] {
+  color: color-mix(
+    in srgb,
+    var(--herc-area-color) var(--herc-file-text-mix),
+    var(--text-normal)
+  );
+}
+
+.nav-folder-title[data-path]:hover,
+.nav-file-title[data-path]:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--herc-area-color) var(--herc-folder-hover-bg),
+    transparent
+  );
+}
+
+/* Accessible focus remains visible for keyboard navigation. */
+.nav-folder-title[data-path]:focus-visible,
+.nav-file-title[data-path]:focus-visible {
+  outline: 2px solid var(--herc-area-color);
+  outline-offset: -2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-folder-title,
+  .nav-file-title {
+    transition: none !important;
+  }
+}

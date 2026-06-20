@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_PROJECT_CONTROL/CANONICAL_PATHS.md",
+                "file": "00_PROJECT_CONTROL/QUICKADD_SETUP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CANONICAL_PATHS"
+              "title": "QUICKADD_SETUP"
             }
           }
         ]
@@ -174,8 +174,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "cb862269f96edce5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -196,37 +207,40 @@
       "obsidian-git:Open Git source control": false,
       "markdown-importer:Open format converter": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
   "active": "3c1c369f973c904a",
   "lastOpenFiles": [
+    "00_DASHBOARD/Command_Center.md",
+    "00_PROJECT_CONTROL/SOURCE_OF_TRUTH_MAP.md",
+    "00_DASHBOARD/Team_Onboarding_Map.md",
+    "05_SOFTWARE_CONTROL/Software_Index.md",
+    "00_DASHBOARD/Team_Calendar.md",
+    "12_TEMPLATES/Template_Calendar_Event.md",
+    "00_PROJECT_CONTROL/CALENDAR_EVENTS/README.md",
+    "00_PROJECT_CONTROL/GOOGLE_CALENDAR_INTEGRATION.md",
+    "00_PROJECT_CONTROL/OBSIDIAN_DAILY_NOTES_SETUP.md",
+    "00_DASHBOARD/BASES",
+    "00_PROJECT_CONTROL/CALENDAR_EVENTS",
+    "2026-06-20.md",
+    "Untitled Kanban.md",
+    "00_DASHBOARD/Visual_Navigation.md",
+    "01_Requirements/README.md",
+    "01_Requirements/HERC_REQUIREMENTS.md",
+    "01_Requirements/DERIVED_REQUIREMENTS.md",
+    "01_Requirements/Requirements/README.md",
+    "00_PROJECT_CONTROL/GIT_CLEANUP_PLAN.md",
+    "00_PROJECT_CONTROL/DISCORD_WORKFLOW.md",
+    "00_PROJECT_CONTROL/CANONICAL_PATHS.md",
+    "00_PROJECT_CONTROL/VISUAL_STYLE_GUIDE.md",
+    "00_DASHBOARD/Engineering_Status.md",
+    "AGENTS.md",
     "00_PROJECT_CONTROL/PROJECT_STARTUP_CHECKLIST.md",
     "00_PROJECT_CONTROL/PROJECT_ROLES.md",
     "00_PROJECT_CONTROL/PLUGIN_SETUP.md",
     "00_PROJECT_CONTROL/OBSIDIAN_WORKSPACE_GUIDE.md",
-    "00_PROJECT_CONTROL/MIGRATION_PLAN.md",
-    "00_PROJECT_CONTROL/MIGRATION_LOG.md",
-    "00_PROJECT_CONTROL/MASTER_CALENDAR.md",
-    "00_PROJECT_CONTROL/DISCORD_WORKFLOW.md",
-    "00_PROJECT_CONTROL/CANONICAL_PATHS.md",
-    "00_PROJECT_CONTROL/DAILY_STATUS/0001_Daily_Status.md",
-    "00_DASHBOARD/Heatmap_Project_Activity.md",
-    "00_DASHBOARD/Heatmap_Deliverables_Status.md",
-    "00_DASHBOARD/Engineering_Status.md",
-    "02_Systems_Engineering/Risk_Register.md",
-    "00_DASHBOARD/Project_Dashboard.md",
-    "2026-06-20.md",
-    "00_DASHBOARD/Open_Loops.md",
-    "00_PROJECT_CONTROL/REVIEWS/BOOTSTRAP_VALIDATION_2026-06-20.md",
-    "00_DASHBOARD/Heatmap_Testing_Status.md",
-    "00_DASHBOARD/Heatmap_Risk_Status.md",
-    "00_PROJECT_CONTROL/DAILY_STATUS/Daily_Status 0001.md",
-    "0000-01-01.md",
-    "00_PROJECT_CONTROL/DAILY_STATUS/2026-06-20.md",
-    "12_TEMPLATES/Template_Daily_Status.md",
-    "12_TEMPLATES/Template_Daily_Status 1Template_Daily_Status 1.md",
-    "00_DASHBOARD/Home.md",
     "18_DELIVERABLES/Deliverable_Items",
     "10_STEM_MEDIA_SPONSORS/Procurement",
     "08_SAFETY_QUALITY/Hazards",
@@ -235,8 +249,6 @@
     "02_Systems_Engineering/Risks",
     "02_Systems_Engineering/Decisions",
     "01_Requirements/Requirements",
-    "14_LATEX_REPORTS/operational_readiness_ORR/main.tex",
-    "14_LATEX_REPORTS/design_review_DR/main.tex",
     "06_RENDERS/Photos/Logo_Discord.png",
     "06_RENDERS/Photos/Gemini_Generated_Image_g71z90g71z90g71z.png"
   ]

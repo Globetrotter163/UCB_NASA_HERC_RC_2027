@@ -5,6 +5,8 @@ status: active
 
 # Project Dashboard
 
+[[Visual_Navigation|Visual legend]] · [[Team_Onboarding_Map|Team onboarding]]
+
 ## Executive Summary
 
 Bootstrap estructural completado. El estado técnico permanece **por evaluar** hasta que owners revisen requisitos, arquitectura, CAD, software, pruebas y evidencia existente.
